@@ -1,8 +1,9 @@
 from flask import Flask
-from .routes.similarity_calc import similarity_calc_api
+
+from .controller import blueprint
 
 
 def create_app():
     app = Flask(__name__)
-    app.register_blueprint(similarity_calc_api)
+    app.register_blueprint(blueprint, url_prefix="/difference-calc")
     return app
