@@ -15,7 +15,7 @@ class Token(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
     def equals(self, token: "Token") -> bool:
-        return self.id == token.id and (
+        return self.id == token.id or (
             self.text == token.text
             and self.document_index == token.document_index
             and self.sentence_index == token.sentence_index
@@ -55,8 +55,6 @@ class Relation(BaseModel):
     tag: str
     head_mention: Mention
     tail_mention: Mention
-    head_mention_id: int
-    tail_mention_id: int
 
     def equals(self, relation: "Relation") -> bool:
         return (
@@ -99,13 +97,3 @@ class DocumentEdit(BaseModel):
 
     def get_entity_of_mention(self, mention: Mention) -> typing.Optional[Entity]:
         return next((m.entity for m in self.mentions if m.equals(mention)), None)
-
-    def resolve_mentions_in_relations(self):
-        if self.relations is None:
-            self.relations = []
-            return
-        mention_dict = {mention.id: mention for mention in self.mentions}
-        for relation in self.relations:
-            # Weisen Sie die tatsächlichen Mention-Objekte basierend auf der ID zu
-            relation.head_mention = mention_dict.get(relation.head_mention_id)
-            relation.tail_mention = mention_dict.get(relation.tail_mention_id)
