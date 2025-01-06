@@ -1,12 +1,13 @@
 import typing
-from app.model.document import DocumentEdit, Mention, Relation, Token
+from app.model.document import DocumentEdit, Mention, Relation
 from app.model.similarity_score import SimilarityScoreResponse
+from app.util.utils import all_edits_contain_same_tokens
 
 
 class ScoreCalculator:
     def calc_score(self, document0: DocumentEdit, document1: DocumentEdit):
         if not (
-            _all_edits_contain_same_tokens(
+            all_edits_contain_same_tokens(
                 [document0.document.tokens, document1.document.tokens]
             )
         ):
@@ -78,18 +79,6 @@ def _get_common_mention_indices(
         m1 for m1 in mention_list_1 if any(m1.equals(m0) for m0 in mention_list_0)
     ]
     return (common_mentions_0, common_mentions_1)
-
-
-def _all_edits_contain_same_tokens(
-    token_lists: typing.List[typing.List[Token]],
-) -> bool:
-    base_list = token_lists[0]
-    for token_list in token_lists[1:]:
-        if not all(
-            any(tl.equals(bt) for bt in base_list) for tl in token_list
-        ) or not all(any(bt.equals(tl) for tl in token_list) for bt in base_list):
-            return False
-    return True
 
 
 def _calc_f1_score(length_0, length_1, true_positives):
