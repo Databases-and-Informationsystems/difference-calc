@@ -1,116 +1,14 @@
-### GET request to example server
-GET http://localhost/difference-calc/
-###
+### create heatmap from 2 document edits
 
 POST localhost/difference-calc/heatmap
 Content-Type: application/json
 
-[
-  {
-    "document": {
-      "name": "Document1",
-      "content": "Hello World!",
-      "tokens": [
-        {
-          "id": 1,
-          "text": "Hello",
-          "document_index": 0,
-          "sentence_index": 0,
-          "pos_tag": "V"
-        },
-        {
-          "id": 2,
-          "text": "World",
-          "document_index": 1,
-          "sentence_index": 1,
-          "pos_tag": "V"
-        },
-        {
-          "id": 3,
-          "text": "!",
-          "document_index": 2,
-          "sentence_index": 2,
-          "pos_tag": "."
-        }
-      ]
-    },
-    "mentions": [
-      {
-        "tag": "H",
-        "tokens": [
-          {"id":  1}
-        ],
-        "entity": {
-          "id": 1
-        }
-      },
-      {
-        "tag": "W",
-        "tokens": [
-          {"id":  2}
-        ],
-        "entity": {
-          "id": 2
-        }
-      },
-      {
-        "tag": "!",
-        "tokens": [
-          {"id":  3}
-        ],
-        "entity": {
-          "id": 3
-        }
-      }
-    ]
-  },
-  {
-    "document": {
-      "name": "Document1",
-      "content": "Hello World!",
-      "tokens": [
-        {
-          "id": 1,
-          "text": "Hello",
-          "document_index": 0,
-          "sentence_index": 0,
-          "pos_tag": "V"
-        },
-        {
-          "id": 2,
-          "text": "World",
-          "document_index": 1,
-          "sentence_index": 1,
-          "pos_tag": "V"
-        },
-        {
-          "id": 3,
-          "text": "!",
-          "document_index": 2,
-          "sentence_index": 2,
-          "pos_tag": "."
-        }
-      ]
-    },
-    "mentions": [
-      {
-        "tag": "H",
-        "tokens": [
-          {"id":  1}
-        ],
-        "entity": {
-          "id": 2
-        }
-      },
-      {
-        "tag": "W",
-        "tokens": [
-          {"id":  2}
-        ],
-        "entity": {
-          "id": 2
-        }
-      }
-    ]
-  }
-]
+< ./inputs/same-document-twice.json
+
+
+### different token list should result in error
+
+POST localhost/difference-calc/heatmap
+Content-Type: application/json
+
+< ./inputs/different-tokens.json

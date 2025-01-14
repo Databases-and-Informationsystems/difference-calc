@@ -1,0 +1,6 @@
+### create heatmap from 2 document edits
+
+POST localhost/difference-calc/score
+Content-Type: application/json
+
+< ./inputs/different-tokens.json

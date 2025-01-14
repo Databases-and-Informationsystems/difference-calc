@@ -27,7 +27,7 @@ def test_similarity_mention_score_empty_lists():
         _similarity_mention_score(
             [
                 Relation(
-                    id=1, tag="executes", head_mention=mention1, tail_mention=mention2
+                    id=1, tag="executes", mention_head=mention1, mention_tail=mention2
                 )
             ],
             [],

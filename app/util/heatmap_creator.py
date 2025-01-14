@@ -119,7 +119,7 @@ def _calculate_difference_relation_score(
             [
                 obj_i
                 for obj_i in relations_i
-                if any(obj_i.isEqual(obj_j) for obj_j in relations_j)
+                if any(obj_i.equals(obj_j) for obj_j in relations_j)
             ]
         )
         score += (

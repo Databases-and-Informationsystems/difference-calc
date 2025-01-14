@@ -97,8 +97,8 @@ def _get_relations_by_mentions(
     relation_by_mentions_list = []
     for relation in relation_list:
         if (
-            relation.head_mention in mention_list
-            and relation.tail_mention in mention_list
+            relation.mention_head in mention_list
+            and relation.mention_tail in mention_list
         ):
             relation_by_mentions_list.append(relation)
     return relation_by_mentions_list

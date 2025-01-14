@@ -1,0 +1,3708 @@
+[
+  {
+  "document": {
+    "id": 524,
+    "tokens": [
+      {
+        "id": 89250,
+        "text": "I",
+        "document_index": 0,
+        "sentence_index": 0,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89251,
+        "text": "am",
+        "document_index": 1,
+        "sentence_index": 0,
+        "pos_tag": "VBP"
+      },
+      {
+        "id": 89252,
+        "text": "the",
+        "document_index": 2,
+        "sentence_index": 0,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89253,
+        "text": "Head",
+        "document_index": 3,
+        "sentence_index": 0,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89254,
+        "text": "of",
+        "document_index": 4,
+        "sentence_index": 0,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89255,
+        "text": "the",
+        "document_index": 5,
+        "sentence_index": 0,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89256,
+        "text": "functional",
+        "document_index": 6,
+        "sentence_index": 0,
+        "pos_tag": "JJ"
+      },
+      {
+        "id": 89257,
+        "text": "department",
+        "document_index": 7,
+        "sentence_index": 0,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89258,
+        "text": ".",
+        "document_index": 8,
+        "sentence_index": 0,
+        "pos_tag": "."
+      },
+      {
+        "id": 89259,
+        "text": "When",
+        "document_index": 9,
+        "sentence_index": 1,
+        "pos_tag": "WRB"
+      },
+      {
+        "id": 89260,
+        "text": "I",
+        "document_index": 10,
+        "sentence_index": 1,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89261,
+        "text": "have",
+        "document_index": 11,
+        "sentence_index": 1,
+        "pos_tag": "VBP"
+      },
+      {
+        "id": 89262,
+        "text": "detected",
+        "document_index": 12,
+        "sentence_index": 1,
+        "pos_tag": "VBN"
+      },
+      {
+        "id": 89263,
+        "text": "a",
+        "document_index": 13,
+        "sentence_index": 1,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89264,
+        "text": "number",
+        "document_index": 14,
+        "sentence_index": 1,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89265,
+        "text": "of",
+        "document_index": 15,
+        "sentence_index": 1,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89266,
+        "text": "personnel",
+        "document_index": 16,
+        "sentence_index": 1,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89267,
+        "text": "requirements",
+        "document_index": 17,
+        "sentence_index": 1,
+        "pos_tag": "NNS"
+      },
+      {
+        "id": 89268,
+        "text": ",",
+        "document_index": 18,
+        "sentence_index": 1,
+        "pos_tag": ","
+      },
+      {
+        "id": 89269,
+        "text": "I",
+        "document_index": 19,
+        "sentence_index": 1,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89270,
+        "text": "report",
+        "document_index": 20,
+        "sentence_index": 1,
+        "pos_tag": "VBP"
+      },
+      {
+        "id": 89271,
+        "text": "the",
+        "document_index": 21,
+        "sentence_index": 1,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89272,
+        "text": "vacancy",
+        "document_index": 22,
+        "sentence_index": 1,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89273,
+        "text": "to",
+        "document_index": 23,
+        "sentence_index": 1,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89274,
+        "text": "the",
+        "document_index": 24,
+        "sentence_index": 1,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89275,
+        "text": "Personnel",
+        "document_index": 25,
+        "sentence_index": 1,
+        "pos_tag": "NNP"
+      },
+      {
+        "id": 89276,
+        "text": "Department",
+        "document_index": 26,
+        "sentence_index": 1,
+        "pos_tag": "NNP"
+      },
+      {
+        "id": 89277,
+        "text": ".",
+        "document_index": 27,
+        "sentence_index": 1,
+        "pos_tag": "."
+      },
+      {
+        "id": 89278,
+        "text": "Then",
+        "document_index": 28,
+        "sentence_index": 2,
+        "pos_tag": "RB"
+      },
+      {
+        "id": 89279,
+        "text": "I",
+        "document_index": 29,
+        "sentence_index": 2,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89280,
+        "text": "wait",
+        "document_index": 30,
+        "sentence_index": 2,
+        "pos_tag": "VBP"
+      },
+      {
+        "id": 89281,
+        "text": "to",
+        "document_index": 31,
+        "sentence_index": 2,
+        "pos_tag": "TO"
+      },
+      {
+        "id": 89282,
+        "text": "get",
+        "document_index": 32,
+        "sentence_index": 2,
+        "pos_tag": "VB"
+      },
+      {
+        "id": 89283,
+        "text": "the",
+        "document_index": 33,
+        "sentence_index": 2,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89284,
+        "text": "job",
+        "document_index": 34,
+        "sentence_index": 2,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89285,
+        "text": "description",
+        "document_index": 35,
+        "sentence_index": 2,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89286,
+        "text": "for",
+        "document_index": 36,
+        "sentence_index": 2,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89287,
+        "text": "review",
+        "document_index": 37,
+        "sentence_index": 2,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89288,
+        "text": "before",
+        "document_index": 38,
+        "sentence_index": 2,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89289,
+        "text": "it",
+        "document_index": 39,
+        "sentence_index": 2,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89290,
+        "text": "is",
+        "document_index": 40,
+        "sentence_index": 2,
+        "pos_tag": "VBZ"
+      },
+      {
+        "id": 89291,
+        "text": "advertized",
+        "document_index": 41,
+        "sentence_index": 2,
+        "pos_tag": "VBN"
+      },
+      {
+        "id": 89292,
+        "text": ".",
+        "document_index": 42,
+        "sentence_index": 2,
+        "pos_tag": "."
+      },
+      {
+        "id": 89293,
+        "text": "Under",
+        "document_index": 43,
+        "sentence_index": 3,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89294,
+        "text": "certain",
+        "document_index": 44,
+        "sentence_index": 3,
+        "pos_tag": "JJ"
+      },
+      {
+        "id": 89295,
+        "text": "circumstances",
+        "document_index": 45,
+        "sentence_index": 3,
+        "pos_tag": "NNS"
+      },
+      {
+        "id": 89296,
+        "text": ",",
+        "document_index": 46,
+        "sentence_index": 3,
+        "pos_tag": ","
+      },
+      {
+        "id": 89297,
+        "text": "I",
+        "document_index": 47,
+        "sentence_index": 3,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89298,
+        "text": "must",
+        "document_index": 48,
+        "sentence_index": 3,
+        "pos_tag": "MD"
+      },
+      {
+        "id": 89299,
+        "text": "ask",
+        "document_index": 49,
+        "sentence_index": 3,
+        "pos_tag": "VB"
+      },
+      {
+        "id": 89300,
+        "text": "for",
+        "document_index": 50,
+        "sentence_index": 3,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89301,
+        "text": "corrections",
+        "document_index": 51,
+        "sentence_index": 3,
+        "pos_tag": "NNS"
+      },
+      {
+        "id": 89302,
+        "text": "again",
+        "document_index": 52,
+        "sentence_index": 3,
+        "pos_tag": "RB"
+      },
+      {
+        "id": 89303,
+        "text": ",",
+        "document_index": 53,
+        "sentence_index": 3,
+        "pos_tag": ","
+      },
+      {
+        "id": 89304,
+        "text": "otherwise",
+        "document_index": 54,
+        "sentence_index": 3,
+        "pos_tag": "RB"
+      },
+      {
+        "id": 89305,
+        "text": "I",
+        "document_index": 55,
+        "sentence_index": 3,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89306,
+        "text": "approve",
+        "document_index": 56,
+        "sentence_index": 3,
+        "pos_tag": "VBP"
+      },
+      {
+        "id": 89307,
+        "text": "the",
+        "document_index": 57,
+        "sentence_index": 3,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89308,
+        "text": "job",
+        "document_index": 58,
+        "sentence_index": 3,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89309,
+        "text": "description",
+        "document_index": 59,
+        "sentence_index": 3,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89310,
+        "text": ".",
+        "document_index": 60,
+        "sentence_index": 3,
+        "pos_tag": "."
+      },
+      {
+        "id": 89311,
+        "text": "Sometimes",
+        "document_index": 61,
+        "sentence_index": 4,
+        "pos_tag": "RB"
+      },
+      {
+        "id": 89312,
+        "text": "it",
+        "document_index": 62,
+        "sentence_index": 4,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89313,
+        "text": "also",
+        "document_index": 63,
+        "sentence_index": 4,
+        "pos_tag": "RB"
+      },
+      {
+        "id": 89314,
+        "text": "happens",
+        "document_index": 64,
+        "sentence_index": 4,
+        "pos_tag": "VBZ"
+      },
+      {
+        "id": 89315,
+        "text": "that",
+        "document_index": 65,
+        "sentence_index": 4,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89316,
+        "text": "the",
+        "document_index": 66,
+        "sentence_index": 4,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89317,
+        "text": "colleague",
+        "document_index": 67,
+        "sentence_index": 4,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89318,
+        "text": "from",
+        "document_index": 68,
+        "sentence_index": 4,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89319,
+        "text": "the",
+        "document_index": 69,
+        "sentence_index": 4,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89320,
+        "text": "HR",
+        "document_index": 70,
+        "sentence_index": 4,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89321,
+        "text": "department",
+        "document_index": 71,
+        "sentence_index": 4,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89322,
+        "text": "still",
+        "document_index": 72,
+        "sentence_index": 4,
+        "pos_tag": "RB"
+      },
+      {
+        "id": 89323,
+        "text": "has",
+        "document_index": 73,
+        "sentence_index": 4,
+        "pos_tag": "VBZ"
+      },
+      {
+        "id": 89324,
+        "text": "questions",
+        "document_index": 74,
+        "sentence_index": 4,
+        "pos_tag": "NNS"
+      },
+      {
+        "id": 89325,
+        "text": "about",
+        "document_index": 75,
+        "sentence_index": 4,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89326,
+        "text": "the",
+        "document_index": 76,
+        "sentence_index": 4,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89327,
+        "text": "tasks",
+        "document_index": 77,
+        "sentence_index": 4,
+        "pos_tag": "NNS"
+      },
+      {
+        "id": 89328,
+        "text": "and",
+        "document_index": 78,
+        "sentence_index": 4,
+        "pos_tag": "CC"
+      },
+      {
+        "id": 89329,
+        "text": "requirements",
+        "document_index": 79,
+        "sentence_index": 4,
+        "pos_tag": "NNS"
+      },
+      {
+        "id": 89330,
+        "text": "before",
+        "document_index": 80,
+        "sentence_index": 4,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89331,
+        "text": "he",
+        "document_index": 81,
+        "sentence_index": 4,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89332,
+        "text": "can",
+        "document_index": 82,
+        "sentence_index": 4,
+        "pos_tag": "MD"
+      },
+      {
+        "id": 89333,
+        "text": "describe",
+        "document_index": 83,
+        "sentence_index": 4,
+        "pos_tag": "VB"
+      },
+      {
+        "id": 89334,
+        "text": "the",
+        "document_index": 84,
+        "sentence_index": 4,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89335,
+        "text": "job",
+        "document_index": 85,
+        "sentence_index": 4,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89336,
+        "text": ".",
+        "document_index": 86,
+        "sentence_index": 4,
+        "pos_tag": "."
+      },
+      {
+        "id": 89337,
+        "text": "Then",
+        "document_index": 87,
+        "sentence_index": 5,
+        "pos_tag": "RB"
+      },
+      {
+        "id": 89338,
+        "text": "I",
+        "document_index": 88,
+        "sentence_index": 5,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89339,
+        "text": "am",
+        "document_index": 89,
+        "sentence_index": 5,
+        "pos_tag": "VBP"
+      },
+      {
+        "id": 89340,
+        "text": "available",
+        "document_index": 90,
+        "sentence_index": 5,
+        "pos_tag": "JJ"
+      },
+      {
+        "id": 89341,
+        "text": "for",
+        "document_index": 91,
+        "sentence_index": 5,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89342,
+        "text": "clarifications",
+        "document_index": 92,
+        "sentence_index": 5,
+        "pos_tag": "NNS"
+      },
+      {
+        "id": 89343,
+        "text": ",",
+        "document_index": 93,
+        "sentence_index": 5,
+        "pos_tag": ","
+      },
+      {
+        "id": 89344,
+        "text": "of",
+        "document_index": 94,
+        "sentence_index": 5,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89345,
+        "text": "course",
+        "document_index": 95,
+        "sentence_index": 5,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89346,
+        "text": ".",
+        "document_index": 96,
+        "sentence_index": 5,
+        "pos_tag": "."
+      }
+    ]
+  },
+  "mentions": [
+    {
+      "tag": "Actor",
+      "tokens": [
+        {
+          "id": 89260,
+          "text": "I",
+          "document_index": 10,
+          "sentence_index": 1,
+          "pos_tag": "PRP"
+        }
+      ],
+      "entity": {
+        "id": 13371
+      }
+    },
+    {
+      "tag": "Actor",
+      "tokens": [
+        {
+          "id": 89305,
+          "text": "I",
+          "document_index": 55,
+          "sentence_index": 3,
+          "pos_tag": "PRP"
+        }
+      ],
+      "entity": {
+        "id": 13371
+      }
+    },
+    {
+      "tag": "Actor",
+      "tokens": [
+        {
+          "id": 89297,
+          "text": "I",
+          "document_index": 47,
+          "sentence_index": 3,
+          "pos_tag": "PRP"
+        }
+      ],
+      "entity": {
+        "id": 13371
+      }
+    },
+    {
+      "tag": "Actor",
+      "tokens": [
+        {
+          "id": 89279,
+          "text": "I",
+          "document_index": 29,
+          "sentence_index": 2,
+          "pos_tag": "PRP"
+        }
+      ],
+      "entity": {
+        "id": 13371
+      }
+    },
+    {
+      "tag": "Actor",
+      "tokens": [
+        {
+          "id": 89269,
+          "text": "I",
+          "document_index": 19,
+          "sentence_index": 1,
+          "pos_tag": "PRP"
+        }
+      ],
+      "entity": {
+        "id": 13371
+      }
+    },
+    {
+      "tag": "Activity",
+      "tokens": [
+        {
+          "id": 89262,
+          "text": "detected",
+          "document_index": 12,
+          "sentence_index": 1,
+          "pos_tag": "VBN"
+        }
+      ],
+      "entity": {
+        "id": 13372
+      }
+    },
+    {
+      "tag": "Activity Data",
+      "tokens": [
+        {
+          "id": 89263,
+          "text": "a",
+          "document_index": 13,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 89264,
+          "text": "number",
+          "document_index": 14,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 89265,
+          "text": "of",
+          "document_index": 15,
+          "sentence_index": 1,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 89266,
+          "text": "personnel",
+          "document_index": 16,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 89267,
+          "text": "requirements",
+          "document_index": 17,
+          "sentence_index": 1,
+          "pos_tag": "NNS"
+        }
+      ],
+      "entity": {
+        "id": 13373
+      }
+    },
+    {
+      "tag": "Activity",
+      "tokens": [
+        {
+          "id": 89270,
+          "text": "report",
+          "document_index": 20,
+          "sentence_index": 1,
+          "pos_tag": "VBP"
+        }
+      ],
+      "entity": {
+        "id": 13374
+      }
+    },
+    {
+      "tag": "Activity Data",
+      "tokens": [
+        {
+          "id": 89271,
+          "text": "the",
+          "document_index": 21,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 89272,
+          "text": "vacancy",
+          "document_index": 22,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        }
+      ],
+      "entity": {
+        "id": 13375
+      }
+    },
+    {
+      "tag": "Actor",
+      "tokens": [
+        {
+          "id": 89274,
+          "text": "the",
+          "document_index": 24,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 89275,
+          "text": "Personnel",
+          "document_index": 25,
+          "sentence_index": 1,
+          "pos_tag": "NNP"
+        },
+        {
+          "id": 89276,
+          "text": "Department",
+          "document_index": 26,
+          "sentence_index": 1,
+          "pos_tag": "NNP"
+        }
+      ],
+      "entity": {
+        "id": 13376
+      }
+    },
+    {
+      "tag": "Activity",
+      "tokens": [
+        {
+          "id": 89282,
+          "text": "get",
+          "document_index": 32,
+          "sentence_index": 2,
+          "pos_tag": "VB"
+        }
+      ],
+      "entity": {
+        "id": 13377
+      }
+    },
+    {
+      "tag": "Activity Data",
+      "tokens": [
+        {
+          "id": 89289,
+          "text": "it",
+          "document_index": 39,
+          "sentence_index": 2,
+          "pos_tag": "PRP"
+        }
+      ],
+      "entity": {
+        "id": 13378
+      }
+    },
+    {
+      "tag": "Activity Data",
+      "tokens": [
+        {
+          "id": 89283,
+          "text": "the",
+          "document_index": 33,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 89284,
+          "text": "job",
+          "document_index": 34,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 89285,
+          "text": "description",
+          "document_index": 35,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 89286,
+          "text": "for",
+          "document_index": 36,
+          "sentence_index": 2,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 89287,
+          "text": "review",
+          "document_index": 37,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        }
+      ],
+      "entity": {
+        "id": 13378
+      }
+    },
+    {
+      "tag": "Activity Data",
+      "tokens": [
+        {
+          "id": 89307,
+          "text": "the",
+          "document_index": 57,
+          "sentence_index": 3,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 89308,
+          "text": "job",
+          "document_index": 58,
+          "sentence_index": 3,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 89309,
+          "text": "description",
+          "document_index": 59,
+          "sentence_index": 3,
+          "pos_tag": "NN"
+        }
+      ],
+      "entity": {
+        "id": 13378
+      }
+    },
+    {
+      "tag": "Activity",
+      "tokens": [
+        {
+          "id": 89291,
+          "text": "advertized",
+          "document_index": 41,
+          "sentence_index": 2,
+          "pos_tag": "VBN"
+        }
+      ],
+      "entity": {
+        "id": 13379
+      }
+    },
+    {
+      "tag": "XOR Gateway",
+      "tokens": [
+        {
+          "id": 89293,
+          "text": "Under",
+          "document_index": 43,
+          "sentence_index": 3,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 89294,
+          "text": "certain",
+          "document_index": 44,
+          "sentence_index": 3,
+          "pos_tag": "JJ"
+        },
+        {
+          "id": 89295,
+          "text": "circumstances",
+          "document_index": 45,
+          "sentence_index": 3,
+          "pos_tag": "NNS"
+        }
+      ],
+      "entity": {
+        "id": 13380
+      }
+    },
+    {
+      "tag": "Activity",
+      "tokens": [
+        {
+          "id": 89299,
+          "text": "ask",
+          "document_index": 49,
+          "sentence_index": 3,
+          "pos_tag": "VB"
+        }
+      ],
+      "entity": {
+        "id": 13381
+      }
+    },
+    {
+      "tag": "Activity Data",
+      "tokens": [
+        {
+          "id": 89301,
+          "text": "corrections",
+          "document_index": 51,
+          "sentence_index": 3,
+          "pos_tag": "NNS"
+        }
+      ],
+      "entity": {
+        "id": 13382
+      }
+    },
+    {
+      "tag": "XOR Gateway",
+      "tokens": [
+        {
+          "id": 89304,
+          "text": "otherwise",
+          "document_index": 54,
+          "sentence_index": 3,
+          "pos_tag": "RB"
+        }
+      ],
+      "entity": {
+        "id": 13383
+      }
+    },
+    {
+      "tag": "Activity",
+      "tokens": [
+        {
+          "id": 89306,
+          "text": "approve",
+          "document_index": 56,
+          "sentence_index": 3,
+          "pos_tag": "VBP"
+        }
+      ],
+      "entity": {
+        "id": 13384
+      }
+    }
+  ],
+  "relations": [
+    {
+      "tag": "uses",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89262,
+            "text": "detected",
+            "document_index": 12,
+            "sentence_index": 1,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 13372
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 89263,
+            "text": "a",
+            "document_index": 13,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 89264,
+            "text": "number",
+            "document_index": 14,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 89265,
+            "text": "of",
+            "document_index": 15,
+            "sentence_index": 1,
+            "pos_tag": "IN"
+          },
+          {
+            "id": 89266,
+            "text": "personnel",
+            "document_index": 16,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 89267,
+            "text": "requirements",
+            "document_index": 17,
+            "sentence_index": 1,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 13373
+        }
+      }
+    },
+    {
+      "tag": "actor performer",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89262,
+            "text": "detected",
+            "document_index": 12,
+            "sentence_index": 1,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 13372
+        }
+      },
+      "mention_tail": {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 89260,
+            "text": "I",
+            "document_index": 10,
+            "sentence_index": 1,
+            "pos_tag": "PRP"
+          }
+        ],
+        "entity": {
+          "id": 13371
+        }
+      }
+    },
+    {
+      "tag": "flow",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89262,
+            "text": "detected",
+            "document_index": 12,
+            "sentence_index": 1,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 13372
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89270,
+            "text": "report",
+            "document_index": 20,
+            "sentence_index": 1,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13374
+        }
+      }
+    },
+    {
+      "tag": "uses",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89270,
+            "text": "report",
+            "document_index": 20,
+            "sentence_index": 1,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13374
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 89271,
+            "text": "the",
+            "document_index": 21,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 89272,
+            "text": "vacancy",
+            "document_index": 22,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 13375
+        }
+      }
+    },
+    {
+      "tag": "actor recipient",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89270,
+            "text": "report",
+            "document_index": 20,
+            "sentence_index": 1,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13374
+        }
+      },
+      "mention_tail": {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 89274,
+            "text": "the",
+            "document_index": 24,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 89275,
+            "text": "Personnel",
+            "document_index": 25,
+            "sentence_index": 1,
+            "pos_tag": "NNP"
+          },
+          {
+            "id": 89276,
+            "text": "Department",
+            "document_index": 26,
+            "sentence_index": 1,
+            "pos_tag": "NNP"
+          }
+        ],
+        "entity": {
+          "id": 13376
+        }
+      }
+    },
+    {
+      "tag": "actor performer",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89270,
+            "text": "report",
+            "document_index": 20,
+            "sentence_index": 1,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13374
+        }
+      },
+      "mention_tail": {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 89269,
+            "text": "I",
+            "document_index": 19,
+            "sentence_index": 1,
+            "pos_tag": "PRP"
+          }
+        ],
+        "entity": {
+          "id": 13371
+        }
+      }
+    },
+    {
+      "tag": "flow",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89270,
+            "text": "report",
+            "document_index": 20,
+            "sentence_index": 1,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13374
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89282,
+            "text": "get",
+            "document_index": 32,
+            "sentence_index": 2,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13377
+        }
+      }
+    },
+    {
+      "tag": "uses",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89282,
+            "text": "get",
+            "document_index": 32,
+            "sentence_index": 2,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13377
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 89283,
+            "text": "the",
+            "document_index": 33,
+            "sentence_index": 2,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 89284,
+            "text": "job",
+            "document_index": 34,
+            "sentence_index": 2,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 89285,
+            "text": "description",
+            "document_index": 35,
+            "sentence_index": 2,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 89286,
+            "text": "for",
+            "document_index": 36,
+            "sentence_index": 2,
+            "pos_tag": "IN"
+          },
+          {
+            "id": 89287,
+            "text": "review",
+            "document_index": 37,
+            "sentence_index": 2,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 13378
+        }
+      }
+    },
+    {
+      "tag": "actor performer",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89282,
+            "text": "get",
+            "document_index": 32,
+            "sentence_index": 2,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13377
+        }
+      },
+      "mention_tail": {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 89279,
+            "text": "I",
+            "document_index": 29,
+            "sentence_index": 2,
+            "pos_tag": "PRP"
+          }
+        ],
+        "entity": {
+          "id": 13371
+        }
+      }
+    },
+    {
+      "tag": "flow",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89282,
+            "text": "get",
+            "document_index": 32,
+            "sentence_index": 2,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13377
+        }
+      },
+      "mention_tail": {
+        "tag": "XOR Gateway",
+        "tokens": [
+          {
+            "id": 89293,
+            "text": "Under",
+            "document_index": 43,
+            "sentence_index": 3,
+            "pos_tag": "IN"
+          },
+          {
+            "id": 89294,
+            "text": "certain",
+            "document_index": 44,
+            "sentence_index": 3,
+            "pos_tag": "JJ"
+          },
+          {
+            "id": 89295,
+            "text": "circumstances",
+            "document_index": 45,
+            "sentence_index": 3,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 13380
+        }
+      }
+    },
+    {
+      "tag": "uses",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89291,
+            "text": "advertized",
+            "document_index": 41,
+            "sentence_index": 2,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 13379
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 89289,
+            "text": "it",
+            "document_index": 39,
+            "sentence_index": 2,
+            "pos_tag": "PRP"
+          }
+        ],
+        "entity": {
+          "id": 13378
+        }
+      }
+    },
+    {
+      "tag": "flow",
+      "mention_head": {
+        "tag": "XOR Gateway",
+        "tokens": [
+          {
+            "id": 89293,
+            "text": "Under",
+            "document_index": 43,
+            "sentence_index": 3,
+            "pos_tag": "IN"
+          },
+          {
+            "id": 89294,
+            "text": "certain",
+            "document_index": 44,
+            "sentence_index": 3,
+            "pos_tag": "JJ"
+          },
+          {
+            "id": 89295,
+            "text": "circumstances",
+            "document_index": 45,
+            "sentence_index": 3,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 13380
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89299,
+            "text": "ask",
+            "document_index": 49,
+            "sentence_index": 3,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13381
+        }
+      }
+    },
+    {
+      "tag": "same gateway",
+      "mention_head": {
+        "tag": "XOR Gateway",
+        "tokens": [
+          {
+            "id": 89293,
+            "text": "Under",
+            "document_index": 43,
+            "sentence_index": 3,
+            "pos_tag": "IN"
+          },
+          {
+            "id": 89294,
+            "text": "certain",
+            "document_index": 44,
+            "sentence_index": 3,
+            "pos_tag": "JJ"
+          },
+          {
+            "id": 89295,
+            "text": "circumstances",
+            "document_index": 45,
+            "sentence_index": 3,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 13380
+        }
+      },
+      "mention_tail": {
+        "tag": "XOR Gateway",
+        "tokens": [
+          {
+            "id": 89304,
+            "text": "otherwise",
+            "document_index": 54,
+            "sentence_index": 3,
+            "pos_tag": "RB"
+          }
+        ],
+        "entity": {
+          "id": 13383
+        }
+      }
+    },
+    {
+      "tag": "uses",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89299,
+            "text": "ask",
+            "document_index": 49,
+            "sentence_index": 3,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13381
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 89301,
+            "text": "corrections",
+            "document_index": 51,
+            "sentence_index": 3,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 13382
+        }
+      }
+    },
+    {
+      "tag": "actor performer",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89299,
+            "text": "ask",
+            "document_index": 49,
+            "sentence_index": 3,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13381
+        }
+      },
+      "mention_tail": {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 89297,
+            "text": "I",
+            "document_index": 47,
+            "sentence_index": 3,
+            "pos_tag": "PRP"
+          }
+        ],
+        "entity": {
+          "id": 13371
+        }
+      }
+    },
+    {
+      "tag": "flow",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89299,
+            "text": "ask",
+            "document_index": 49,
+            "sentence_index": 3,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13381
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89282,
+            "text": "get",
+            "document_index": 32,
+            "sentence_index": 2,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13377
+        }
+      }
+    },
+    {
+      "tag": "flow",
+      "mention_head": {
+        "tag": "XOR Gateway",
+        "tokens": [
+          {
+            "id": 89304,
+            "text": "otherwise",
+            "document_index": 54,
+            "sentence_index": 3,
+            "pos_tag": "RB"
+          }
+        ],
+        "entity": {
+          "id": 13383
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89306,
+            "text": "approve",
+            "document_index": 56,
+            "sentence_index": 3,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13384
+        }
+      }
+    },
+    {
+      "tag": "uses",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89306,
+            "text": "approve",
+            "document_index": 56,
+            "sentence_index": 3,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13384
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 89307,
+            "text": "the",
+            "document_index": 57,
+            "sentence_index": 3,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 89308,
+            "text": "job",
+            "document_index": 58,
+            "sentence_index": 3,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 89309,
+            "text": "description",
+            "document_index": 59,
+            "sentence_index": 3,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 13378
+        }
+      }
+    },
+    {
+      "tag": "actor performer",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89306,
+            "text": "approve",
+            "document_index": 56,
+            "sentence_index": 3,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13384
+        }
+      },
+      "mention_tail": {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 89305,
+            "text": "I",
+            "document_index": 55,
+            "sentence_index": 3,
+            "pos_tag": "PRP"
+          }
+        ],
+        "entity": {
+          "id": 13371
+        }
+      }
+    },
+    {
+      "tag": "flow",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89306,
+            "text": "approve",
+            "document_index": 56,
+            "sentence_index": 3,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13384
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89291,
+            "text": "advertized",
+            "document_index": 41,
+            "sentence_index": 2,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 13379
+        }
+      }
+    }
+  ]
+},
+  {
+  "document": {
+    "id": 524,
+    "tokens": [
+      {
+        "id": 89250,
+        "text": "I",
+        "document_index": 0,
+        "sentence_index": 0,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89251,
+        "text": "am",
+        "document_index": 1,
+        "sentence_index": 0,
+        "pos_tag": "VBP"
+      },
+      {
+        "id": 89252,
+        "text": "the",
+        "document_index": 2,
+        "sentence_index": 0,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89253,
+        "text": "Head",
+        "document_index": 3,
+        "sentence_index": 0,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89254,
+        "text": "of",
+        "document_index": 4,
+        "sentence_index": 0,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89255,
+        "text": "the",
+        "document_index": 5,
+        "sentence_index": 0,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89256,
+        "text": "functional",
+        "document_index": 6,
+        "sentence_index": 0,
+        "pos_tag": "JJ"
+      },
+      {
+        "id": 89257,
+        "text": "department",
+        "document_index": 7,
+        "sentence_index": 0,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89258,
+        "text": ".",
+        "document_index": 8,
+        "sentence_index": 0,
+        "pos_tag": "."
+      },
+      {
+        "id": 89259,
+        "text": "When",
+        "document_index": 9,
+        "sentence_index": 1,
+        "pos_tag": "WRB"
+      },
+      {
+        "id": 89260,
+        "text": "I",
+        "document_index": 10,
+        "sentence_index": 1,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89261,
+        "text": "have",
+        "document_index": 11,
+        "sentence_index": 1,
+        "pos_tag": "VBP"
+      },
+      {
+        "id": 89262,
+        "text": "detected",
+        "document_index": 12,
+        "sentence_index": 1,
+        "pos_tag": "VBN"
+      },
+      {
+        "id": 89263,
+        "text": "a",
+        "document_index": 13,
+        "sentence_index": 1,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89264,
+        "text": "number",
+        "document_index": 14,
+        "sentence_index": 1,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89265,
+        "text": "of",
+        "document_index": 15,
+        "sentence_index": 1,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89266,
+        "text": "personnel",
+        "document_index": 16,
+        "sentence_index": 1,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89267,
+        "text": "requirements",
+        "document_index": 17,
+        "sentence_index": 1,
+        "pos_tag": "NNS"
+      },
+      {
+        "id": 89268,
+        "text": ",",
+        "document_index": 18,
+        "sentence_index": 1,
+        "pos_tag": ","
+      },
+      {
+        "id": 89269,
+        "text": "I",
+        "document_index": 19,
+        "sentence_index": 1,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89270,
+        "text": "report",
+        "document_index": 20,
+        "sentence_index": 1,
+        "pos_tag": "VBP"
+      },
+      {
+        "id": 89271,
+        "text": "the",
+        "document_index": 21,
+        "sentence_index": 1,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89272,
+        "text": "vacancy",
+        "document_index": 22,
+        "sentence_index": 1,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89273,
+        "text": "to",
+        "document_index": 23,
+        "sentence_index": 1,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89274,
+        "text": "the",
+        "document_index": 24,
+        "sentence_index": 1,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89275,
+        "text": "Personnel",
+        "document_index": 25,
+        "sentence_index": 1,
+        "pos_tag": "NNP"
+      },
+      {
+        "id": 89276,
+        "text": "Department",
+        "document_index": 26,
+        "sentence_index": 1,
+        "pos_tag": "NNP"
+      },
+      {
+        "id": 89277,
+        "text": ".",
+        "document_index": 27,
+        "sentence_index": 1,
+        "pos_tag": "."
+      },
+      {
+        "id": 89278,
+        "text": "Then",
+        "document_index": 28,
+        "sentence_index": 2,
+        "pos_tag": "RB"
+      },
+      {
+        "id": 89279,
+        "text": "I",
+        "document_index": 29,
+        "sentence_index": 2,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89280,
+        "text": "wait",
+        "document_index": 30,
+        "sentence_index": 2,
+        "pos_tag": "VBP"
+      },
+      {
+        "id": 89281,
+        "text": "to",
+        "document_index": 31,
+        "sentence_index": 2,
+        "pos_tag": "TO"
+      },
+      {
+        "id": 89282,
+        "text": "get",
+        "document_index": 32,
+        "sentence_index": 2,
+        "pos_tag": "VB"
+      },
+      {
+        "id": 89283,
+        "text": "the",
+        "document_index": 33,
+        "sentence_index": 2,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89284,
+        "text": "job",
+        "document_index": 34,
+        "sentence_index": 2,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89285,
+        "text": "description",
+        "document_index": 35,
+        "sentence_index": 2,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89286,
+        "text": "for",
+        "document_index": 36,
+        "sentence_index": 2,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89287,
+        "text": "review",
+        "document_index": 37,
+        "sentence_index": 2,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89288,
+        "text": "before",
+        "document_index": 38,
+        "sentence_index": 2,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89289,
+        "text": "it",
+        "document_index": 39,
+        "sentence_index": 2,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89290,
+        "text": "is",
+        "document_index": 40,
+        "sentence_index": 2,
+        "pos_tag": "VBZ"
+      },
+      {
+        "id": 89291,
+        "text": "advertized",
+        "document_index": 41,
+        "sentence_index": 2,
+        "pos_tag": "VBN"
+      },
+      {
+        "id": 89292,
+        "text": ".",
+        "document_index": 42,
+        "sentence_index": 2,
+        "pos_tag": "."
+      },
+      {
+        "id": 89293,
+        "text": "Under",
+        "document_index": 43,
+        "sentence_index": 3,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89294,
+        "text": "certain",
+        "document_index": 44,
+        "sentence_index": 3,
+        "pos_tag": "JJ"
+      },
+      {
+        "id": 89295,
+        "text": "circumstances",
+        "document_index": 45,
+        "sentence_index": 3,
+        "pos_tag": "NNS"
+      },
+      {
+        "id": 89296,
+        "text": ",",
+        "document_index": 46,
+        "sentence_index": 3,
+        "pos_tag": ","
+      },
+      {
+        "id": 89297,
+        "text": "I",
+        "document_index": 47,
+        "sentence_index": 3,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89298,
+        "text": "must",
+        "document_index": 48,
+        "sentence_index": 3,
+        "pos_tag": "MD"
+      },
+      {
+        "id": 89299,
+        "text": "ask",
+        "document_index": 49,
+        "sentence_index": 3,
+        "pos_tag": "VB"
+      },
+      {
+        "id": 89300,
+        "text": "for",
+        "document_index": 50,
+        "sentence_index": 3,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89301,
+        "text": "corrections",
+        "document_index": 51,
+        "sentence_index": 3,
+        "pos_tag": "NNS"
+      },
+      {
+        "id": 89302,
+        "text": "again",
+        "document_index": 52,
+        "sentence_index": 3,
+        "pos_tag": "RB"
+      },
+      {
+        "id": 89303,
+        "text": ",",
+        "document_index": 53,
+        "sentence_index": 3,
+        "pos_tag": ","
+      },
+      {
+        "id": 89304,
+        "text": "otherwise",
+        "document_index": 54,
+        "sentence_index": 3,
+        "pos_tag": "RB"
+      },
+      {
+        "id": 89305,
+        "text": "I",
+        "document_index": 55,
+        "sentence_index": 3,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89306,
+        "text": "approve",
+        "document_index": 56,
+        "sentence_index": 3,
+        "pos_tag": "VBP"
+      },
+      {
+        "id": 89307,
+        "text": "the",
+        "document_index": 57,
+        "sentence_index": 3,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89308,
+        "text": "job",
+        "document_index": 58,
+        "sentence_index": 3,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89309,
+        "text": "description",
+        "document_index": 59,
+        "sentence_index": 3,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89310,
+        "text": ".",
+        "document_index": 60,
+        "sentence_index": 3,
+        "pos_tag": "."
+      },
+      {
+        "id": 89311,
+        "text": "Sometimes",
+        "document_index": 61,
+        "sentence_index": 4,
+        "pos_tag": "RB"
+      },
+      {
+        "id": 89312,
+        "text": "it",
+        "document_index": 62,
+        "sentence_index": 4,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89313,
+        "text": "also",
+        "document_index": 63,
+        "sentence_index": 4,
+        "pos_tag": "RB"
+      },
+      {
+        "id": 89314,
+        "text": "happens",
+        "document_index": 64,
+        "sentence_index": 4,
+        "pos_tag": "VBZ"
+      },
+      {
+        "id": 89315,
+        "text": "that",
+        "document_index": 65,
+        "sentence_index": 4,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89316,
+        "text": "the",
+        "document_index": 66,
+        "sentence_index": 4,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89317,
+        "text": "colleague",
+        "document_index": 67,
+        "sentence_index": 4,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89318,
+        "text": "from",
+        "document_index": 68,
+        "sentence_index": 4,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89319,
+        "text": "the",
+        "document_index": 69,
+        "sentence_index": 4,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89320,
+        "text": "HR",
+        "document_index": 70,
+        "sentence_index": 4,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89321,
+        "text": "department",
+        "document_index": 71,
+        "sentence_index": 4,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89322,
+        "text": "still",
+        "document_index": 72,
+        "sentence_index": 4,
+        "pos_tag": "RB"
+      },
+      {
+        "id": 89323,
+        "text": "has",
+        "document_index": 73,
+        "sentence_index": 4,
+        "pos_tag": "VBZ"
+      },
+      {
+        "id": 89324,
+        "text": "questions",
+        "document_index": 74,
+        "sentence_index": 4,
+        "pos_tag": "NNS"
+      },
+      {
+        "id": 89325,
+        "text": "about",
+        "document_index": 75,
+        "sentence_index": 4,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89326,
+        "text": "the",
+        "document_index": 76,
+        "sentence_index": 4,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89327,
+        "text": "tasks",
+        "document_index": 77,
+        "sentence_index": 4,
+        "pos_tag": "NNS"
+      },
+      {
+        "id": 89328,
+        "text": "and",
+        "document_index": 78,
+        "sentence_index": 4,
+        "pos_tag": "CC"
+      },
+      {
+        "id": 89329,
+        "text": "requirements",
+        "document_index": 79,
+        "sentence_index": 4,
+        "pos_tag": "NNS"
+      },
+      {
+        "id": 89330,
+        "text": "before",
+        "document_index": 80,
+        "sentence_index": 4,
+        "pos_tag": "IN"
+      },
+      {
+        "id": 89331,
+        "text": "he",
+        "document_index": 81,
+        "sentence_index": 4,
+        "pos_tag": "PRP"
+      },
+      {
+        "id": 89332,
+        "text": "can",
+        "document_index": 82,
+        "sentence_index": 4,
+        "pos_tag": "MD"
+      },
+      {
+        "id": 89333,
+        "text": "describe",
+        "document_index": 83,
+        "sentence_index": 4,
+        "pos_tag": "VB"
+      },
+      {
+        "id": 89334,
+        "text": "the",
+        "document_index": 84,
+        "sentence_index": 4,
+        "pos_tag": "DT"
+      },
+      {
+        "id": 89335,
+        "text": "job",
+        "document_index": 85,
+        "sentence_index": 4,
+        "pos_tag": "NN"
+      },
+      {
+        "id": 89336,
+        "text": ".",
+        "document_index": 86,
+        "sentence_index": 4,
+        "pos_tag": "."
+      }
+    ]
+  },
+  "mentions": [
+    {
+      "tag": "Actor",
+      "tokens": [
+        {
+          "id": 89260,
+          "text": "I",
+          "document_index": 10,
+          "sentence_index": 1,
+          "pos_tag": "PRP"
+        }
+      ],
+      "entity": {
+        "id": 13371
+      }
+    },
+    {
+      "tag": "Actor",
+      "tokens": [
+        {
+          "id": 89305,
+          "text": "I",
+          "document_index": 55,
+          "sentence_index": 3,
+          "pos_tag": "PRP"
+        }
+      ],
+      "entity": {
+        "id": 13371
+      }
+    },
+    {
+      "tag": "Actor",
+      "tokens": [
+        {
+          "id": 89297,
+          "text": "I",
+          "document_index": 47,
+          "sentence_index": 3,
+          "pos_tag": "PRP"
+        }
+      ],
+      "entity": {
+        "id": 13371
+      }
+    },
+    {
+      "tag": "Actor",
+      "tokens": [
+        {
+          "id": 89279,
+          "text": "I",
+          "document_index": 29,
+          "sentence_index": 2,
+          "pos_tag": "PRP"
+        }
+      ],
+      "entity": {
+        "id": 13371
+      }
+    },
+    {
+      "tag": "Actor",
+      "tokens": [
+        {
+          "id": 89269,
+          "text": "I",
+          "document_index": 19,
+          "sentence_index": 1,
+          "pos_tag": "PRP"
+        }
+      ],
+      "entity": {
+        "id": 13371
+      }
+    },
+    {
+      "tag": "Activity",
+      "tokens": [
+        {
+          "id": 89262,
+          "text": "detected",
+          "document_index": 12,
+          "sentence_index": 1,
+          "pos_tag": "VBN"
+        }
+      ],
+      "entity": {
+        "id": 13372
+      }
+    },
+    {
+      "tag": "Activity Data",
+      "tokens": [
+        {
+          "id": 89263,
+          "text": "a",
+          "document_index": 13,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 89264,
+          "text": "number",
+          "document_index": 14,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 89265,
+          "text": "of",
+          "document_index": 15,
+          "sentence_index": 1,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 89266,
+          "text": "personnel",
+          "document_index": 16,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 89267,
+          "text": "requirements",
+          "document_index": 17,
+          "sentence_index": 1,
+          "pos_tag": "NNS"
+        }
+      ],
+      "entity": {
+        "id": 13373
+      }
+    },
+    {
+      "tag": "Activity",
+      "tokens": [
+        {
+          "id": 89270,
+          "text": "report",
+          "document_index": 20,
+          "sentence_index": 1,
+          "pos_tag": "VBP"
+        }
+      ],
+      "entity": {
+        "id": 13374
+      }
+    },
+    {
+      "tag": "Activity Data",
+      "tokens": [
+        {
+          "id": 89271,
+          "text": "the",
+          "document_index": 21,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 89272,
+          "text": "vacancy",
+          "document_index": 22,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        }
+      ],
+      "entity": {
+        "id": 13375
+      }
+    },
+    {
+      "tag": "Actor",
+      "tokens": [
+        {
+          "id": 89274,
+          "text": "the",
+          "document_index": 24,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 89275,
+          "text": "Personnel",
+          "document_index": 25,
+          "sentence_index": 1,
+          "pos_tag": "NNP"
+        },
+        {
+          "id": 89276,
+          "text": "Department",
+          "document_index": 26,
+          "sentence_index": 1,
+          "pos_tag": "NNP"
+        }
+      ],
+      "entity": {
+        "id": 13376
+      }
+    },
+    {
+      "tag": "Activity",
+      "tokens": [
+        {
+          "id": 89282,
+          "text": "get",
+          "document_index": 32,
+          "sentence_index": 2,
+          "pos_tag": "VB"
+        }
+      ],
+      "entity": {
+        "id": 13377
+      }
+    },
+    {
+      "tag": "Activity Data",
+      "tokens": [
+        {
+          "id": 89289,
+          "text": "it",
+          "document_index": 39,
+          "sentence_index": 2,
+          "pos_tag": "PRP"
+        }
+      ],
+      "entity": {
+        "id": 13378
+      }
+    },
+    {
+      "tag": "Activity Data",
+      "tokens": [
+        {
+          "id": 89283,
+          "text": "the",
+          "document_index": 33,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 89284,
+          "text": "job",
+          "document_index": 34,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 89285,
+          "text": "description",
+          "document_index": 35,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 89286,
+          "text": "for",
+          "document_index": 36,
+          "sentence_index": 2,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 89287,
+          "text": "review",
+          "document_index": 37,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        }
+      ],
+      "entity": {
+        "id": 13378
+      }
+    },
+    {
+      "tag": "Activity Data",
+      "tokens": [
+        {
+          "id": 89307,
+          "text": "the",
+          "document_index": 57,
+          "sentence_index": 3,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 89308,
+          "text": "job",
+          "document_index": 58,
+          "sentence_index": 3,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 89309,
+          "text": "description",
+          "document_index": 59,
+          "sentence_index": 3,
+          "pos_tag": "NN"
+        }
+      ],
+      "entity": {
+        "id": 13378
+      }
+    },
+    {
+      "tag": "Activity",
+      "tokens": [
+        {
+          "id": 89291,
+          "text": "advertized",
+          "document_index": 41,
+          "sentence_index": 2,
+          "pos_tag": "VBN"
+        }
+      ],
+      "entity": {
+        "id": 13379
+      }
+    },
+    {
+      "tag": "XOR Gateway",
+      "tokens": [
+        {
+          "id": 89293,
+          "text": "Under",
+          "document_index": 43,
+          "sentence_index": 3,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 89294,
+          "text": "certain",
+          "document_index": 44,
+          "sentence_index": 3,
+          "pos_tag": "JJ"
+        },
+        {
+          "id": 89295,
+          "text": "circumstances",
+          "document_index": 45,
+          "sentence_index": 3,
+          "pos_tag": "NNS"
+        }
+      ],
+      "entity": {
+        "id": 13380
+      }
+    },
+    {
+      "tag": "Activity",
+      "tokens": [
+        {
+          "id": 89299,
+          "text": "ask",
+          "document_index": 49,
+          "sentence_index": 3,
+          "pos_tag": "VB"
+        }
+      ],
+      "entity": {
+        "id": 13381
+      }
+    },
+    {
+      "tag": "Activity Data",
+      "tokens": [
+        {
+          "id": 89301,
+          "text": "corrections",
+          "document_index": 51,
+          "sentence_index": 3,
+          "pos_tag": "NNS"
+        }
+      ],
+      "entity": {
+        "id": 13382
+      }
+    },
+    {
+      "tag": "XOR Gateway",
+      "tokens": [
+        {
+          "id": 89304,
+          "text": "otherwise",
+          "document_index": 54,
+          "sentence_index": 3,
+          "pos_tag": "RB"
+        }
+      ],
+      "entity": {
+        "id": 13383
+      }
+    },
+    {
+      "tag": "Activity",
+      "tokens": [
+        {
+          "id": 89306,
+          "text": "approve",
+          "document_index": 56,
+          "sentence_index": 3,
+          "pos_tag": "VBP"
+        }
+      ],
+      "entity": {
+        "id": 13384
+      }
+    }
+  ],
+  "relations": [
+    {
+      "tag": "uses",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89262,
+            "text": "detected",
+            "document_index": 12,
+            "sentence_index": 1,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 13372
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 89263,
+            "text": "a",
+            "document_index": 13,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 89264,
+            "text": "number",
+            "document_index": 14,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 89265,
+            "text": "of",
+            "document_index": 15,
+            "sentence_index": 1,
+            "pos_tag": "IN"
+          },
+          {
+            "id": 89266,
+            "text": "personnel",
+            "document_index": 16,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 89267,
+            "text": "requirements",
+            "document_index": 17,
+            "sentence_index": 1,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 13373
+        }
+      }
+    },
+    {
+      "tag": "actor performer",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89262,
+            "text": "detected",
+            "document_index": 12,
+            "sentence_index": 1,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 13372
+        }
+      },
+      "mention_tail": {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 89260,
+            "text": "I",
+            "document_index": 10,
+            "sentence_index": 1,
+            "pos_tag": "PRP"
+          }
+        ],
+        "entity": {
+          "id": 13371
+        }
+      }
+    },
+    {
+      "tag": "flow",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89262,
+            "text": "detected",
+            "document_index": 12,
+            "sentence_index": 1,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 13372
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89270,
+            "text": "report",
+            "document_index": 20,
+            "sentence_index": 1,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13374
+        }
+      }
+    },
+    {
+      "tag": "uses",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89270,
+            "text": "report",
+            "document_index": 20,
+            "sentence_index": 1,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13374
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 89271,
+            "text": "the",
+            "document_index": 21,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 89272,
+            "text": "vacancy",
+            "document_index": 22,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 13375
+        }
+      }
+    },
+    {
+      "tag": "actor recipient",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89270,
+            "text": "report",
+            "document_index": 20,
+            "sentence_index": 1,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13374
+        }
+      },
+      "mention_tail": {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 89274,
+            "text": "the",
+            "document_index": 24,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 89275,
+            "text": "Personnel",
+            "document_index": 25,
+            "sentence_index": 1,
+            "pos_tag": "NNP"
+          },
+          {
+            "id": 89276,
+            "text": "Department",
+            "document_index": 26,
+            "sentence_index": 1,
+            "pos_tag": "NNP"
+          }
+        ],
+        "entity": {
+          "id": 13376
+        }
+      }
+    },
+    {
+      "tag": "actor performer",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89270,
+            "text": "report",
+            "document_index": 20,
+            "sentence_index": 1,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13374
+        }
+      },
+      "mention_tail": {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 89269,
+            "text": "I",
+            "document_index": 19,
+            "sentence_index": 1,
+            "pos_tag": "PRP"
+          }
+        ],
+        "entity": {
+          "id": 13371
+        }
+      }
+    },
+    {
+      "tag": "flow",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89270,
+            "text": "report",
+            "document_index": 20,
+            "sentence_index": 1,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13374
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89282,
+            "text": "get",
+            "document_index": 32,
+            "sentence_index": 2,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13377
+        }
+      }
+    },
+    {
+      "tag": "uses",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89282,
+            "text": "get",
+            "document_index": 32,
+            "sentence_index": 2,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13377
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 89283,
+            "text": "the",
+            "document_index": 33,
+            "sentence_index": 2,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 89284,
+            "text": "job",
+            "document_index": 34,
+            "sentence_index": 2,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 89285,
+            "text": "description",
+            "document_index": 35,
+            "sentence_index": 2,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 89286,
+            "text": "for",
+            "document_index": 36,
+            "sentence_index": 2,
+            "pos_tag": "IN"
+          },
+          {
+            "id": 89287,
+            "text": "review",
+            "document_index": 37,
+            "sentence_index": 2,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 13378
+        }
+      }
+    },
+    {
+      "tag": "actor performer",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89282,
+            "text": "get",
+            "document_index": 32,
+            "sentence_index": 2,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13377
+        }
+      },
+      "mention_tail": {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 89279,
+            "text": "I",
+            "document_index": 29,
+            "sentence_index": 2,
+            "pos_tag": "PRP"
+          }
+        ],
+        "entity": {
+          "id": 13371
+        }
+      }
+    },
+    {
+      "tag": "flow",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89282,
+            "text": "get",
+            "document_index": 32,
+            "sentence_index": 2,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13377
+        }
+      },
+      "mention_tail": {
+        "tag": "XOR Gateway",
+        "tokens": [
+          {
+            "id": 89293,
+            "text": "Under",
+            "document_index": 43,
+            "sentence_index": 3,
+            "pos_tag": "IN"
+          },
+          {
+            "id": 89294,
+            "text": "certain",
+            "document_index": 44,
+            "sentence_index": 3,
+            "pos_tag": "JJ"
+          },
+          {
+            "id": 89295,
+            "text": "circumstances",
+            "document_index": 45,
+            "sentence_index": 3,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 13380
+        }
+      }
+    },
+    {
+      "tag": "uses",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89291,
+            "text": "advertized",
+            "document_index": 41,
+            "sentence_index": 2,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 13379
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 89289,
+            "text": "it",
+            "document_index": 39,
+            "sentence_index": 2,
+            "pos_tag": "PRP"
+          }
+        ],
+        "entity": {
+          "id": 13378
+        }
+      }
+    },
+    {
+      "tag": "flow",
+      "mention_head": {
+        "tag": "XOR Gateway",
+        "tokens": [
+          {
+            "id": 89293,
+            "text": "Under",
+            "document_index": 43,
+            "sentence_index": 3,
+            "pos_tag": "IN"
+          },
+          {
+            "id": 89294,
+            "text": "certain",
+            "document_index": 44,
+            "sentence_index": 3,
+            "pos_tag": "JJ"
+          },
+          {
+            "id": 89295,
+            "text": "circumstances",
+            "document_index": 45,
+            "sentence_index": 3,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 13380
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89299,
+            "text": "ask",
+            "document_index": 49,
+            "sentence_index": 3,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13381
+        }
+      }
+    },
+    {
+      "tag": "same gateway",
+      "mention_head": {
+        "tag": "XOR Gateway",
+        "tokens": [
+          {
+            "id": 89293,
+            "text": "Under",
+            "document_index": 43,
+            "sentence_index": 3,
+            "pos_tag": "IN"
+          },
+          {
+            "id": 89294,
+            "text": "certain",
+            "document_index": 44,
+            "sentence_index": 3,
+            "pos_tag": "JJ"
+          },
+          {
+            "id": 89295,
+            "text": "circumstances",
+            "document_index": 45,
+            "sentence_index": 3,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 13380
+        }
+      },
+      "mention_tail": {
+        "tag": "XOR Gateway",
+        "tokens": [
+          {
+            "id": 89304,
+            "text": "otherwise",
+            "document_index": 54,
+            "sentence_index": 3,
+            "pos_tag": "RB"
+          }
+        ],
+        "entity": {
+          "id": 13383
+        }
+      }
+    },
+    {
+      "tag": "uses",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89299,
+            "text": "ask",
+            "document_index": 49,
+            "sentence_index": 3,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13381
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 89301,
+            "text": "corrections",
+            "document_index": 51,
+            "sentence_index": 3,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 13382
+        }
+      }
+    },
+    {
+      "tag": "actor performer",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89299,
+            "text": "ask",
+            "document_index": 49,
+            "sentence_index": 3,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13381
+        }
+      },
+      "mention_tail": {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 89297,
+            "text": "I",
+            "document_index": 47,
+            "sentence_index": 3,
+            "pos_tag": "PRP"
+          }
+        ],
+        "entity": {
+          "id": 13371
+        }
+      }
+    },
+    {
+      "tag": "flow",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89299,
+            "text": "ask",
+            "document_index": 49,
+            "sentence_index": 3,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13381
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89282,
+            "text": "get",
+            "document_index": 32,
+            "sentence_index": 2,
+            "pos_tag": "VB"
+          }
+        ],
+        "entity": {
+          "id": 13377
+        }
+      }
+    },
+    {
+      "tag": "flow",
+      "mention_head": {
+        "tag": "XOR Gateway",
+        "tokens": [
+          {
+            "id": 89304,
+            "text": "otherwise",
+            "document_index": 54,
+            "sentence_index": 3,
+            "pos_tag": "RB"
+          }
+        ],
+        "entity": {
+          "id": 13383
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89306,
+            "text": "approve",
+            "document_index": 56,
+            "sentence_index": 3,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13384
+        }
+      }
+    },
+    {
+      "tag": "uses",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89306,
+            "text": "approve",
+            "document_index": 56,
+            "sentence_index": 3,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13384
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 89307,
+            "text": "the",
+            "document_index": 57,
+            "sentence_index": 3,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 89308,
+            "text": "job",
+            "document_index": 58,
+            "sentence_index": 3,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 89309,
+            "text": "description",
+            "document_index": 59,
+            "sentence_index": 3,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 13378
+        }
+      }
+    },
+    {
+      "tag": "actor performer",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89306,
+            "text": "approve",
+            "document_index": 56,
+            "sentence_index": 3,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13384
+        }
+      },
+      "mention_tail": {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 89305,
+            "text": "I",
+            "document_index": 55,
+            "sentence_index": 3,
+            "pos_tag": "PRP"
+          }
+        ],
+        "entity": {
+          "id": 13371
+        }
+      }
+    },
+    {
+      "tag": "flow",
+      "mention_head": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89306,
+            "text": "approve",
+            "document_index": 56,
+            "sentence_index": 3,
+            "pos_tag": "VBP"
+          }
+        ],
+        "entity": {
+          "id": 13384
+        }
+      },
+      "mention_tail": {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 89291,
+            "text": "advertized",
+            "document_index": 41,
+            "sentence_index": 2,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 13379
+        }
+      }
+    }
+  ]
+}
+]
