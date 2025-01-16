@@ -6,6 +6,14 @@ Content-Type: application/json
 < ./inputs/same-document-twice.json
 
 
+### different mentions should result in higher/lower score for the token
+
+POST localhost/difference-calc/heatmap
+Content-Type: application/json
+
+< ./inputs/one-sentence-different-mentions.json
+
+
 ### different token list should result in error
 
 POST localhost/difference-calc/heatmap

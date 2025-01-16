@@ -1,6 +1,20 @@
-### create heatmap from 2 document edits
+### different tokens should result in error
 
 POST localhost/difference-calc/score
 Content-Type: application/json
 
 < ./inputs/different-tokens.json
+
+### different mentions decrease the score
+
+POST localhost/difference-calc/score
+Content-Type: application/json
+
+< ./inputs/one-sentence-different-mentions.json
+
+### same documents
+
+POST localhost/difference-calc/score
+Content-Type: application/json
+
+< ./inputs/same-document-twice.json
