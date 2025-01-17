@@ -1,5 +1,9 @@
 # difference-calc
 
+## Api Documentation
+[http://localhost:8443/difference-calc/docs](http://localhost:8443/difference-calc/docs)
+
+## Dev setup
 ### Git hooks
 #### Update git hooks settings
 ```bash
