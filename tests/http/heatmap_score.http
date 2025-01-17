@@ -3,7 +3,7 @@
 POST localhost/difference-calc/heatmap
 Content-Type: application/json
 
-< ./inputs/same-document-twice.json
+< ./inputs/list/same-document-twice.json
 
 
 ### different mentions should result in higher/lower score for the token
@@ -11,7 +11,7 @@ Content-Type: application/json
 POST localhost/difference-calc/heatmap
 Content-Type: application/json
 
-< ./inputs/one-sentence-different-mentions.json
+< ./inputs/list/one-sentence-different-mentions.json
 
 
 ### different token list should result in error
@@ -19,4 +19,4 @@ Content-Type: application/json
 POST localhost/difference-calc/heatmap
 Content-Type: application/json
 
-< ./inputs/different-tokens.json
+< ./inputs/list/different-tokens.json

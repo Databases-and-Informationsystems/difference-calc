@@ -73,6 +73,14 @@ document_edit_request = api.model(
     },
 )
 
+f1_score_request = api.model(
+    "f1_score_request",
+    {
+        "actual": fields.Nested(document_edit_request),
+        "predicted": fields.Nested(document_edit_request),
+    },
+)
+
 similarity_score_response = api.model(
     "similarity score response",
     {
