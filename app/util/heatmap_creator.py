@@ -1,7 +1,7 @@
 import typing
 
 from app.model.document import DocumentEdit, Mention, Relation, Token
-from app.util.utils import all_edits_contain_same_tokens
+from app.util.utils import all_edits_contain_same_tokens, validate_document_edit_lists
 
 
 class HeatmapCreator:
@@ -9,17 +9,7 @@ class HeatmapCreator:
     def create_heatmap(
         self, document_edits: typing.List[DocumentEdit]
     ) -> typing.List[Token]:
-        if len(document_edits) < 2:
-            raise ValueError("At least 2 edits of a document have to be compared.")
-
-        if not (
-            all_edits_contain_same_tokens(
-                list(map(lambda de: de.document.tokens, document_edits))
-            )
-        ):
-            raise ValueError(
-                "Tokens in the different edits of the document are not the same."
-            )
+        validate_document_edit_lists(document_edits)
 
         tokens: typing.List[Token] = document_edits[0].document.tokens
 

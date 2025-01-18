@@ -1,6 +1,6 @@
 import typing
 from app.model.document import DocumentEdit, Mention, Relation
-from app.model.similarity_score import SimilarityScoreResponse
+from app.model.similarity_score import F1ScoreResponse
 from app.util.utils import all_edits_contain_same_tokens
 
 
@@ -39,7 +39,7 @@ class ScoreCalculator:
             actual_relations=actual_relations_by_mentions,
             predicted_relations=predicted_relations_by_mentions,
         )
-        similarity_score_response = SimilarityScoreResponse(
+        similarity_score_response = F1ScoreResponse(
             mention_score=mention_score,
             considered_relation_quote=considered_relation_quote,
             relation_score=relation_score,

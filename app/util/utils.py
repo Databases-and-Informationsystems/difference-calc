@@ -1,5 +1,5 @@
 import typing
-from app.model.document import Token
+from app.model.document import Token, DocumentEdit
 
 
 def all_edits_contain_same_tokens(
@@ -12,3 +12,17 @@ def all_edits_contain_same_tokens(
         ) or not all(any(bt.equals(tl) for tl in token_list) for bt in base_list):
             return False
     return True
+
+
+def validate_document_edit_lists(document_edits: typing.List[DocumentEdit]):
+    if len(document_edits) < 2:
+        raise ValueError("At least 2 edits of a document have to be compared.")
+
+    if not (
+        all_edits_contain_same_tokens(
+            list(map(lambda de: de.document.tokens, document_edits))
+        )
+    ):
+        raise ValueError(
+            "Tokens in the different edits of the document are not the same."
+        )

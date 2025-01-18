@@ -85,9 +85,16 @@ similarity_score_response = api.model(
     "similarity score response",
     {
         "mention_score": fields.Float(required=True),
-        "considered_entitiy_quote": fields.Float(required=True),
+        "considered_entity_quote": fields.Float(required=True),
         "entity_score": fields.Float(required=True),
         "considered_relation_quote": fields.Float(required=True),
         "relation_score": fields.Float(required=True),
+    },
+)
+
+jaccard_index_response = api.model(
+    "jaccard index response",
+    {
+        # TODO
     },
 )
