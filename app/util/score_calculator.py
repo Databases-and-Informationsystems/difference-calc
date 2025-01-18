@@ -5,35 +5,39 @@ from app.util.utils import all_edits_contain_same_tokens
 
 
 class ScoreCalculator:
-    def calc_score(self, document0: DocumentEdit, document1: DocumentEdit):
+    def calc_score(
+        self, actual_document: DocumentEdit, predicted_document: DocumentEdit
+    ):
         if not (
             all_edits_contain_same_tokens(
-                [document0.document.tokens, document1.document.tokens]
+                [actual_document.document.tokens, predicted_document.document.tokens]
             )
         ):
             raise ValueError(
                 "Tokens in the different edits of the document are not the same."
             )
         mention_score = _calc_mention_score(
-            mention_list_0=document0.mentions, mention_list_1=document1.mentions
+            actual_mentions=actual_document.mentions,
+            predicted_mentions=predicted_document.mentions,
         )
-        common_mentions_0, common_mentions_1 = _get_common_mention_indices(
-            mention_list_0=document0.mentions, mention_list_1=document1.mentions
+        common_actual_mentions, common_predicted_mentions = _get_common_mention_indices(
+            actual_mentions=actual_document.mentions,
+            predicted_mentions=predicted_document.mentions,
         )
-        relations_by_mentions_0 = _get_relations_by_mentions(
-            document0.relations, common_mentions_0
+        actual_relations_by_mentions = _get_relations_by_mentions(
+            actual_document.relations, common_actual_mentions
         )
-        relations_by_mentions_1 = _get_relations_by_mentions(
-            document1.relations, common_mentions_1
+        predicted_relations_by_mentions = _get_relations_by_mentions(
+            predicted_document.relations, common_predicted_mentions
         )
         considered_relation_quote = 0
-        if (len(document0.relations) + len(document1.relations)) != 0:
+        if (len(actual_document.relations) + len(predicted_document.relations)) != 0:
             considered_relation_quote = (
-                len(relations_by_mentions_0) + len(relations_by_mentions_1)
-            ) / (len(document0.relations) + len(document1.relations))
+                len(actual_relations_by_mentions) + len(predicted_relations_by_mentions)
+            ) / (len(actual_document.relations) + len(predicted_document.relations))
         relation_score = _calc_relation_score(
-            relation_list_0=relations_by_mentions_0,
-            relation_list_1=relations_by_mentions_1,
+            actual_relations=actual_relations_by_mentions,
+            predicted_relations=predicted_relations_by_mentions,
         )
         similarity_score_response = SimilarityScoreResponse(
             mention_score=mention_score,
@@ -44,46 +48,46 @@ class ScoreCalculator:
 
 
 def _calc_mention_score(
-    mention_list_0: typing.List[Mention], mention_list_1: typing.List[Mention]
+    actual_mentions: typing.List[Mention], predicted_mentions: typing.List[Mention]
 ):
     true_positives = sum(
-        any(m0.equals(m1) for m1 in mention_list_1) for m0 in mention_list_0
+        any(m0.equals(m1) for m1 in predicted_mentions) for m0 in actual_mentions
     )
     return _calc_f1_score(
-        length_0=len(mention_list_0),
-        length_1=len(mention_list_1),
+        actual_length=len(actual_mentions),
+        predicted_length=len(predicted_mentions),
         true_positives=true_positives,
     )
 
 
 def _calc_relation_score(
-    relation_list_0: typing.List[Relation], relation_list_1: typing.List[Relation]
+    actual_relations: typing.List[Relation], predicted_relations: typing.List[Relation]
 ):
     true_positives = sum(
-        any(r0.equals(r1) for r1 in relation_list_1) for r0 in relation_list_0
+        any(r0.equals(r1) for r1 in predicted_relations) for r0 in actual_relations
     )
     return _calc_f1_score(
-        length_0=len(relation_list_0),
-        length_1=len(relation_list_1),
+        actual_length=len(actual_relations),
+        predicted_length=len(predicted_relations),
         true_positives=true_positives,
     )
 
 
 def _get_common_mention_indices(
-    mention_list_0: typing.List[Mention], mention_list_1: typing.List[Mention]
+    actual_mentions: typing.List[Mention], predicted_mentions: typing.List[Mention]
 ) -> tuple[typing.List[Mention], typing.List[Mention]]:
     common_mentions_0 = [
-        m0 for m0 in mention_list_0 if any(m0.equals(m1) for m1 in mention_list_1)
+        m0 for m0 in actual_mentions if any(m0.equals(m1) for m1 in predicted_mentions)
     ]
     common_mentions_1 = [
-        m1 for m1 in mention_list_1 if any(m1.equals(m0) for m0 in mention_list_0)
+        m1 for m1 in predicted_mentions if any(m1.equals(m0) for m0 in actual_mentions)
     ]
     return (common_mentions_0, common_mentions_1)
 
 
-def _calc_f1_score(length_0, length_1, true_positives):
-    precision = true_positives / length_0 if length_0 > 0 else 0
-    recall = true_positives / length_1 if length_1 > 0 else 0
+def _calc_f1_score(actual_length, predicted_length, true_positives):
+    precision = true_positives / actual_length if actual_length > 0 else 0
+    recall = true_positives / predicted_length if predicted_length > 0 else 0
     if precision + recall > 0:
         f1_score = 2 * (precision * recall) / (precision + recall)
     else:

@@ -96,13 +96,3 @@ class DocumentEdit(BaseModel):
 
     def get_entity_of_mention(self, mention: Mention) -> typing.Optional[Entity]:
         return next((m.entity for m in self.mentions if m.equals(mention)), None)
-
-    def resolve_mentions_in_relations(self):
-        if self.relations is None:
-            self.relations = []
-            return
-        mention_dict = {mention.id: mention for mention in self.mentions}
-        for relation in self.relations:
-            # Weisen Sie die tatsächlichen Mention-Objekte basierend auf der ID zu
-            relation.mention_head = mention_dict.get(relation.head_mention_id)
-            relation.mention_tail = mention_dict.get(relation.tail_mention_id)

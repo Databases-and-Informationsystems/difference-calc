@@ -32,5 +32,7 @@ class F1ScoreController(Resource):
         )
 
         score_calculator = ScoreCalculator()
-        score = score_calculator.calc_score(document0=actual, document1=predicted)
+        score = score_calculator.calc_score(
+            actual_document=actual, predicted_document=predicted
+        )
         return jsonify(score.model_dump(mode="json"))
