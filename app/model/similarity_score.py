@@ -9,6 +9,15 @@ class F1ScoreResponse(BaseModel):
     relation_score: float
 
 
+class JaccardScore(BaseModel):
+    mention_index: float
+    relation_index: float
+    considered_relation_index: float
+    entity_index: float
+    considered_entities_index: float
+    combined_index: float
+
+
 class JaccardIndexResponse(BaseModel):
-    # TODO
-    pass
+    combined: JaccardScore
+    average: JaccardScore

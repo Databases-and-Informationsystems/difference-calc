@@ -3,6 +3,10 @@ import typing
 from pydantic import BaseModel, ConfigDict
 
 
+class SupportsIsEqual(typing.Protocol):
+    def equals(self, other: object) -> bool: ...
+
+
 class Token(BaseModel):
     id: int
     text: typing.Optional[str] = None
@@ -26,10 +30,29 @@ class Token(BaseModel):
 class Entity(BaseModel):
     id: int
 
+    mentions: typing.Optional[typing.List["Mention"]] = None
+
     def equals(self, entity: typing.Optional["Entity"]) -> bool:
         if entity is None:
             return False
-        return self.id == entity.id
+        if (
+            self.mentions is None
+            and entity.mentions is not None
+            or self.mentions is not None
+            and entity.mentions is None
+        ):
+            return False
+        if self.mentions is None and entity.mentions is None:
+            raise ValueError(
+                "Entities can not be compared based on lack of information"
+            )
+
+        # Entity equals other entity of all mentions contain same entries
+
+        return all(any(om.equals(sm) for om in entity.mentions) for sm in self.mentions)
+
+    def __repr__(self) -> str:
+        return f"Entity(id={self.id}, mentions={[m.__repr__() for m in self.mentions]})"
 
 
 class Mention(BaseModel):
@@ -48,6 +71,9 @@ class Mention(BaseModel):
 
     def contains_token(self, token: Token) -> bool:
         return any(t.equals(token) for t in self.tokens)
+
+    def __repr__(self) -> str:
+        return f"Mention(tag={self.tag}, entity=Entity(id={self.entity.id}), tokens={[t.text for t in self.tokens]})"
 
 
 class Relation(BaseModel):

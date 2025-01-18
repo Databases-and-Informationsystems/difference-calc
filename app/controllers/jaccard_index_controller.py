@@ -6,7 +6,10 @@ from pydantic import TypeAdapter
 
 from app.controllers import ns_jaccard_index
 from app.model.document import DocumentEdit
-from app.restx_dtos import document_edit_request, jaccard_index_response
+from app.restx_dtos import (
+    document_edit_request,
+    jaccard_response,
+)
 from app.util.jaccard_index_calculator import JaccardIndexCalculator
 
 
@@ -16,7 +19,7 @@ class JaccardIndexController(Resource):
     @ns_jaccard_index.doc(
         description="Calculate jaccard index for similarity of document edits",
         responses={
-            200: ("Successful response", jaccard_index_response),
+            200: ("Successful response", jaccard_response),
             400: "Bad Request",
             500: "Internal Server Error",
         },
