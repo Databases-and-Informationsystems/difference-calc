@@ -1,10 +1,10 @@
 from flask import Blueprint
 from flask_restx import Api, Namespace
 
-blueprint = Blueprint("difference calculator api", __name__)
+main = Blueprint("difference calculator api", __name__, url_prefix="/difference-calc")
 
 api = Api(
-    blueprint,
+    main,
     title="Annotation Project Difference Calculator Microservice",
     version="1.0",
     description="A microservice to calculate differences on different levels for edited documents",
@@ -13,8 +13,11 @@ api = Api(
 )
 
 # Import and add namespaces
-from .heatmap_controller import heatmap_ns as heatmap_ns
-from .score_controller import score_ns as score_ns
+ns_heatmap: Namespace = Namespace("heatmap", description="")
+from .heatmap_controller import HeatmapController
 
-api.add_namespace(heatmap_ns)
-api.add_namespace(score_ns)
+ns_score: Namespace = Namespace("f1-score", description="")
+from .f1_score_controller import F1ScoreController
+
+api.add_namespace(ns_heatmap)
+api.add_namespace(ns_score)

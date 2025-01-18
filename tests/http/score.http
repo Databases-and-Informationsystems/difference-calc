@@ -1,0 +1,20 @@
+### different tokens should result in error
+
+POST localhost/difference-calc/f1-score
+Content-Type: application/json
+
+< ./inputs/prediction-comparison/different-tokens.json
+
+### different mentions decrease the score
+
+POST localhost/difference-calc/f1-score
+Content-Type: application/json
+
+< ./inputs/prediction-comparison/one-sentence-different-mentions.json
+
+### same documents
+
+POST localhost/difference-calc/f1-score
+Content-Type: application/json
+
+< ./inputs/prediction-comparison/same-document-twice.json

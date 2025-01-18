@@ -15,7 +15,7 @@ class Token(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
     def equals(self, token: "Token") -> bool:
-        return self.id == token.id or (
+        return self.id == token.id and (
             self.text == token.text
             and self.document_index == token.document_index
             and self.sentence_index == token.sentence_index
@@ -35,7 +35,7 @@ class Entity(BaseModel):
 class Mention(BaseModel):
     tag: str
     tokens: typing.List[Token]
-    entity: typing.Optional[Entity] = None
+    entity: Entity
 
     def equals(self, mention: "Mention") -> bool:
         return (
@@ -51,24 +51,24 @@ class Mention(BaseModel):
 
 
 class Relation(BaseModel):
-    id: int
+    id: typing.Optional[int] = None
     tag: str
-    head_mention: Mention
-    tail_mention: Mention
+    mention_head: Mention
+    mention_tail: Mention
 
     def equals(self, relation: "Relation") -> bool:
         return (
             self.tag == relation.tag
-            and self.head_mention.equals(relation.head_mention)
-            and self.tail_mention.equals(relation.tail_mention)
+            and self.mention_head.equals(relation.mention_head)
+            and self.mention_tail.equals(relation.mention_tail)
         )
 
 
 class Document(BaseModel):
     id: typing.Optional[int] = None
-    name: str
-    content: str
-    tokens: typing.Optional[typing.List[Token]] = None
+    name: typing.Optional[str] = None
+    content: typing.Optional[str] = None
+    tokens: typing.List[Token] = None
 
     model_config = ConfigDict(from_attributes=True)
 
@@ -77,7 +77,6 @@ class DocumentEdit(BaseModel):
     document: Document
     mentions: typing.Optional[typing.List[Mention]] = None
     relations: typing.Optional[typing.List[Relation]] = None
-    # entities: typing.Optional[typing.List[Entity]] = None
 
     model_config = ConfigDict(from_attributes=True)
 
@@ -89,8 +88,8 @@ class DocumentEdit(BaseModel):
     def get_all_relations_of_mention(self, mention: Mention) -> typing.List[Relation]:
         return list(
             filter(
-                lambda relation: relation.head_mention.equals(mention)
-                or relation.tail_mention.equals(mention),
+                lambda relation: relation.mention_head.equals(mention)
+                or relation.mention_tail.equals(mention),
                 self.relations or [],
             )
         )

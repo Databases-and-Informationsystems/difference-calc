@@ -1,6 +1,7 @@
 import typing
 
 from app.model.document import DocumentEdit, Mention, Relation, Token
+from app.util.utils import all_edits_contain_same_tokens
 
 
 class HeatmapCreator:
@@ -12,7 +13,7 @@ class HeatmapCreator:
             raise ValueError("At least 2 edits of a document have to be compared.")
 
         if not (
-            _all_edits_contain_same_tokens(
+            all_edits_contain_same_tokens(
                 list(map(lambda de: de.document.tokens, document_edits))
             )
         ):
@@ -118,7 +119,7 @@ def _calculate_difference_relation_score(
             [
                 obj_i
                 for obj_i in relations_i
-                if any(obj_i.isEqual(obj_j) for obj_j in relations_j)
+                if any(obj_i.equals(obj_j) for obj_j in relations_j)
             ]
         )
         score += (
@@ -151,15 +152,3 @@ def _get_matching_mention_pairs(
             if x.equals(y):
                 matching_pairs.append((x, y))
     return matching_pairs
-
-
-def _all_edits_contain_same_tokens(
-    token_lists: typing.List[typing.List[Token]],
-) -> bool:
-    base_list = token_lists[0]
-    for token_list in token_lists[1:]:
-        if not all(
-            any(tl.equals(bt) for bt in base_list) for tl in token_list
-        ) or not all(any(bt.equals(tl) for tl in token_list) for bt in base_list):
-            return False
-    return True

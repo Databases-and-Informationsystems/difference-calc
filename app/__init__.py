@@ -1,9 +1,15 @@
 from flask import Flask
 
-from .controller import blueprint
+from app.exception import register_error_handlers
 
 
 def create_app():
     app = Flask(__name__)
-    app.register_blueprint(blueprint, url_prefix="/difference-calc")
+
+    from .controllers import main
+
+    app.register_blueprint(main)
+
+    register_error_handlers(app)
+
     return app
