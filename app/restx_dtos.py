@@ -54,8 +54,8 @@ relation_request = api.model(
     "relation",
     {
         "tag": fields.String(required=True),
-        "head_mention": fields.Nested(mention_request),
-        "tail_mention": fields.Nested(mention_request),
+        "mention_head": fields.Nested(mention_request),
+        "mention_tail": fields.Nested(mention_request),
     },
 )
 document_edit_request = api.model(
