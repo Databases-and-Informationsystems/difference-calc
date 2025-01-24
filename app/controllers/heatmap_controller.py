@@ -23,18 +23,12 @@ class HeatmapController(Resource):
     )
     @ns_heatmap.expect([document_edit_request], validate=True, required=True)
     def post(self):
-        try:
-            document_edits: typing.List[DocumentEdit] = TypeAdapter(
-                list[DocumentEdit]
-            ).validate_json(request.get_data())
-        except Exception as e:
-            return Response(str(e), 400)
+        document_edits: typing.List[DocumentEdit] = TypeAdapter(
+            list[DocumentEdit]
+        ).validate_json(request.get_data())
 
-        try:
-            heatmap_creator = HeatmapCreator()
+        heatmap_creator = HeatmapCreator()
 
-            token_heatmap = heatmap_creator.create_heatmap(document_edits)
+        token_heatmap = heatmap_creator.create_heatmap(document_edits)
 
-            return jsonify([t.model_dump(mode="json") for t in token_heatmap])
-        except Exception as e:
-            return Response(str(e), 500)
+        return jsonify([t.model_dump(mode="json") for t in token_heatmap])

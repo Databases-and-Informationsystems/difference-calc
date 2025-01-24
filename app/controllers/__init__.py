@@ -19,5 +19,9 @@ from .heatmap_controller import HeatmapController
 ns_score: Namespace = Namespace("f1-score", description="")
 from .f1_score_controller import F1ScoreController
 
+ns_jaccard_index: Namespace = Namespace("jaccard-index", description="")
+from .jaccard_index_controller import JaccardIndexController
+
 api.add_namespace(ns_heatmap)
 api.add_namespace(ns_score)
+api.add_namespace(ns_jaccard_index)

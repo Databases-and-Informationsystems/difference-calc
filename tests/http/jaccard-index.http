@@ -1,14 +1,14 @@
-### create heatmap from 2 document edits
+### create jaccard similarity from 2 same document edits should result in scores of 1
 
-POST localhost/difference-calc/heatmap
+POST localhost/difference-calc/jaccard-index
 Content-Type: application/json
 
 < ./inputs/list/same-document-twice.json
 
 
-### different mentions should result in higher/lower score for the token
+### different mentions should have a result < 1
 
-POST localhost/difference-calc/heatmap
+POST localhost/difference-calc/jaccard-index
 Content-Type: application/json
 
 < ./inputs/list/one-sentence-different-mentions.json
@@ -16,14 +16,14 @@ Content-Type: application/json
 
 ### different token list should result in error
 
-POST localhost/difference-calc/heatmap
+POST localhost/difference-calc/jaccard-index
 Content-Type: application/json
 
 < ./inputs/list/different-tokens.json
 
 ### list with only one element should result in error
 
-POST localhost/difference-calc/heatmap
+POST localhost/difference-calc/jaccard-index
 Content-Type: application/json
 
 < ./inputs/list/list-with-only-one-element.json

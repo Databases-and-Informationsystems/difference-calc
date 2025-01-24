@@ -9,14 +9,14 @@ from app.restx_dtos import (
     similarity_score_response,
     f1_score_request,
 )
-from app.util.score_calculator import ScoreCalculator
+from app.util.f1_score_calculator import ScoreCalculator
 
 
 @ns_score.route("")
 class F1ScoreController(Resource):
 
     @ns_score.doc(
-        description="Create score for similarity of documents",
+        description="Create f1-score to measure quality of prediction",
         responses={
             200: ("Successful response", similarity_score_response),
             400: "Bad Request",
