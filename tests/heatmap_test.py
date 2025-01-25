@@ -2,7 +2,7 @@ import pytest
 
 from app import create_app
 from app.model.document import Mention, Token, Relation, Entity
-from app.util.heatmap_creator import _similarity_mention_score
+from app.util.heatmap_creator import similarity_mention_score
 
 
 @pytest.fixture
@@ -19,12 +19,14 @@ def test_similarity_mention_score_empty_lists():
     """
     token1 = Token(id=1, text="The", document_index=0, sentence_index=0, pos_tag="NN")
     token2 = Token(id=1, text="The", document_index=0, sentence_index=0, pos_tag="NN")
-    mention1 = Mention(tag="tag1", tokens=[token1], entity=None)
-    mention2 = Mention(tag="tag2", tokens=[token2], entity=None)
-    assert _similarity_mention_score([], []) == 0
-    assert _similarity_mention_score([], [mention1, mention2]) == 2
+    entity1 = Entity(id=1)
+    entity2 = Entity(id=2)
+    mention1 = Mention(tag="tag1", tokens=[token1], entity=entity1)
+    mention2 = Mention(tag="tag2", tokens=[token2], entity=entity2)
+    assert similarity_mention_score([], []) == 0
+    assert similarity_mention_score([], [mention1, mention2]) == 2
     assert (
-        _similarity_mention_score(
+        similarity_mention_score(
             [
                 Relation(
                     id=1, tag="executes", mention_head=mention1, mention_tail=mention2
@@ -46,7 +48,7 @@ def test_similar_mention_score_same_mentions():
     mention1 = Mention(tag="tag1", tokens=[token1], entity=Entity(id=1))
     mention2 = Mention(tag="tag1", tokens=[token2], entity=Entity(id=1))
 
-    assert _similarity_mention_score([mention1], [mention2]) == 0
+    assert similarity_mention_score([mention1], [mention2]) == 0
 
 
 def test_similar_mention_score_different_mentions():
@@ -67,11 +69,7 @@ def test_similar_mention_score_different_mentions():
     mention12 = Mention(tag="tag2", tokens=[token21], entity=Entity(id=2))
     mention22 = Mention(tag="tag2", tokens=[token22], entity=Entity(id=2))
 
-    assert (
-        _similarity_mention_score([mention11, mention12], [mention22, mention21]) == 0
-    )
-    assert (
-        _similarity_mention_score([mention11, mention21], [mention22, mention12]) == 2
-    )
-    assert _similarity_mention_score([mention11], [mention22, mention21]) == 1
-    assert _similarity_mention_score([mention11, mention22], [mention12]) == 1
+    assert similarity_mention_score([mention11, mention12], [mention22, mention21]) == 0
+    assert similarity_mention_score([mention11, mention21], [mention22, mention12]) == 2
+    assert similarity_mention_score([mention11], [mention22, mention21]) == 1
+    assert similarity_mention_score([mention11, mention22], [mention12]) == 1

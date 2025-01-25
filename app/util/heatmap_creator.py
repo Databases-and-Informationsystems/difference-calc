@@ -56,7 +56,7 @@ def _calculate_token_score(
     return score
 
 
-def _similarity_mention_score(
+def similarity_mention_score(
     list1: typing.List[Mention],
     list2: typing.List[Mention],
 ) -> int:
@@ -85,7 +85,7 @@ def _calculate_group_difference_mention_score(
     # compare each pair of edited documents
     for i in range(n):
         for j in range(i + 1, n):
-            total_score += _similarity_mention_score(lists[i], lists[j])
+            total_score += similarity_mention_score(lists[i], lists[j])
 
     return total_score
 
