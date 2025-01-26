@@ -43,9 +43,7 @@ class Entity(BaseModel):
         ):
             return False
         if self.mentions is None and entity.mentions is None:
-            raise ValueError(
-                "Entities can not be compared based on lack of information"
-            )
+            return True
 
         # Entity equals other entity of all mentions contain same entries
 
