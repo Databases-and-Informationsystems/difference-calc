@@ -56,7 +56,7 @@ class Entity(BaseModel):
 class Mention(BaseModel):
     tag: str
     tokens: typing.List[Token]
-    entity: Entity
+    entity: typing.Optional[Entity] = None
 
     def equals(self, mention: "Mention") -> bool:
         return (
@@ -71,7 +71,7 @@ class Mention(BaseModel):
         return any(t.equals(token) for t in self.tokens)
 
     def __repr__(self) -> str:
-        return f"Mention(tag={self.tag}, entity=Entity(id={self.entity.id}), tokens={[t.text for t in self.tokens]})"
+        return f"Mention(tag={self.tag}, entity={"Entity(id={self.entity.id})" if self.entity else None}, tokens={[t.text for t in self.tokens]})"
 
 
 class Relation(BaseModel):

@@ -46,7 +46,7 @@ mention_request = api.model(
     {
         "tag": fields.String(required=True),
         "tokens": fields.List(fields.Nested(token_request)),
-        "entity": fields.Nested(entity_request),
+        "entity": fields.Nested(entity_request, required=False),
     },
 )
 

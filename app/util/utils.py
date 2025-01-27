@@ -20,13 +20,16 @@ def get_entities_with_mentions(mentions: typing.List[Mention]) -> typing.List[En
     :param mentions:
     :return: List of entities, where each entity hat the property mentions with all mentions that belong to this entity
     """
-    unique_entity_ids = list({mention.entity.id for mention in mentions})
+    unique_entity_ids = list(
+        {mention.entity.id for mention in mentions if mention.entity is not None}
+    )
     mentions_by_entity_id = {}
     for unique_entity_id in unique_entity_ids:
         mentions_by_entity_id[unique_entity_id] = []
 
     for mention in mentions:
-        mentions_by_entity_id[mention.entity.id].append(mention)
+        if mention.entity is not None:
+            mentions_by_entity_id[mention.entity.id].append(mention)
 
     return [
         Entity(id=id_key, mentions=mentions_by_entity_id.get(id_key))
