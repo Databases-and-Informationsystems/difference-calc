@@ -34,19 +34,18 @@ document_request = api.model(
     },
 )
 
-entity_request = api.model(
-    "entity",
-    {
-        "id": fields.Integer(required=True),
-    },
-)
-
 mention_request = api.model(
     "mention",
     {
         "tag": fields.String(required=True),
         "tokens": fields.List(fields.Nested(token_request)),
-        "entity": fields.Nested(entity_request, required=False),
+    },
+)
+
+entity_request = api.model(
+    "entity",
+    {
+        "mentions": fields.List(fields.Nested(mention_request))
     },
 )
 
@@ -58,6 +57,7 @@ relation_request = api.model(
         "mention_tail": fields.Nested(mention_request),
     },
 )
+
 document_edit_request = api.model(
     "document_edit",
     {
