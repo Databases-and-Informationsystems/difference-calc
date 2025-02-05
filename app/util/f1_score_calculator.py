@@ -1,5 +1,5 @@
 import typing
-from app.model.document import DocumentEdit, Mention, Relation
+from app.model.document import DocumentEdit, Mention, Relation, Entity
 from app.model.similarity_score import F1ScoreResponse
 from app.util.utils import all_edits_contain_same_tokens
 
@@ -30,6 +30,12 @@ class ScoreCalculator:
         predicted_relations_by_mentions = _get_relations_by_mentions(
             predicted_document.relations, common_predicted_mentions
         )
+        actual_entitys_by_mentions = _get_entitys_by_mentions(
+            actual_document.entitys, common_actual_mentions
+        )
+        predicted_entitys_by_mentions = _get_entitys_by_mentions(
+            predicted_document.entitys, common_predicted_mentions
+        )
         considered_relation_quote = 0
         if (len(actual_document.relations) + len(predicted_document.relations)) != 0:
             considered_relation_quote = (
@@ -39,10 +45,20 @@ class ScoreCalculator:
             actual_relations=actual_relations_by_mentions,
             predicted_relations=predicted_relations_by_mentions,
         )
+        considered_entity_quote = 0
+        if (len(actual_document.entitys) + len(predicted_document.entitys)) != 0:
+            considered_entity_quote = (
+                len(actual_entitys_by_mentions) + len(predicted_entitys_by_mentions)
+            ) / (len(actual_document.entitys) + len(predicted_document.entitys))
+        entity_score = _calc_entity_score(
+            actual_entitys=actual_entitys_by_mentions, predicted_entitys=predicted_entitys_by_mentions
+        )
         similarity_score_response = F1ScoreResponse(
             mention_score=mention_score,
             considered_relation_quote=considered_relation_quote,
             relation_score=relation_score,
+            considered_entity_quote=considered_entity_quote,
+            entity_score=entity_score
         )
         return similarity_score_response
 
@@ -69,6 +85,18 @@ def _calc_relation_score(
     return _calc_f1_score(
         actual_length=len(actual_relations),
         predicted_length=len(predicted_relations),
+        true_positives=true_positives,
+    )
+
+def _calc_entity_score(
+    actual_entitys: typing.List[Entity], predicted_entitys: typing.List[Entity]
+):
+    true_positives = sum(
+        any(r0.equals(r1) for r1 in predicted_entitys) for r0 in actual_entitys
+    )
+    return _calc_f1_score(
+        actual_length=len(actual_entitys),
+        predicted_length=len(predicted_entitys),
         true_positives=true_positives,
     )
 
@@ -106,3 +134,16 @@ def _get_relations_by_mentions(
         ):
             relation_by_mentions_list.append(relation)
     return relation_by_mentions_list
+
+def _get_entitys_by_mentions(
+    entity_list: typing.List[Entity], mention_list: typing.List[Mention]
+) -> typing.List[Entity]:
+    entity_by_mentions_list = []
+    for entity in entity_list:
+        is_entity_valid = True
+        for mention in entity.mentions:
+            if mention not in mention_list:
+                is_entity_valid = False
+        if is_entity_valid:
+            entity_by_mentions_list.append(entity)
+    return entity_by_mentions_list
