@@ -10,7 +10,7 @@ token_response = api.model(
         "document_index": fields.Integer(required=False),
         "sentence_index": fields.Integer(required=False),
         "pos_tag": fields.String(required=False),
-        "score": fields.Float(required=True),
+        "score": fields.Float(required=False),
     },
 )
 token_request = api.model(

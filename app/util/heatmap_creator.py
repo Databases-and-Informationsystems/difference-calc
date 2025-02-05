@@ -1,7 +1,7 @@
 import typing
 
 from app.model.document import DocumentEdit, Mention, Relation, Token
-from app.util.utils import all_edits_contain_same_tokens, validate_document_edit_lists
+from app.util.utils import validate_document_edit_lists
 
 
 class HeatmapCreator:
@@ -20,7 +20,7 @@ class HeatmapCreator:
 
 def _calculate_token_score(
     token: Token, document_edits: typing.List[DocumentEdit]
-) -> float:
+) -> typing.Optional[float]:
     """
     Creates a score for each token
 
@@ -30,10 +30,15 @@ def _calculate_token_score(
     :param document_edits:
     :return:
     """
-    score: float = 0.0
     token_mentions_per_document = list(
         map(lambda de: de.get_mentions_of_token(token), document_edits)
     )
+
+    # Not a single document has a mention for this token -> No real score can be created
+    if all(len(inner) == 0 for inner in token_mentions_per_document):
+        return None
+
+    score: float = 0.0
     score += _calculate_group_difference_mention_score(token_mentions_per_document)
 
     # calculate similarity of relations associated with the mention(s) of the token

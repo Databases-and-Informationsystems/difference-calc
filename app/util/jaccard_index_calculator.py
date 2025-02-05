@@ -27,8 +27,6 @@ def calculate_combined_jaccard_index(
     mention_intersection = get_intersection(
         list(map(lambda d: d.mentions, document_edits))
     )
-    print(mention_union, flush=True)
-    print(mention_intersection, flush=True)
     mention_index = (
         (len(mention_union) / len(mention_intersection))
         if len(mention_intersection) > 0
