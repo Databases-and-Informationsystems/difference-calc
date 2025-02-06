@@ -18,3 +18,10 @@ POST localhost/difference-calc/f1-score
 Content-Type: application/json
 
 < ./inputs/prediction-comparison/same-document-twice.json
+
+### document1
+
+POST localhost/difference-calc/f1-score
+Content-Type: application/json
+
+< ./inputs/prediction-comparison/document1.json
