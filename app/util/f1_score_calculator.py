@@ -30,11 +30,11 @@ class ScoreCalculator:
         predicted_relations_by_mentions = _get_relations_by_mentions(
             predicted_document.relations, common_predicted_mentions
         )
-        actual_entitys_by_mentions = _get_entitys_by_mentions(
-            actual_document.entitys, common_actual_mentions
+        actual_entities_by_mentions = _get_entities_by_mentions(
+            actual_document.entities, common_actual_mentions
         )
-        predicted_entitys_by_mentions = _get_entitys_by_mentions(
-            predicted_document.entitys, common_predicted_mentions
+        predicted_entities_by_mentions = _get_entities_by_mentions(
+            predicted_document.entities, common_predicted_mentions
         )
         considered_relation_quote = 0
         if (len(actual_document.relations) + len(predicted_document.relations)) != 0:
@@ -46,19 +46,20 @@ class ScoreCalculator:
             predicted_relations=predicted_relations_by_mentions,
         )
         considered_entity_quote = 0
-        if (len(actual_document.entitys) + len(predicted_document.entitys)) != 0:
+        if (len(actual_document.entities) + len(predicted_document.entities)) != 0:
             considered_entity_quote = (
-                len(actual_entitys_by_mentions) + len(predicted_entitys_by_mentions)
-            ) / (len(actual_document.entitys) + len(predicted_document.entitys))
+                len(actual_entities_by_mentions) + len(predicted_entities_by_mentions)
+            ) / (len(actual_document.entities) + len(predicted_document.entities))
         entity_score = _calc_entity_score(
-            actual_entitys=actual_entitys_by_mentions, predicted_entitys=predicted_entitys_by_mentions
+            actual_entities=actual_entities_by_mentions,
+            predicted_entities=predicted_entities_by_mentions,
         )
         similarity_score_response = F1ScoreResponse(
             mention_score=mention_score,
             considered_relation_quote=considered_relation_quote,
             relation_score=relation_score,
             considered_entity_quote=considered_entity_quote,
-            entity_score=entity_score
+            entity_score=entity_score,
         )
         return similarity_score_response
 
@@ -88,15 +89,16 @@ def _calc_relation_score(
         true_positives=true_positives,
     )
 
+
 def _calc_entity_score(
-    actual_entitys: typing.List[Entity], predicted_entitys: typing.List[Entity]
+    actual_entities: typing.List[Entity], predicted_entities: typing.List[Entity]
 ):
     true_positives = sum(
-        any(r0.equals(r1) for r1 in predicted_entitys) for r0 in actual_entitys
+        any(r0.equals(r1) for r1 in predicted_entities) for r0 in actual_entities
     )
     return _calc_f1_score(
-        actual_length=len(actual_entitys),
-        predicted_length=len(predicted_entitys),
+        actual_length=len(actual_entities),
+        predicted_length=len(predicted_entities),
         true_positives=true_positives,
     )
 
@@ -135,7 +137,8 @@ def _get_relations_by_mentions(
             relation_by_mentions_list.append(relation)
     return relation_by_mentions_list
 
-def _get_entitys_by_mentions(
+
+def _get_entities_by_mentions(
     entity_list: typing.List[Entity], mention_list: typing.List[Mention]
 ) -> typing.List[Entity]:
     entity_by_mentions_list = []

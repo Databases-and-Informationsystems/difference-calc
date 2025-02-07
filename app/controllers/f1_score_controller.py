@@ -10,6 +10,7 @@ from app.restx_dtos import (
     f1_score_request,
 )
 from app.util.f1_score_calculator import ScoreCalculator
+from app.util.utils import get_entities_with_mentions
 
 
 @ns_score.route("")
@@ -30,6 +31,8 @@ class F1ScoreController(Resource):
         predicted = TypeAdapter(DocumentEdit).validate_json(
             json.dumps(data.get("predicted"))
         )
+        actual.entities = get_entities_with_mentions(actual.mentions)
+        predicted.entities = get_entities_with_mentions(predicted.mentions)
 
         score_calculator = ScoreCalculator()
         score = score_calculator.calc_score(
