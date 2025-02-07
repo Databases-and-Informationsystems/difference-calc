@@ -29,7 +29,6 @@ class Token(BaseModel):
 
 class Entity(BaseModel):
     id: int
-
     mentions: typing.Optional[typing.List["Mention"]] = None
 
     def equals(self, entity: typing.Optional["Entity"]) -> bool:
@@ -56,6 +55,7 @@ class Entity(BaseModel):
 class Mention(BaseModel):
     tag: str
     tokens: typing.List[Token]
+    entity: typing.Optional[Entity] = None
 
     def equals(self, mention: "Mention") -> bool:
         return (
@@ -100,7 +100,7 @@ class DocumentEdit(BaseModel):
     document: Document
     mentions: typing.Optional[typing.List[Mention]] = None
     relations: typing.Optional[typing.List[Relation]] = None
-    entitys: typing.Optional[typing.List[Entity]] = None
+    entities: typing.Optional[typing.List[Entity]] = None
 
     model_config = ConfigDict(from_attributes=True)
 

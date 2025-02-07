@@ -39,14 +39,16 @@ mention_request = api.model(
     {
         "tag": fields.String(required=True),
         "tokens": fields.List(fields.Nested(token_request)),
+        "entity": fields.Nested(
+            api.model("Entity", {"id": fields.Integer(required=True)}),
+            required=False,
+        ),
     },
 )
 
 entity_request = api.model(
     "entity",
-    {
-        "mentions": fields.List(fields.Nested(mention_request))
-    },
+    {"mentions": fields.List(fields.Nested(mention_request))},
 )
 
 relation_request = api.model(

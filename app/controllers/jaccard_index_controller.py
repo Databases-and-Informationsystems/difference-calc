@@ -11,6 +11,7 @@ from app.restx_dtos import (
     jaccard_response,
 )
 from app.util.jaccard_index_calculator import JaccardIndexCalculator
+from app.util.utils import get_entities_with_mentions
 
 
 @ns_jaccard_index.route("")
@@ -29,6 +30,9 @@ class JaccardIndexController(Resource):
         document_edits: typing.List[DocumentEdit] = TypeAdapter(
             list[DocumentEdit]
         ).validate_json(request.get_data())
+
+        for document_edit in document_edits:
+            document_edit.entities = get_entities_with_mentions(document_edit.mentions)
 
         jaccard_index_calculator = JaccardIndexCalculator()
         result = jaccard_index_calculator.calculate(document_edits)

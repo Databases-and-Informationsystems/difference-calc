@@ -131,6 +131,9 @@ def _calculate_difference_entities_score(
 ) -> float:
     score: float = 0.0
     for mention_i, mention_j in mention_pairs:
+        if mention_i.entity is None and mention_j.entity is None:
+            continue
+
         if (
             mention_j.entity is None and mention_i.entity is not None
         ) or not mention_j.entity.equals(mention_i.entity):

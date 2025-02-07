@@ -27,3 +27,10 @@ POST localhost/difference-calc/heatmap
 Content-Type: application/json
 
 < ./inputs/list/list-with-only-one-element.json
+
+### heatmap1
+
+POST localhost/difference-calc/heatmap
+Content-Type: application/json
+
+< ./inputs/list/heatmap1.json

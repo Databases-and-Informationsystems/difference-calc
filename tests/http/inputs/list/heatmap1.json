@@ -1,0 +1,7102 @@
+[
+  {
+    "document": {
+      "id": 140,
+      "tokens": [
+        {
+          "id": 20112,
+          "text": "The",
+          "document_index": 0,
+          "sentence_index": 0,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20113,
+          "text": "Customer",
+          "document_index": 1,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20114,
+          "text": "Service",
+          "document_index": 2,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20115,
+          "text": "Representative",
+          "document_index": 3,
+          "sentence_index": 0,
+          "pos_tag": "NNP"
+        },
+        {
+          "id": 20116,
+          "text": "sends",
+          "document_index": 4,
+          "sentence_index": 0,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20117,
+          "text": "a",
+          "document_index": 5,
+          "sentence_index": 0,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20118,
+          "text": "Mortgage",
+          "document_index": 6,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20119,
+          "text": "offer",
+          "document_index": 7,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20120,
+          "text": "to",
+          "document_index": 8,
+          "sentence_index": 0,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20121,
+          "text": "the",
+          "document_index": 9,
+          "sentence_index": 0,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20122,
+          "text": "customer",
+          "document_index": 10,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20123,
+          "text": "and",
+          "document_index": 11,
+          "sentence_index": 0,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20124,
+          "text": "waits",
+          "document_index": 12,
+          "sentence_index": 0,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20125,
+          "text": "for",
+          "document_index": 13,
+          "sentence_index": 0,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20126,
+          "text": "a",
+          "document_index": 14,
+          "sentence_index": 0,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20127,
+          "text": "reply",
+          "document_index": 15,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20128,
+          "text": ".",
+          "document_index": 16,
+          "sentence_index": 0,
+          "pos_tag": "."
+        },
+        {
+          "id": 20129,
+          "text": "If",
+          "document_index": 17,
+          "sentence_index": 1,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20130,
+          "text": "the",
+          "document_index": 18,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20131,
+          "text": "customer",
+          "document_index": 19,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20132,
+          "text": "calls",
+          "document_index": 20,
+          "sentence_index": 1,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20133,
+          "text": "or",
+          "document_index": 21,
+          "sentence_index": 1,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20134,
+          "text": "writes",
+          "document_index": 22,
+          "sentence_index": 1,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20135,
+          "text": "back",
+          "document_index": 23,
+          "sentence_index": 1,
+          "pos_tag": "RB"
+        },
+        {
+          "id": 20136,
+          "text": "declining",
+          "document_index": 24,
+          "sentence_index": 1,
+          "pos_tag": "VBG"
+        },
+        {
+          "id": 20137,
+          "text": "the",
+          "document_index": 25,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20138,
+          "text": "mortgage",
+          "document_index": 26,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20139,
+          "text": ",",
+          "document_index": 27,
+          "sentence_index": 1,
+          "pos_tag": ","
+        },
+        {
+          "id": 20140,
+          "text": "the",
+          "document_index": 28,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20141,
+          "text": "case",
+          "document_index": 29,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20142,
+          "text": "details",
+          "document_index": 30,
+          "sentence_index": 1,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20143,
+          "text": "are",
+          "document_index": 31,
+          "sentence_index": 1,
+          "pos_tag": "VBP"
+        },
+        {
+          "id": 20144,
+          "text": "updated",
+          "document_index": 32,
+          "sentence_index": 1,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20145,
+          "text": "and",
+          "document_index": 33,
+          "sentence_index": 1,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20146,
+          "text": "the",
+          "document_index": 34,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20147,
+          "text": "work",
+          "document_index": 35,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20148,
+          "text": "is",
+          "document_index": 36,
+          "sentence_index": 1,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20149,
+          "text": "then",
+          "document_index": 37,
+          "sentence_index": 1,
+          "pos_tag": "RB"
+        },
+        {
+          "id": 20150,
+          "text": "archived",
+          "document_index": 38,
+          "sentence_index": 1,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20151,
+          "text": "prior",
+          "document_index": 39,
+          "sentence_index": 1,
+          "pos_tag": "JJ"
+        },
+        {
+          "id": 20152,
+          "text": "to",
+          "document_index": 40,
+          "sentence_index": 1,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20153,
+          "text": "cancellation",
+          "document_index": 41,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20154,
+          "text": ".",
+          "document_index": 42,
+          "sentence_index": 1,
+          "pos_tag": "."
+        },
+        {
+          "id": 20155,
+          "text": "If",
+          "document_index": 43,
+          "sentence_index": 2,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20156,
+          "text": "the",
+          "document_index": 44,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20157,
+          "text": "customer",
+          "document_index": 45,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20158,
+          "text": "sends",
+          "document_index": 46,
+          "sentence_index": 2,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20159,
+          "text": "back",
+          "document_index": 47,
+          "sentence_index": 2,
+          "pos_tag": "RP"
+        },
+        {
+          "id": 20160,
+          "text": "the",
+          "document_index": 48,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20161,
+          "text": "completed",
+          "document_index": 49,
+          "sentence_index": 2,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20162,
+          "text": "offer",
+          "document_index": 50,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20163,
+          "text": "documents",
+          "document_index": 51,
+          "sentence_index": 2,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20164,
+          "text": "and",
+          "document_index": 52,
+          "sentence_index": 2,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20165,
+          "text": "attaches",
+          "document_index": 53,
+          "sentence_index": 2,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20166,
+          "text": "all",
+          "document_index": 54,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20167,
+          "text": "prerequisite",
+          "document_index": 55,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20168,
+          "text": "documents",
+          "document_index": 56,
+          "sentence_index": 2,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20169,
+          "text": "then",
+          "document_index": 57,
+          "sentence_index": 2,
+          "pos_tag": "RB"
+        },
+        {
+          "id": 20170,
+          "text": "the",
+          "document_index": 58,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20171,
+          "text": "case",
+          "document_index": 59,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20172,
+          "text": "is",
+          "document_index": 60,
+          "sentence_index": 2,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20173,
+          "text": "moved",
+          "document_index": 61,
+          "sentence_index": 2,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20174,
+          "text": "to",
+          "document_index": 62,
+          "sentence_index": 2,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20175,
+          "text": "administration",
+          "document_index": 63,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20176,
+          "text": "for",
+          "document_index": 64,
+          "sentence_index": 2,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20177,
+          "text": "completion",
+          "document_index": 65,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20178,
+          "text": ".",
+          "document_index": 66,
+          "sentence_index": 2,
+          "pos_tag": "."
+        },
+        {
+          "id": 20179,
+          "text": "If",
+          "document_index": 67,
+          "sentence_index": 3,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20180,
+          "text": "all",
+          "document_index": 68,
+          "sentence_index": 3,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20181,
+          "text": "pre-requisite",
+          "document_index": 69,
+          "sentence_index": 3,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20182,
+          "text": "documents",
+          "document_index": 70,
+          "sentence_index": 3,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20183,
+          "text": "are",
+          "document_index": 71,
+          "sentence_index": 3,
+          "pos_tag": "VBP"
+        },
+        {
+          "id": 20184,
+          "text": "not",
+          "document_index": 72,
+          "sentence_index": 3,
+          "pos_tag": "RB"
+        },
+        {
+          "id": 20185,
+          "text": "provided",
+          "document_index": 73,
+          "sentence_index": 3,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20186,
+          "text": "a",
+          "document_index": 74,
+          "sentence_index": 3,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20187,
+          "text": "message",
+          "document_index": 75,
+          "sentence_index": 3,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20188,
+          "text": "is",
+          "document_index": 76,
+          "sentence_index": 3,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20189,
+          "text": "generated",
+          "document_index": 77,
+          "sentence_index": 3,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20190,
+          "text": "to",
+          "document_index": 78,
+          "sentence_index": 3,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20191,
+          "text": "the",
+          "document_index": 79,
+          "sentence_index": 3,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20192,
+          "text": "customer",
+          "document_index": 80,
+          "sentence_index": 3,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20193,
+          "text": "requesting",
+          "document_index": 81,
+          "sentence_index": 3,
+          "pos_tag": "VBG"
+        },
+        {
+          "id": 20194,
+          "text": "outstanding",
+          "document_index": 82,
+          "sentence_index": 3,
+          "pos_tag": "JJ"
+        },
+        {
+          "id": 20195,
+          "text": "documents",
+          "document_index": 83,
+          "sentence_index": 3,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20196,
+          "text": ".",
+          "document_index": 84,
+          "sentence_index": 3,
+          "pos_tag": "."
+        },
+        {
+          "id": 20197,
+          "text": "If",
+          "document_index": 85,
+          "sentence_index": 4,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20198,
+          "text": "no",
+          "document_index": 86,
+          "sentence_index": 4,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20199,
+          "text": "answer",
+          "document_index": 87,
+          "sentence_index": 4,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20200,
+          "text": "is",
+          "document_index": 88,
+          "sentence_index": 4,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20201,
+          "text": "received",
+          "document_index": 89,
+          "sentence_index": 4,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20202,
+          "text": "after",
+          "document_index": 90,
+          "sentence_index": 4,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20203,
+          "text": "2",
+          "document_index": 91,
+          "sentence_index": 4,
+          "pos_tag": "CD"
+        },
+        {
+          "id": 20204,
+          "text": "weeks",
+          "document_index": 92,
+          "sentence_index": 4,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20205,
+          "text": ",",
+          "document_index": 93,
+          "sentence_index": 4,
+          "pos_tag": ","
+        },
+        {
+          "id": 20206,
+          "text": "the",
+          "document_index": 94,
+          "sentence_index": 4,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20207,
+          "text": "case",
+          "document_index": 95,
+          "sentence_index": 4,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20208,
+          "text": "details",
+          "document_index": 96,
+          "sentence_index": 4,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20209,
+          "text": "are",
+          "document_index": 97,
+          "sentence_index": 4,
+          "pos_tag": "VBP"
+        },
+        {
+          "id": 20210,
+          "text": "updated",
+          "document_index": 98,
+          "sentence_index": 4,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20211,
+          "text": "prior",
+          "document_index": 99,
+          "sentence_index": 4,
+          "pos_tag": "JJ"
+        },
+        {
+          "id": 20212,
+          "text": "to",
+          "document_index": 100,
+          "sentence_index": 4,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20213,
+          "text": "archive",
+          "document_index": 101,
+          "sentence_index": 4,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20214,
+          "text": "and",
+          "document_index": 102,
+          "sentence_index": 4,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20215,
+          "text": "cancellation",
+          "document_index": 103,
+          "sentence_index": 4,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20216,
+          "text": ".",
+          "document_index": 104,
+          "sentence_index": 4,
+          "pos_tag": "."
+        }
+      ]
+    },
+    "schema_id": 15,
+    "mentions": [],
+    "relations": []
+  },
+  {
+    "document": {
+      "id": 140,
+      "tokens": [
+        {
+          "id": 20112,
+          "text": "The",
+          "document_index": 0,
+          "sentence_index": 0,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20113,
+          "text": "Customer",
+          "document_index": 1,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20114,
+          "text": "Service",
+          "document_index": 2,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20115,
+          "text": "Representative",
+          "document_index": 3,
+          "sentence_index": 0,
+          "pos_tag": "NNP"
+        },
+        {
+          "id": 20116,
+          "text": "sends",
+          "document_index": 4,
+          "sentence_index": 0,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20117,
+          "text": "a",
+          "document_index": 5,
+          "sentence_index": 0,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20118,
+          "text": "Mortgage",
+          "document_index": 6,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20119,
+          "text": "offer",
+          "document_index": 7,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20120,
+          "text": "to",
+          "document_index": 8,
+          "sentence_index": 0,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20121,
+          "text": "the",
+          "document_index": 9,
+          "sentence_index": 0,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20122,
+          "text": "customer",
+          "document_index": 10,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20123,
+          "text": "and",
+          "document_index": 11,
+          "sentence_index": 0,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20124,
+          "text": "waits",
+          "document_index": 12,
+          "sentence_index": 0,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20125,
+          "text": "for",
+          "document_index": 13,
+          "sentence_index": 0,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20126,
+          "text": "a",
+          "document_index": 14,
+          "sentence_index": 0,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20127,
+          "text": "reply",
+          "document_index": 15,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20128,
+          "text": ".",
+          "document_index": 16,
+          "sentence_index": 0,
+          "pos_tag": "."
+        },
+        {
+          "id": 20129,
+          "text": "If",
+          "document_index": 17,
+          "sentence_index": 1,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20130,
+          "text": "the",
+          "document_index": 18,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20131,
+          "text": "customer",
+          "document_index": 19,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20132,
+          "text": "calls",
+          "document_index": 20,
+          "sentence_index": 1,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20133,
+          "text": "or",
+          "document_index": 21,
+          "sentence_index": 1,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20134,
+          "text": "writes",
+          "document_index": 22,
+          "sentence_index": 1,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20135,
+          "text": "back",
+          "document_index": 23,
+          "sentence_index": 1,
+          "pos_tag": "RB"
+        },
+        {
+          "id": 20136,
+          "text": "declining",
+          "document_index": 24,
+          "sentence_index": 1,
+          "pos_tag": "VBG"
+        },
+        {
+          "id": 20137,
+          "text": "the",
+          "document_index": 25,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20138,
+          "text": "mortgage",
+          "document_index": 26,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20139,
+          "text": ",",
+          "document_index": 27,
+          "sentence_index": 1,
+          "pos_tag": ","
+        },
+        {
+          "id": 20140,
+          "text": "the",
+          "document_index": 28,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20141,
+          "text": "case",
+          "document_index": 29,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20142,
+          "text": "details",
+          "document_index": 30,
+          "sentence_index": 1,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20143,
+          "text": "are",
+          "document_index": 31,
+          "sentence_index": 1,
+          "pos_tag": "VBP"
+        },
+        {
+          "id": 20144,
+          "text": "updated",
+          "document_index": 32,
+          "sentence_index": 1,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20145,
+          "text": "and",
+          "document_index": 33,
+          "sentence_index": 1,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20146,
+          "text": "the",
+          "document_index": 34,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20147,
+          "text": "work",
+          "document_index": 35,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20148,
+          "text": "is",
+          "document_index": 36,
+          "sentence_index": 1,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20149,
+          "text": "then",
+          "document_index": 37,
+          "sentence_index": 1,
+          "pos_tag": "RB"
+        },
+        {
+          "id": 20150,
+          "text": "archived",
+          "document_index": 38,
+          "sentence_index": 1,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20151,
+          "text": "prior",
+          "document_index": 39,
+          "sentence_index": 1,
+          "pos_tag": "JJ"
+        },
+        {
+          "id": 20152,
+          "text": "to",
+          "document_index": 40,
+          "sentence_index": 1,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20153,
+          "text": "cancellation",
+          "document_index": 41,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20154,
+          "text": ".",
+          "document_index": 42,
+          "sentence_index": 1,
+          "pos_tag": "."
+        },
+        {
+          "id": 20155,
+          "text": "If",
+          "document_index": 43,
+          "sentence_index": 2,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20156,
+          "text": "the",
+          "document_index": 44,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20157,
+          "text": "customer",
+          "document_index": 45,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20158,
+          "text": "sends",
+          "document_index": 46,
+          "sentence_index": 2,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20159,
+          "text": "back",
+          "document_index": 47,
+          "sentence_index": 2,
+          "pos_tag": "RP"
+        },
+        {
+          "id": 20160,
+          "text": "the",
+          "document_index": 48,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20161,
+          "text": "completed",
+          "document_index": 49,
+          "sentence_index": 2,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20162,
+          "text": "offer",
+          "document_index": 50,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20163,
+          "text": "documents",
+          "document_index": 51,
+          "sentence_index": 2,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20164,
+          "text": "and",
+          "document_index": 52,
+          "sentence_index": 2,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20165,
+          "text": "attaches",
+          "document_index": 53,
+          "sentence_index": 2,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20166,
+          "text": "all",
+          "document_index": 54,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20167,
+          "text": "prerequisite",
+          "document_index": 55,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20168,
+          "text": "documents",
+          "document_index": 56,
+          "sentence_index": 2,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20169,
+          "text": "then",
+          "document_index": 57,
+          "sentence_index": 2,
+          "pos_tag": "RB"
+        },
+        {
+          "id": 20170,
+          "text": "the",
+          "document_index": 58,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20171,
+          "text": "case",
+          "document_index": 59,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20172,
+          "text": "is",
+          "document_index": 60,
+          "sentence_index": 2,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20173,
+          "text": "moved",
+          "document_index": 61,
+          "sentence_index": 2,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20174,
+          "text": "to",
+          "document_index": 62,
+          "sentence_index": 2,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20175,
+          "text": "administration",
+          "document_index": 63,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20176,
+          "text": "for",
+          "document_index": 64,
+          "sentence_index": 2,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20177,
+          "text": "completion",
+          "document_index": 65,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20178,
+          "text": ".",
+          "document_index": 66,
+          "sentence_index": 2,
+          "pos_tag": "."
+        },
+        {
+          "id": 20179,
+          "text": "If",
+          "document_index": 67,
+          "sentence_index": 3,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20180,
+          "text": "all",
+          "document_index": 68,
+          "sentence_index": 3,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20181,
+          "text": "pre-requisite",
+          "document_index": 69,
+          "sentence_index": 3,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20182,
+          "text": "documents",
+          "document_index": 70,
+          "sentence_index": 3,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20183,
+          "text": "are",
+          "document_index": 71,
+          "sentence_index": 3,
+          "pos_tag": "VBP"
+        },
+        {
+          "id": 20184,
+          "text": "not",
+          "document_index": 72,
+          "sentence_index": 3,
+          "pos_tag": "RB"
+        },
+        {
+          "id": 20185,
+          "text": "provided",
+          "document_index": 73,
+          "sentence_index": 3,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20186,
+          "text": "a",
+          "document_index": 74,
+          "sentence_index": 3,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20187,
+          "text": "message",
+          "document_index": 75,
+          "sentence_index": 3,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20188,
+          "text": "is",
+          "document_index": 76,
+          "sentence_index": 3,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20189,
+          "text": "generated",
+          "document_index": 77,
+          "sentence_index": 3,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20190,
+          "text": "to",
+          "document_index": 78,
+          "sentence_index": 3,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20191,
+          "text": "the",
+          "document_index": 79,
+          "sentence_index": 3,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20192,
+          "text": "customer",
+          "document_index": 80,
+          "sentence_index": 3,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20193,
+          "text": "requesting",
+          "document_index": 81,
+          "sentence_index": 3,
+          "pos_tag": "VBG"
+        },
+        {
+          "id": 20194,
+          "text": "outstanding",
+          "document_index": 82,
+          "sentence_index": 3,
+          "pos_tag": "JJ"
+        },
+        {
+          "id": 20195,
+          "text": "documents",
+          "document_index": 83,
+          "sentence_index": 3,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20196,
+          "text": ".",
+          "document_index": 84,
+          "sentence_index": 3,
+          "pos_tag": "."
+        },
+        {
+          "id": 20197,
+          "text": "If",
+          "document_index": 85,
+          "sentence_index": 4,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20198,
+          "text": "no",
+          "document_index": 86,
+          "sentence_index": 4,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20199,
+          "text": "answer",
+          "document_index": 87,
+          "sentence_index": 4,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20200,
+          "text": "is",
+          "document_index": 88,
+          "sentence_index": 4,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20201,
+          "text": "received",
+          "document_index": 89,
+          "sentence_index": 4,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20202,
+          "text": "after",
+          "document_index": 90,
+          "sentence_index": 4,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20203,
+          "text": "2",
+          "document_index": 91,
+          "sentence_index": 4,
+          "pos_tag": "CD"
+        },
+        {
+          "id": 20204,
+          "text": "weeks",
+          "document_index": 92,
+          "sentence_index": 4,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20205,
+          "text": ",",
+          "document_index": 93,
+          "sentence_index": 4,
+          "pos_tag": ","
+        },
+        {
+          "id": 20206,
+          "text": "the",
+          "document_index": 94,
+          "sentence_index": 4,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20207,
+          "text": "case",
+          "document_index": 95,
+          "sentence_index": 4,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20208,
+          "text": "details",
+          "document_index": 96,
+          "sentence_index": 4,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20209,
+          "text": "are",
+          "document_index": 97,
+          "sentence_index": 4,
+          "pos_tag": "VBP"
+        },
+        {
+          "id": 20210,
+          "text": "updated",
+          "document_index": 98,
+          "sentence_index": 4,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20211,
+          "text": "prior",
+          "document_index": 99,
+          "sentence_index": 4,
+          "pos_tag": "JJ"
+        },
+        {
+          "id": 20212,
+          "text": "to",
+          "document_index": 100,
+          "sentence_index": 4,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20213,
+          "text": "archive",
+          "document_index": 101,
+          "sentence_index": 4,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20214,
+          "text": "and",
+          "document_index": 102,
+          "sentence_index": 4,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20215,
+          "text": "cancellation",
+          "document_index": 103,
+          "sentence_index": 4,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20216,
+          "text": ".",
+          "document_index": 104,
+          "sentence_index": 4,
+          "pos_tag": "."
+        }
+      ]
+    },
+    "schema_id": 15,
+    "mentions": [
+      {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 20113,
+            "text": "Customer",
+            "document_index": 1,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20114,
+            "text": "Service",
+            "document_index": 2,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20115,
+            "text": "Representative",
+            "document_index": 3,
+            "sentence_index": 0,
+            "pos_tag": "NNP"
+          }
+        ]
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20116,
+            "text": "sends",
+            "document_index": 4,
+            "sentence_index": 0,
+            "pos_tag": "VBZ"
+          }
+        ],
+        "entity": {
+          "id": 3916
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20118,
+            "text": "Mortgage",
+            "document_index": 6,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20119,
+            "text": "offer",
+            "document_index": 7,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3917
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20122,
+            "text": "customer",
+            "document_index": 10,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3918
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20124,
+            "text": "waits",
+            "document_index": 12,
+            "sentence_index": 0,
+            "pos_tag": "VBZ"
+          }
+        ],
+        "entity": {
+          "id": 3916
+        }
+      },
+      {
+        "tag": "Condition Specification",
+        "tokens": [
+          {
+            "id": 20129,
+            "text": "If",
+            "document_index": 17,
+            "sentence_index": 1,
+            "pos_tag": "IN"
+          }
+        ],
+        "entity": {
+          "id": 3919
+        }
+      },
+      {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 20130,
+            "text": "the",
+            "document_index": 18,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20131,
+            "text": "customer",
+            "document_index": 19,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          }
+        ]
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20132,
+            "text": "calls",
+            "document_index": 20,
+            "sentence_index": 1,
+            "pos_tag": "VBZ"
+          }
+        ],
+        "entity": {
+          "id": 3916
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20134,
+            "text": "writes",
+            "document_index": 22,
+            "sentence_index": 1,
+            "pos_tag": "VBZ"
+          },
+          {
+            "id": 20135,
+            "text": "back",
+            "document_index": 23,
+            "sentence_index": 1,
+            "pos_tag": "RB"
+          },
+          {
+            "id": 20136,
+            "text": "declining",
+            "document_index": 24,
+            "sentence_index": 1,
+            "pos_tag": "VBG"
+          }
+        ],
+        "entity": {
+          "id": 3916
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20137,
+            "text": "the",
+            "document_index": 25,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20138,
+            "text": "mortgage",
+            "document_index": 26,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20139,
+            "text": ",",
+            "document_index": 27,
+            "sentence_index": 1,
+            "pos_tag": ","
+          },
+          {
+            "id": 20140,
+            "text": "the",
+            "document_index": 28,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20141,
+            "text": "case",
+            "document_index": 29,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20142,
+            "text": "details",
+            "document_index": 30,
+            "sentence_index": 1,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 3917
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20144,
+            "text": "updated",
+            "document_index": 32,
+            "sentence_index": 1,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 3916
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20147,
+            "text": "work",
+            "document_index": 35,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20148,
+            "text": "is",
+            "document_index": 36,
+            "sentence_index": 1,
+            "pos_tag": "VBZ"
+          },
+          {
+            "id": 20149,
+            "text": "then",
+            "document_index": 37,
+            "sentence_index": 1,
+            "pos_tag": "RB"
+          },
+          {
+            "id": 20150,
+            "text": "archived",
+            "document_index": 38,
+            "sentence_index": 1,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 3920
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20151,
+            "text": "prior",
+            "document_index": 39,
+            "sentence_index": 1,
+            "pos_tag": "JJ"
+          },
+          {
+            "id": 20152,
+            "text": "to",
+            "document_index": 40,
+            "sentence_index": 1,
+            "pos_tag": "IN"
+          },
+          {
+            "id": 20153,
+            "text": "cancellation",
+            "document_index": 41,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3917
+        }
+      },
+      {
+        "tag": "Condition Specification",
+        "tokens": [
+          {
+            "id": 20155,
+            "text": "If",
+            "document_index": 43,
+            "sentence_index": 2,
+            "pos_tag": "IN"
+          }
+        ],
+        "entity": {
+          "id": 3921
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20180,
+            "text": "all",
+            "document_index": 68,
+            "sentence_index": 3,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20181,
+            "text": "pre-requisite",
+            "document_index": 69,
+            "sentence_index": 3,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20182,
+            "text": "documents",
+            "document_index": 70,
+            "sentence_index": 3,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 3917
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20183,
+            "text": "are",
+            "document_index": 71,
+            "sentence_index": 3,
+            "pos_tag": "VBP"
+          },
+          {
+            "id": 20184,
+            "text": "not",
+            "document_index": 72,
+            "sentence_index": 3,
+            "pos_tag": "RB"
+          },
+          {
+            "id": 20185,
+            "text": "provided",
+            "document_index": 73,
+            "sentence_index": 3,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 3916
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20187,
+            "text": "message",
+            "document_index": 75,
+            "sentence_index": 3,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3922
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20188,
+            "text": "is",
+            "document_index": 76,
+            "sentence_index": 3,
+            "pos_tag": "VBZ"
+          },
+          {
+            "id": 20189,
+            "text": "generated",
+            "document_index": 77,
+            "sentence_index": 3,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 3916
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20191,
+            "text": "the",
+            "document_index": 79,
+            "sentence_index": 3,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20192,
+            "text": "customer",
+            "document_index": 80,
+            "sentence_index": 3,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20193,
+            "text": "requesting",
+            "document_index": 81,
+            "sentence_index": 3,
+            "pos_tag": "VBG"
+          },
+          {
+            "id": 20194,
+            "text": "outstanding",
+            "document_index": 82,
+            "sentence_index": 3,
+            "pos_tag": "JJ"
+          },
+          {
+            "id": 20195,
+            "text": "documents",
+            "document_index": 83,
+            "sentence_index": 3,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 3917
+        }
+      },
+      {
+        "tag": "Condition Specification",
+        "tokens": [
+          {
+            "id": 20197,
+            "text": "If",
+            "document_index": 85,
+            "sentence_index": 4,
+            "pos_tag": "IN"
+          }
+        ],
+        "entity": {
+          "id": 3923
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20198,
+            "text": "no",
+            "document_index": 86,
+            "sentence_index": 4,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20199,
+            "text": "answer",
+            "document_index": 87,
+            "sentence_index": 4,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3918
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20200,
+            "text": "is",
+            "document_index": 88,
+            "sentence_index": 4,
+            "pos_tag": "VBZ"
+          },
+          {
+            "id": 20201,
+            "text": "received",
+            "document_index": 89,
+            "sentence_index": 4,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 3916
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20206,
+            "text": "the",
+            "document_index": 94,
+            "sentence_index": 4,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20207,
+            "text": "case",
+            "document_index": 95,
+            "sentence_index": 4,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20208,
+            "text": "details",
+            "document_index": 96,
+            "sentence_index": 4,
+            "pos_tag": "NNS"
+          },
+          {
+            "id": 20209,
+            "text": "are",
+            "document_index": 97,
+            "sentence_index": 4,
+            "pos_tag": "VBP"
+          },
+          {
+            "id": 20210,
+            "text": "updated",
+            "document_index": 98,
+            "sentence_index": 4,
+            "pos_tag": "VBN"
+          },
+          {
+            "id": 20211,
+            "text": "prior",
+            "document_index": 99,
+            "sentence_index": 4,
+            "pos_tag": "JJ"
+          },
+          {
+            "id": 20212,
+            "text": "to",
+            "document_index": 100,
+            "sentence_index": 4,
+            "pos_tag": "IN"
+          },
+          {
+            "id": 20213,
+            "text": "archive",
+            "document_index": 101,
+            "sentence_index": 4,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20214,
+            "text": "and",
+            "document_index": 102,
+            "sentence_index": 4,
+            "pos_tag": "CC"
+          },
+          {
+            "id": 20215,
+            "text": "cancellation",
+            "document_index": 103,
+            "sentence_index": 4,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3924
+        }
+      },
+      {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 20113,
+            "text": "Customer",
+            "document_index": 1,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20114,
+            "text": "Service",
+            "document_index": 2,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20115,
+            "text": "Representative",
+            "document_index": 3,
+            "sentence_index": 0,
+            "pos_tag": "NNP"
+          }
+        ]
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20116,
+            "text": "sends",
+            "document_index": 4,
+            "sentence_index": 0,
+            "pos_tag": "VBZ"
+          }
+        ],
+        "entity": {
+          "id": 3916
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20118,
+            "text": "Mortgage",
+            "document_index": 6,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20119,
+            "text": "offer",
+            "document_index": 7,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3917
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20122,
+            "text": "customer",
+            "document_index": 10,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3918
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20124,
+            "text": "waits",
+            "document_index": 12,
+            "sentence_index": 0,
+            "pos_tag": "VBZ"
+          }
+        ],
+        "entity": {
+          "id": 3916
+        }
+      },
+      {
+        "tag": "Condition Specification",
+        "tokens": [
+          {
+            "id": 20129,
+            "text": "If",
+            "document_index": 17,
+            "sentence_index": 1,
+            "pos_tag": "IN"
+          }
+        ],
+        "entity": {
+          "id": 3919
+        }
+      },
+      {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 20130,
+            "text": "the",
+            "document_index": 18,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20131,
+            "text": "customer",
+            "document_index": 19,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          }
+        ]
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20132,
+            "text": "calls",
+            "document_index": 20,
+            "sentence_index": 1,
+            "pos_tag": "VBZ"
+          }
+        ],
+        "entity": {
+          "id": 3916
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20134,
+            "text": "writes",
+            "document_index": 22,
+            "sentence_index": 1,
+            "pos_tag": "VBZ"
+          },
+          {
+            "id": 20135,
+            "text": "back",
+            "document_index": 23,
+            "sentence_index": 1,
+            "pos_tag": "RB"
+          },
+          {
+            "id": 20136,
+            "text": "declining",
+            "document_index": 24,
+            "sentence_index": 1,
+            "pos_tag": "VBG"
+          }
+        ],
+        "entity": {
+          "id": 3916
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20137,
+            "text": "the",
+            "document_index": 25,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20138,
+            "text": "mortgage",
+            "document_index": 26,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20139,
+            "text": ",",
+            "document_index": 27,
+            "sentence_index": 1,
+            "pos_tag": ","
+          },
+          {
+            "id": 20140,
+            "text": "the",
+            "document_index": 28,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20141,
+            "text": "case",
+            "document_index": 29,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20142,
+            "text": "details",
+            "document_index": 30,
+            "sentence_index": 1,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 3917
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20144,
+            "text": "updated",
+            "document_index": 32,
+            "sentence_index": 1,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 3916
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20147,
+            "text": "work",
+            "document_index": 35,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20148,
+            "text": "is",
+            "document_index": 36,
+            "sentence_index": 1,
+            "pos_tag": "VBZ"
+          },
+          {
+            "id": 20149,
+            "text": "then",
+            "document_index": 37,
+            "sentence_index": 1,
+            "pos_tag": "RB"
+          },
+          {
+            "id": 20150,
+            "text": "archived",
+            "document_index": 38,
+            "sentence_index": 1,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 3920
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20151,
+            "text": "prior",
+            "document_index": 39,
+            "sentence_index": 1,
+            "pos_tag": "JJ"
+          },
+          {
+            "id": 20152,
+            "text": "to",
+            "document_index": 40,
+            "sentence_index": 1,
+            "pos_tag": "IN"
+          },
+          {
+            "id": 20153,
+            "text": "cancellation",
+            "document_index": 41,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3917
+        }
+      },
+      {
+        "tag": "Condition Specification",
+        "tokens": [
+          {
+            "id": 20155,
+            "text": "If",
+            "document_index": 43,
+            "sentence_index": 2,
+            "pos_tag": "IN"
+          }
+        ],
+        "entity": {
+          "id": 3921
+        }
+      }
+    ],
+    "relations": [
+      {
+        "tag": "actor performer",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20116,
+              "text": "sends",
+              "document_index": 4,
+              "sentence_index": 0,
+              "pos_tag": "VBZ"
+            }
+          ],
+          "entity": {
+            "id": 3916
+          }
+        },
+        "mention_tail": {
+          "tag": "Actor",
+          "tokens": [
+            {
+              "id": 20113,
+              "text": "Customer",
+              "document_index": 1,
+              "sentence_index": 0,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20114,
+              "text": "Service",
+              "document_index": 2,
+              "sentence_index": 0,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20115,
+              "text": "Representative",
+              "document_index": 3,
+              "sentence_index": 0,
+              "pos_tag": "NNP"
+            }
+          ]
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20124,
+              "text": "waits",
+              "document_index": 12,
+              "sentence_index": 0,
+              "pos_tag": "VBZ"
+            }
+          ],
+          "entity": {
+            "id": 3916
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20132,
+              "text": "calls",
+              "document_index": 20,
+              "sentence_index": 1,
+              "pos_tag": "VBZ"
+            }
+          ],
+          "entity": {
+            "id": 3916
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20132,
+              "text": "calls",
+              "document_index": 20,
+              "sentence_index": 1,
+              "pos_tag": "VBZ"
+            }
+          ],
+          "entity": {
+            "id": 3916
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20134,
+              "text": "writes",
+              "document_index": 22,
+              "sentence_index": 1,
+              "pos_tag": "VBZ"
+            },
+            {
+              "id": 20135,
+              "text": "back",
+              "document_index": 23,
+              "sentence_index": 1,
+              "pos_tag": "RB"
+            },
+            {
+              "id": 20136,
+              "text": "declining",
+              "document_index": 24,
+              "sentence_index": 1,
+              "pos_tag": "VBG"
+            }
+          ],
+          "entity": {
+            "id": 3916
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Condition Specification",
+          "tokens": [
+            {
+              "id": 20155,
+              "text": "If",
+              "document_index": 43,
+              "sentence_index": 2,
+              "pos_tag": "IN"
+            }
+          ],
+          "entity": {
+            "id": 3921
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20183,
+              "text": "are",
+              "document_index": 71,
+              "sentence_index": 3,
+              "pos_tag": "VBP"
+            },
+            {
+              "id": 20184,
+              "text": "not",
+              "document_index": 72,
+              "sentence_index": 3,
+              "pos_tag": "RB"
+            },
+            {
+              "id": 20185,
+              "text": "provided",
+              "document_index": 73,
+              "sentence_index": 3,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3916
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20134,
+              "text": "writes",
+              "document_index": 22,
+              "sentence_index": 1,
+              "pos_tag": "VBZ"
+            },
+            {
+              "id": 20135,
+              "text": "back",
+              "document_index": 23,
+              "sentence_index": 1,
+              "pos_tag": "RB"
+            },
+            {
+              "id": 20136,
+              "text": "declining",
+              "document_index": 24,
+              "sentence_index": 1,
+              "pos_tag": "VBG"
+            }
+          ],
+          "entity": {
+            "id": 3916
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20144,
+              "text": "updated",
+              "document_index": 32,
+              "sentence_index": 1,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3916
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20116,
+              "text": "sends",
+              "document_index": 4,
+              "sentence_index": 0,
+              "pos_tag": "VBZ"
+            }
+          ],
+          "entity": {
+            "id": 3916
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20124,
+              "text": "waits",
+              "document_index": 12,
+              "sentence_index": 0,
+              "pos_tag": "VBZ"
+            }
+          ],
+          "entity": {
+            "id": 3916
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20116,
+              "text": "sends",
+              "document_index": 4,
+              "sentence_index": 0,
+              "pos_tag": "VBZ"
+            }
+          ],
+          "entity": {
+            "id": 3916
+          }
+        },
+        "mention_tail": {
+          "tag": "Actor",
+          "tokens": [
+            {
+              "id": 20113,
+              "text": "Customer",
+              "document_index": 1,
+              "sentence_index": 0,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20114,
+              "text": "Service",
+              "document_index": 2,
+              "sentence_index": 0,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20115,
+              "text": "Representative",
+              "document_index": 3,
+              "sentence_index": 0,
+              "pos_tag": "NNP"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "document": {
+      "id": 140,
+      "tokens": [
+        {
+          "id": 20112,
+          "text": "The",
+          "document_index": 0,
+          "sentence_index": 0,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20113,
+          "text": "Customer",
+          "document_index": 1,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20114,
+          "text": "Service",
+          "document_index": 2,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20115,
+          "text": "Representative",
+          "document_index": 3,
+          "sentence_index": 0,
+          "pos_tag": "NNP"
+        },
+        {
+          "id": 20116,
+          "text": "sends",
+          "document_index": 4,
+          "sentence_index": 0,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20117,
+          "text": "a",
+          "document_index": 5,
+          "sentence_index": 0,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20118,
+          "text": "Mortgage",
+          "document_index": 6,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20119,
+          "text": "offer",
+          "document_index": 7,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20120,
+          "text": "to",
+          "document_index": 8,
+          "sentence_index": 0,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20121,
+          "text": "the",
+          "document_index": 9,
+          "sentence_index": 0,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20122,
+          "text": "customer",
+          "document_index": 10,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20123,
+          "text": "and",
+          "document_index": 11,
+          "sentence_index": 0,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20124,
+          "text": "waits",
+          "document_index": 12,
+          "sentence_index": 0,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20125,
+          "text": "for",
+          "document_index": 13,
+          "sentence_index": 0,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20126,
+          "text": "a",
+          "document_index": 14,
+          "sentence_index": 0,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20127,
+          "text": "reply",
+          "document_index": 15,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20128,
+          "text": ".",
+          "document_index": 16,
+          "sentence_index": 0,
+          "pos_tag": "."
+        },
+        {
+          "id": 20129,
+          "text": "If",
+          "document_index": 17,
+          "sentence_index": 1,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20130,
+          "text": "the",
+          "document_index": 18,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20131,
+          "text": "customer",
+          "document_index": 19,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20132,
+          "text": "calls",
+          "document_index": 20,
+          "sentence_index": 1,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20133,
+          "text": "or",
+          "document_index": 21,
+          "sentence_index": 1,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20134,
+          "text": "writes",
+          "document_index": 22,
+          "sentence_index": 1,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20135,
+          "text": "back",
+          "document_index": 23,
+          "sentence_index": 1,
+          "pos_tag": "RB"
+        },
+        {
+          "id": 20136,
+          "text": "declining",
+          "document_index": 24,
+          "sentence_index": 1,
+          "pos_tag": "VBG"
+        },
+        {
+          "id": 20137,
+          "text": "the",
+          "document_index": 25,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20138,
+          "text": "mortgage",
+          "document_index": 26,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20139,
+          "text": ",",
+          "document_index": 27,
+          "sentence_index": 1,
+          "pos_tag": ","
+        },
+        {
+          "id": 20140,
+          "text": "the",
+          "document_index": 28,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20141,
+          "text": "case",
+          "document_index": 29,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20142,
+          "text": "details",
+          "document_index": 30,
+          "sentence_index": 1,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20143,
+          "text": "are",
+          "document_index": 31,
+          "sentence_index": 1,
+          "pos_tag": "VBP"
+        },
+        {
+          "id": 20144,
+          "text": "updated",
+          "document_index": 32,
+          "sentence_index": 1,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20145,
+          "text": "and",
+          "document_index": 33,
+          "sentence_index": 1,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20146,
+          "text": "the",
+          "document_index": 34,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20147,
+          "text": "work",
+          "document_index": 35,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20148,
+          "text": "is",
+          "document_index": 36,
+          "sentence_index": 1,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20149,
+          "text": "then",
+          "document_index": 37,
+          "sentence_index": 1,
+          "pos_tag": "RB"
+        },
+        {
+          "id": 20150,
+          "text": "archived",
+          "document_index": 38,
+          "sentence_index": 1,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20151,
+          "text": "prior",
+          "document_index": 39,
+          "sentence_index": 1,
+          "pos_tag": "JJ"
+        },
+        {
+          "id": 20152,
+          "text": "to",
+          "document_index": 40,
+          "sentence_index": 1,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20153,
+          "text": "cancellation",
+          "document_index": 41,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20154,
+          "text": ".",
+          "document_index": 42,
+          "sentence_index": 1,
+          "pos_tag": "."
+        },
+        {
+          "id": 20155,
+          "text": "If",
+          "document_index": 43,
+          "sentence_index": 2,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20156,
+          "text": "the",
+          "document_index": 44,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20157,
+          "text": "customer",
+          "document_index": 45,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20158,
+          "text": "sends",
+          "document_index": 46,
+          "sentence_index": 2,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20159,
+          "text": "back",
+          "document_index": 47,
+          "sentence_index": 2,
+          "pos_tag": "RP"
+        },
+        {
+          "id": 20160,
+          "text": "the",
+          "document_index": 48,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20161,
+          "text": "completed",
+          "document_index": 49,
+          "sentence_index": 2,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20162,
+          "text": "offer",
+          "document_index": 50,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20163,
+          "text": "documents",
+          "document_index": 51,
+          "sentence_index": 2,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20164,
+          "text": "and",
+          "document_index": 52,
+          "sentence_index": 2,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20165,
+          "text": "attaches",
+          "document_index": 53,
+          "sentence_index": 2,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20166,
+          "text": "all",
+          "document_index": 54,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20167,
+          "text": "prerequisite",
+          "document_index": 55,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20168,
+          "text": "documents",
+          "document_index": 56,
+          "sentence_index": 2,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20169,
+          "text": "then",
+          "document_index": 57,
+          "sentence_index": 2,
+          "pos_tag": "RB"
+        },
+        {
+          "id": 20170,
+          "text": "the",
+          "document_index": 58,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20171,
+          "text": "case",
+          "document_index": 59,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20172,
+          "text": "is",
+          "document_index": 60,
+          "sentence_index": 2,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20173,
+          "text": "moved",
+          "document_index": 61,
+          "sentence_index": 2,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20174,
+          "text": "to",
+          "document_index": 62,
+          "sentence_index": 2,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20175,
+          "text": "administration",
+          "document_index": 63,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20176,
+          "text": "for",
+          "document_index": 64,
+          "sentence_index": 2,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20177,
+          "text": "completion",
+          "document_index": 65,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20178,
+          "text": ".",
+          "document_index": 66,
+          "sentence_index": 2,
+          "pos_tag": "."
+        },
+        {
+          "id": 20179,
+          "text": "If",
+          "document_index": 67,
+          "sentence_index": 3,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20180,
+          "text": "all",
+          "document_index": 68,
+          "sentence_index": 3,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20181,
+          "text": "pre-requisite",
+          "document_index": 69,
+          "sentence_index": 3,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20182,
+          "text": "documents",
+          "document_index": 70,
+          "sentence_index": 3,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20183,
+          "text": "are",
+          "document_index": 71,
+          "sentence_index": 3,
+          "pos_tag": "VBP"
+        },
+        {
+          "id": 20184,
+          "text": "not",
+          "document_index": 72,
+          "sentence_index": 3,
+          "pos_tag": "RB"
+        },
+        {
+          "id": 20185,
+          "text": "provided",
+          "document_index": 73,
+          "sentence_index": 3,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20186,
+          "text": "a",
+          "document_index": 74,
+          "sentence_index": 3,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20187,
+          "text": "message",
+          "document_index": 75,
+          "sentence_index": 3,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20188,
+          "text": "is",
+          "document_index": 76,
+          "sentence_index": 3,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20189,
+          "text": "generated",
+          "document_index": 77,
+          "sentence_index": 3,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20190,
+          "text": "to",
+          "document_index": 78,
+          "sentence_index": 3,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20191,
+          "text": "the",
+          "document_index": 79,
+          "sentence_index": 3,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20192,
+          "text": "customer",
+          "document_index": 80,
+          "sentence_index": 3,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20193,
+          "text": "requesting",
+          "document_index": 81,
+          "sentence_index": 3,
+          "pos_tag": "VBG"
+        },
+        {
+          "id": 20194,
+          "text": "outstanding",
+          "document_index": 82,
+          "sentence_index": 3,
+          "pos_tag": "JJ"
+        },
+        {
+          "id": 20195,
+          "text": "documents",
+          "document_index": 83,
+          "sentence_index": 3,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20196,
+          "text": ".",
+          "document_index": 84,
+          "sentence_index": 3,
+          "pos_tag": "."
+        },
+        {
+          "id": 20197,
+          "text": "If",
+          "document_index": 85,
+          "sentence_index": 4,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20198,
+          "text": "no",
+          "document_index": 86,
+          "sentence_index": 4,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20199,
+          "text": "answer",
+          "document_index": 87,
+          "sentence_index": 4,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20200,
+          "text": "is",
+          "document_index": 88,
+          "sentence_index": 4,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20201,
+          "text": "received",
+          "document_index": 89,
+          "sentence_index": 4,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20202,
+          "text": "after",
+          "document_index": 90,
+          "sentence_index": 4,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20203,
+          "text": "2",
+          "document_index": 91,
+          "sentence_index": 4,
+          "pos_tag": "CD"
+        },
+        {
+          "id": 20204,
+          "text": "weeks",
+          "document_index": 92,
+          "sentence_index": 4,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20205,
+          "text": ",",
+          "document_index": 93,
+          "sentence_index": 4,
+          "pos_tag": ","
+        },
+        {
+          "id": 20206,
+          "text": "the",
+          "document_index": 94,
+          "sentence_index": 4,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20207,
+          "text": "case",
+          "document_index": 95,
+          "sentence_index": 4,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20208,
+          "text": "details",
+          "document_index": 96,
+          "sentence_index": 4,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20209,
+          "text": "are",
+          "document_index": 97,
+          "sentence_index": 4,
+          "pos_tag": "VBP"
+        },
+        {
+          "id": 20210,
+          "text": "updated",
+          "document_index": 98,
+          "sentence_index": 4,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20211,
+          "text": "prior",
+          "document_index": 99,
+          "sentence_index": 4,
+          "pos_tag": "JJ"
+        },
+        {
+          "id": 20212,
+          "text": "to",
+          "document_index": 100,
+          "sentence_index": 4,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20213,
+          "text": "archive",
+          "document_index": 101,
+          "sentence_index": 4,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20214,
+          "text": "and",
+          "document_index": 102,
+          "sentence_index": 4,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20215,
+          "text": "cancellation",
+          "document_index": 103,
+          "sentence_index": 4,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20216,
+          "text": ".",
+          "document_index": 104,
+          "sentence_index": 4,
+          "pos_tag": "."
+        }
+      ]
+    },
+    "schema_id": 15,
+    "mentions": [
+      {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 20113,
+            "text": "Customer",
+            "document_index": 1,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20114,
+            "text": "Service",
+            "document_index": 2,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20115,
+            "text": "Representative",
+            "document_index": 3,
+            "sentence_index": 0,
+            "pos_tag": "NNP"
+          }
+        ]
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20116,
+            "text": "sends",
+            "document_index": 4,
+            "sentence_index": 0,
+            "pos_tag": "VBZ"
+          }
+        ]
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20118,
+            "text": "Mortgage",
+            "document_index": 6,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20119,
+            "text": "offer",
+            "document_index": 7,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          }
+        ]
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20122,
+            "text": "customer",
+            "document_index": 10,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          }
+        ]
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20124,
+            "text": "waits",
+            "document_index": 12,
+            "sentence_index": 0,
+            "pos_tag": "VBZ"
+          }
+        ]
+      },
+      {
+        "tag": "Condition Specification",
+        "tokens": [
+          {
+            "id": 20129,
+            "text": "If",
+            "document_index": 17,
+            "sentence_index": 1,
+            "pos_tag": "IN"
+          }
+        ]
+      },
+      {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 20130,
+            "text": "the",
+            "document_index": 18,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20131,
+            "text": "customer",
+            "document_index": 19,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          }
+        ]
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20132,
+            "text": "calls",
+            "document_index": 20,
+            "sentence_index": 1,
+            "pos_tag": "VBZ"
+          }
+        ]
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20134,
+            "text": "writes",
+            "document_index": 22,
+            "sentence_index": 1,
+            "pos_tag": "VBZ"
+          },
+          {
+            "id": 20135,
+            "text": "back",
+            "document_index": 23,
+            "sentence_index": 1,
+            "pos_tag": "RB"
+          },
+          {
+            "id": 20136,
+            "text": "declining",
+            "document_index": 24,
+            "sentence_index": 1,
+            "pos_tag": "VBG"
+          }
+        ]
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20137,
+            "text": "the",
+            "document_index": 25,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20138,
+            "text": "mortgage",
+            "document_index": 26,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20139,
+            "text": ",",
+            "document_index": 27,
+            "sentence_index": 1,
+            "pos_tag": ","
+          },
+          {
+            "id": 20140,
+            "text": "the",
+            "document_index": 28,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20141,
+            "text": "case",
+            "document_index": 29,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20142,
+            "text": "details",
+            "document_index": 30,
+            "sentence_index": 1,
+            "pos_tag": "NNS"
+          }
+        ]
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20144,
+            "text": "updated",
+            "document_index": 32,
+            "sentence_index": 1,
+            "pos_tag": "VBN"
+          }
+        ]
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20147,
+            "text": "work",
+            "document_index": 35,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20148,
+            "text": "is",
+            "document_index": 36,
+            "sentence_index": 1,
+            "pos_tag": "VBZ"
+          },
+          {
+            "id": 20149,
+            "text": "then",
+            "document_index": 37,
+            "sentence_index": 1,
+            "pos_tag": "RB"
+          },
+          {
+            "id": 20150,
+            "text": "archived",
+            "document_index": 38,
+            "sentence_index": 1,
+            "pos_tag": "VBN"
+          }
+        ]
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20151,
+            "text": "prior",
+            "document_index": 39,
+            "sentence_index": 1,
+            "pos_tag": "JJ"
+          },
+          {
+            "id": 20152,
+            "text": "to",
+            "document_index": 40,
+            "sentence_index": 1,
+            "pos_tag": "IN"
+          },
+          {
+            "id": 20153,
+            "text": "cancellation",
+            "document_index": 41,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          }
+        ]
+      },
+      {
+        "tag": "Condition Specification",
+        "tokens": [
+          {
+            "id": 20155,
+            "text": "If",
+            "document_index": 43,
+            "sentence_index": 2,
+            "pos_tag": "IN"
+          }
+        ]
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20180,
+            "text": "all",
+            "document_index": 68,
+            "sentence_index": 3,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20181,
+            "text": "pre-requisite",
+            "document_index": 69,
+            "sentence_index": 3,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20182,
+            "text": "documents",
+            "document_index": 70,
+            "sentence_index": 3,
+            "pos_tag": "NNS"
+          }
+        ]
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20183,
+            "text": "are",
+            "document_index": 71,
+            "sentence_index": 3,
+            "pos_tag": "VBP"
+          },
+          {
+            "id": 20184,
+            "text": "not",
+            "document_index": 72,
+            "sentence_index": 3,
+            "pos_tag": "RB"
+          },
+          {
+            "id": 20185,
+            "text": "provided",
+            "document_index": 73,
+            "sentence_index": 3,
+            "pos_tag": "VBN"
+          }
+        ]
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20187,
+            "text": "message",
+            "document_index": 75,
+            "sentence_index": 3,
+            "pos_tag": "NN"
+          }
+        ]
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20188,
+            "text": "is",
+            "document_index": 76,
+            "sentence_index": 3,
+            "pos_tag": "VBZ"
+          },
+          {
+            "id": 20189,
+            "text": "generated",
+            "document_index": 77,
+            "sentence_index": 3,
+            "pos_tag": "VBN"
+          }
+        ]
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20191,
+            "text": "the",
+            "document_index": 79,
+            "sentence_index": 3,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20192,
+            "text": "customer",
+            "document_index": 80,
+            "sentence_index": 3,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20193,
+            "text": "requesting",
+            "document_index": 81,
+            "sentence_index": 3,
+            "pos_tag": "VBG"
+          },
+          {
+            "id": 20194,
+            "text": "outstanding",
+            "document_index": 82,
+            "sentence_index": 3,
+            "pos_tag": "JJ"
+          },
+          {
+            "id": 20195,
+            "text": "documents",
+            "document_index": 83,
+            "sentence_index": 3,
+            "pos_tag": "NNS"
+          }
+        ]
+      },
+      {
+        "tag": "Condition Specification",
+        "tokens": [
+          {
+            "id": 20197,
+            "text": "If",
+            "document_index": 85,
+            "sentence_index": 4,
+            "pos_tag": "IN"
+          }
+        ]
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20198,
+            "text": "no",
+            "document_index": 86,
+            "sentence_index": 4,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20199,
+            "text": "answer",
+            "document_index": 87,
+            "sentence_index": 4,
+            "pos_tag": "NN"
+          }
+        ]
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20200,
+            "text": "is",
+            "document_index": 88,
+            "sentence_index": 4,
+            "pos_tag": "VBZ"
+          },
+          {
+            "id": 20201,
+            "text": "received",
+            "document_index": 89,
+            "sentence_index": 4,
+            "pos_tag": "VBN"
+          }
+        ]
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20206,
+            "text": "the",
+            "document_index": 94,
+            "sentence_index": 4,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20207,
+            "text": "case",
+            "document_index": 95,
+            "sentence_index": 4,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20208,
+            "text": "details",
+            "document_index": 96,
+            "sentence_index": 4,
+            "pos_tag": "NNS"
+          },
+          {
+            "id": 20209,
+            "text": "are",
+            "document_index": 97,
+            "sentence_index": 4,
+            "pos_tag": "VBP"
+          },
+          {
+            "id": 20210,
+            "text": "updated",
+            "document_index": 98,
+            "sentence_index": 4,
+            "pos_tag": "VBN"
+          },
+          {
+            "id": 20211,
+            "text": "prior",
+            "document_index": 99,
+            "sentence_index": 4,
+            "pos_tag": "JJ"
+          },
+          {
+            "id": 20212,
+            "text": "to",
+            "document_index": 100,
+            "sentence_index": 4,
+            "pos_tag": "IN"
+          },
+          {
+            "id": 20213,
+            "text": "archive",
+            "document_index": 101,
+            "2025-02-06T17:10:10.073384302Z sentence_index": 4,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20214,
+            "text": "and",
+            "document_index": 102,
+            "sentence_index": 4,
+            "pos_tag": "CC"
+          },
+          {
+            "id": 20215,
+            "text": "cancellation",
+            "document_index": 103,
+            "sentence_index": 4,
+            "pos_tag": "NN"
+          }
+        ]
+      }
+    ],
+    "relations": []
+  },
+  {
+    "document": {
+      "id": 140,
+      "tokens": [
+        {
+          "id": 20112,
+          "text": "The",
+          "document_index": 0,
+          "sentence_index": 0,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20113,
+          "text": "Customer",
+          "document_index": 1,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20114,
+          "text": "Service",
+          "document_index": 2,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20115,
+          "text": "Representative",
+          "document_index": 3,
+          "sentence_index": 0,
+          "pos_tag": "NNP"
+        },
+        {
+          "id": 20116,
+          "text": "sends",
+          "document_index": 4,
+          "sentence_index": 0,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20117,
+          "text": "a",
+          "document_index": 5,
+          "sentence_index": 0,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20118,
+          "text": "Mortgage",
+          "document_index": 6,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20119,
+          "text": "offer",
+          "document_index": 7,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20120,
+          "text": "to",
+          "document_index": 8,
+          "sentence_index": 0,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20121,
+          "text": "the",
+          "document_index": 9,
+          "sentence_index": 0,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20122,
+          "text": "customer",
+          "document_index": 10,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20123,
+          "text": "and",
+          "document_index": 11,
+          "sentence_index": 0,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20124,
+          "text": "waits",
+          "document_index": 12,
+          "sentence_index": 0,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20125,
+          "text": "for",
+          "document_index": 13,
+          "sentence_index": 0,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20126,
+          "text": "a",
+          "document_index": 14,
+          "sentence_index": 0,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20127,
+          "text": "reply",
+          "document_index": 15,
+          "sentence_index": 0,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20128,
+          "text": ".",
+          "document_index": 16,
+          "sentence_index": 0,
+          "pos_tag": "."
+        },
+        {
+          "id": 20129,
+          "text": "If",
+          "document_index": 17,
+          "sentence_index": 1,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20130,
+          "text": "the",
+          "document_index": 18,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20131,
+          "text": "customer",
+          "document_index": 19,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20132,
+          "text": "calls",
+          "document_index": 20,
+          "sentence_index": 1,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20133,
+          "text": "or",
+          "document_index": 21,
+          "sentence_index": 1,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20134,
+          "text": "writes",
+          "document_index": 22,
+          "sentence_index": 1,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20135,
+          "text": "back",
+          "document_index": 23,
+          "sentence_index": 1,
+          "pos_tag": "RB"
+        },
+        {
+          "id": 20136,
+          "text": "declining",
+          "document_index": 24,
+          "sentence_index": 1,
+          "pos_tag": "VBG"
+        },
+        {
+          "id": 20137,
+          "text": "the",
+          "document_index": 25,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20138,
+          "text": "mortgage",
+          "document_index": 26,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20139,
+          "text": ",",
+          "document_index": 27,
+          "sentence_index": 1,
+          "pos_tag": ","
+        },
+        {
+          "id": 20140,
+          "text": "the",
+          "document_index": 28,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20141,
+          "text": "case",
+          "document_index": 29,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20142,
+          "text": "details",
+          "document_index": 30,
+          "sentence_index": 1,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20143,
+          "text": "are",
+          "document_index": 31,
+          "sentence_index": 1,
+          "pos_tag": "VBP"
+        },
+        {
+          "id": 20144,
+          "text": "updated",
+          "document_index": 32,
+          "sentence_index": 1,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20145,
+          "text": "and",
+          "document_index": 33,
+          "sentence_index": 1,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20146,
+          "text": "the",
+          "document_index": 34,
+          "sentence_index": 1,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20147,
+          "text": "work",
+          "document_index": 35,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20148,
+          "text": "is",
+          "document_index": 36,
+          "sentence_index": 1,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20149,
+          "text": "then",
+          "document_index": 37,
+          "sentence_index": 1,
+          "pos_tag": "RB"
+        },
+        {
+          "id": 20150,
+          "text": "archived",
+          "document_index": 38,
+          "sentence_index": 1,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20151,
+          "text": "prior",
+          "document_index": 39,
+          "sentence_index": 1,
+          "pos_tag": "JJ"
+        },
+        {
+          "id": 20152,
+          "text": "to",
+          "document_index": 40,
+          "sentence_index": 1,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20153,
+          "text": "cancellation",
+          "document_index": 41,
+          "sentence_index": 1,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20154,
+          "text": ".",
+          "document_index": 42,
+          "sentence_index": 1,
+          "pos_tag": "."
+        },
+        {
+          "id": 20155,
+          "text": "If",
+          "document_index": 43,
+          "sentence_index": 2,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20156,
+          "text": "the",
+          "document_index": 44,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20157,
+          "text": "customer",
+          "document_index": 45,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20158,
+          "text": "sends",
+          "document_index": 46,
+          "sentence_index": 2,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20159,
+          "text": "back",
+          "document_index": 47,
+          "sentence_index": 2,
+          "pos_tag": "RP"
+        },
+        {
+          "id": 20160,
+          "text": "the",
+          "document_index": 48,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20161,
+          "text": "completed",
+          "document_index": 49,
+          "sentence_index": 2,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20162,
+          "text": "offer",
+          "document_index": 50,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20163,
+          "text": "documents",
+          "document_index": 51,
+          "sentence_index": 2,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20164,
+          "text": "and",
+          "document_index": 52,
+          "sentence_index": 2,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20165,
+          "text": "attaches",
+          "document_index": 53,
+          "sentence_index": 2,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20166,
+          "text": "all",
+          "document_index": 54,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20167,
+          "text": "prerequisite",
+          "document_index": 55,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20168,
+          "text": "documents",
+          "document_index": 56,
+          "sentence_index": 2,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20169,
+          "text": "then",
+          "document_index": 57,
+          "sentence_index": 2,
+          "pos_tag": "RB"
+        },
+        {
+          "id": 20170,
+          "text": "the",
+          "document_index": 58,
+          "sentence_index": 2,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20171,
+          "text": "case",
+          "document_index": 59,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20172,
+          "text": "is",
+          "document_index": 60,
+          "sentence_index": 2,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20173,
+          "text": "moved",
+          "document_index": 61,
+          "sentence_index": 2,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20174,
+          "text": "to",
+          "document_index": 62,
+          "sentence_index": 2,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20175,
+          "text": "administration",
+          "document_index": 63,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20176,
+          "text": "for",
+          "document_index": 64,
+          "sentence_index": 2,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20177,
+          "text": "completion",
+          "document_index": 65,
+          "sentence_index": 2,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20178,
+          "text": ".",
+          "document_index": 66,
+          "sentence_index": 2,
+          "pos_tag": "."
+        },
+        {
+          "id": 20179,
+          "text": "If",
+          "document_index": 67,
+          "sentence_index": 3,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20180,
+          "text": "all",
+          "document_index": 68,
+          "sentence_index": 3,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20181,
+          "text": "pre-requisite",
+          "document_index": 69,
+          "sentence_index": 3,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20182,
+          "text": "documents",
+          "document_index": 70,
+          "sentence_index": 3,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20183,
+          "text": "are",
+          "document_index": 71,
+          "sentence_index": 3,
+          "pos_tag": "VBP"
+        },
+        {
+          "id": 20184,
+          "text": "not",
+          "document_index": 72,
+          "sentence_index": 3,
+          "pos_tag": "RB"
+        },
+        {
+          "id": 20185,
+          "text": "provided",
+          "document_index": 73,
+          "sentence_index": 3,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20186,
+          "text": "a",
+          "document_index": 74,
+          "sentence_index": 3,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20187,
+          "text": "message",
+          "document_index": 75,
+          "sentence_index": 3,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20188,
+          "text": "is",
+          "document_index": 76,
+          "sentence_index": 3,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20189,
+          "text": "generated",
+          "document_index": 77,
+          "sentence_index": 3,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20190,
+          "text": "to",
+          "document_index": 78,
+          "sentence_index": 3,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20191,
+          "text": "the",
+          "document_index": 79,
+          "sentence_index": 3,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20192,
+          "text": "customer",
+          "document_index": 80,
+          "sentence_index": 3,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20193,
+          "text": "requesting",
+          "document_index": 81,
+          "sentence_index": 3,
+          "pos_tag": "VBG"
+        },
+        {
+          "id": 20194,
+          "text": "outstanding",
+          "document_index": 82,
+          "sentence_index": 3,
+          "pos_tag": "JJ"
+        },
+        {
+          "id": 20195,
+          "text": "documents",
+          "document_index": 83,
+          "sentence_index": 3,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20196,
+          "text": ".",
+          "document_index": 84,
+          "sentence_index": 3,
+          "pos_tag": "."
+        },
+        {
+          "id": 20197,
+          "text": "If",
+          "document_index": 85,
+          "sentence_index": 4,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20198,
+          "text": "no",
+          "document_index": 86,
+          "sentence_index": 4,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20199,
+          "text": "answer",
+          "document_index": 87,
+          "sentence_index": 4,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20200,
+          "text": "is",
+          "document_index": 88,
+          "sentence_index": 4,
+          "pos_tag": "VBZ"
+        },
+        {
+          "id": 20201,
+          "text": "received",
+          "document_index": 89,
+          "sentence_index": 4,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20202,
+          "text": "after",
+          "document_index": 90,
+          "sentence_index": 4,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20203,
+          "text": "2",
+          "document_index": 91,
+          "sentence_index": 4,
+          "pos_tag": "CD"
+        },
+        {
+          "id": 20204,
+          "text": "weeks",
+          "document_index": 92,
+          "sentence_index": 4,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20205,
+          "text": ",",
+          "document_index": 93,
+          "sentence_index": 4,
+          "pos_tag": ","
+        },
+        {
+          "id": 20206,
+          "text": "the",
+          "document_index": 94,
+          "sentence_index": 4,
+          "pos_tag": "DT"
+        },
+        {
+          "id": 20207,
+          "text": "case",
+          "document_index": 95,
+          "sentence_index": 4,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20208,
+          "text": "details",
+          "document_index": 96,
+          "sentence_index": 4,
+          "pos_tag": "NNS"
+        },
+        {
+          "id": 20209,
+          "text": "are",
+          "document_index": 97,
+          "sentence_index": 4,
+          "pos_tag": "VBP"
+        },
+        {
+          "id": 20210,
+          "text": "updated",
+          "document_index": 98,
+          "sentence_index": 4,
+          "pos_tag": "VBN"
+        },
+        {
+          "id": 20211,
+          "text": "prior",
+          "document_index": 99,
+          "sentence_index": 4,
+          "pos_tag": "JJ"
+        },
+        {
+          "id": 20212,
+          "text": "to",
+          "document_index": 100,
+          "sentence_index": 4,
+          "pos_tag": "IN"
+        },
+        {
+          "id": 20213,
+          "text": "archive",
+          "document_index": 101,
+          "sentence_index": 4,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20214,
+          "text": "and",
+          "document_index": 102,
+          "sentence_index": 4,
+          "pos_tag": "CC"
+        },
+        {
+          "id": 20215,
+          "text": "cancellation",
+          "document_index": 103,
+          "sentence_index": 4,
+          "pos_tag": "NN"
+        },
+        {
+          "id": 20216,
+          "text": ".",
+          "document_index": 104,
+          "sentence_index": 4,
+          "pos_tag": "."
+        }
+      ]
+    },
+    "schema_id": 15,
+    "mentions": [
+      {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 20112,
+            "text": "The",
+            "document_index": 0,
+            "sentence_index": 0,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20113,
+            "text": "Customer",
+            "document_index": 1,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20114,
+            "text": "Service",
+            "document_index": 2,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20115,
+            "text": "Representative",
+            "document_index": 3,
+            "sentence_index": 0,
+            "pos_tag": "NNP"
+          }
+        ],
+        "entity": {
+          "id": 3125
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20116,
+            "text": "sends",
+            "document_index": 4,
+            "sentence_index": 0,
+            "pos_tag": "VBZ"
+          }
+        ],
+        "entity": {
+          "id": 3126
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20117,
+            "text": "a",
+            "document_index": 5,
+            "sentence_index": 0,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20118,
+            "text": "Mortgage",
+            "document_index": 6,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20119,
+            "text": "offer",
+            "document_index": 7,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3127
+        }
+      },
+      {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 20121,
+            "text": "the",
+            "document_index": 9,
+            "sentence_index": 0,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20122,
+            "text": "customer",
+            "document_index": 10,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3128
+        }
+      },
+      {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 20191,
+            "text": "the",
+            "document_index": 79,
+            "sentence_index": 3,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20192,
+            "text": "customer",
+            "document_index": 80,
+            "sentence_index": 3,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3128
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20124,
+            "text": "waits",
+            "document_index": 12,
+            "sentence_index": 0,
+            "pos_tag": "VBZ"
+          },
+          {
+            "id": 20125,
+            "text": "for",
+            "document_index": 13,
+            "sentence_index": 0,
+            "pos_tag": "IN"
+          }
+        ],
+        "entity": {
+          "id": 3129
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20126,
+            "text": "a",
+            "document_index": 14,
+            "sentence_index": 0,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20127,
+            "text": "reply",
+            "document_index": 15,
+            "sentence_index": 0,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3130
+        }
+      },
+      {
+        "tag": "XOR Gateway",
+        "tokens": [
+          {
+            "id": 20129,
+            "text": "If",
+            "document_index": 17,
+            "sentence_index": 1,
+            "pos_tag": "IN"
+          }
+        ],
+        "entity": {
+          "id": 3131
+        }
+      },
+      {
+        "tag": "Condition Specification",
+        "tokens": [
+          {
+            "id": 20130,
+            "text": "the",
+            "document_index": 18,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20131,
+            "text": "customer",
+            "document_index": 19,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20132,
+            "text": "calls",
+            "document_index": 20,
+            "sentence_index": 1,
+            "pos_tag": "VBZ"
+          },
+          {
+            "id": 20133,
+            "text": "or",
+            "document_index": 21,
+            "sentence_index": 1,
+            "pos_tag": "CC"
+          },
+          {
+            "id": 20134,
+            "text": "writes",
+            "document_index": 22,
+            "sentence_index": 1,
+            "pos_tag": "VBZ"
+          },
+          {
+            "id": 20135,
+            "text": "back",
+            "document_index": 23,
+            "sentence_index": 1,
+            "pos_tag": "RB"
+          },
+          {
+            "id": 20136,
+            "text": "declining",
+            "document_index": 24,
+            "sentence_index": 1,
+            "pos_tag": "VBG"
+          },
+          {
+            "id": 20137,
+            "text": "the",
+            "document_index": 25,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20138,
+            "text": "mortgage",
+            "document_index": 26,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3132
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20140,
+            "text": "the",
+            "document_index": 28,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20141,
+            "text": "case",
+            "document_index": 29,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20142,
+            "text": "details",
+            "document_index": 30,
+            "sentence_index": 1,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 3133
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20206,
+            "text": "the",
+            "document_index": 94,
+            "sentence_index": 4,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20207,
+            "text": "case",
+            "document_index": 95,
+            "sentence_index": 4,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20208,
+            "text": "details",
+            "document_index": 96,
+            "sentence_index": 4,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 3133
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20144,
+            "text": "updated",
+            "document_index": 32,
+            "sentence_index": 1,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 3134
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20146,
+            "text": "the",
+            "document_index": 34,
+            "sentence_index": 1,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20147,
+            "text": "work",
+            "document_index": 35,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3135
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20150,
+            "text": "archived",
+            "document_index": 38,
+            "sentence_index": 1,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 3136
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20153,
+            "text": "cancellation",
+            "document_index": 41,
+            "sentence_index": 1,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3137
+        }
+      },
+      {
+        "tag": "XOR Gateway",
+        "tokens": [
+          {
+            "id": 20155,
+            "text": "If",
+            "document_index": 43,
+            "sentence_index": 2,
+            "pos_tag": "IN"
+          }
+        ],
+        "entity": {
+          "id": 3138
+        }
+      },
+      {
+        "tag": "Condition Specification",
+        "tokens": [
+          {
+            "id": 20156,
+            "text": "the",
+            "document_index": 44,
+            "sentence_index": 2,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20157,
+            "text": "customer",
+            "document_index": 45,
+            "sentence_index": 2,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20158,
+            "text": "sends",
+            "document_index": 46,
+            "sentence_index": 2,
+            "pos_tag": "VBZ"
+          },
+          {
+            "id": 20159,
+            "text": "back",
+            "document_index": 47,
+            "sentence_index": 2,
+            "pos_tag": "RP"
+          },
+          {
+            "id": 20160,
+            "text": "the",
+            "document_index": 48,
+            "sentence_index": 2,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20161,
+            "text": "completed",
+            "document_index": 49,
+            "sentence_index": 2,
+            "pos_tag": "VBN"
+          },
+          {
+            "id": 20162,
+            "text": "offer",
+            "document_index": 50,
+            "sentence_index": 2,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20163,
+            "text": "documents",
+            "document_index": 51,
+            "sentence_index": 2,
+            "pos_tag": "NNS"
+          },
+          {
+            "id": 20164,
+            "text": "and",
+            "document_index": 52,
+            "sentence_index": 2,
+            "pos_tag": "CC"
+          },
+          {
+            "id": 20165,
+            "text": "attaches",
+            "document_index": 53,
+            "sentence_index": 2,
+            "pos_tag": "VBZ"
+          },
+          {
+            "id": 20166,
+            "text": "all",
+            "document_index": 54,
+            "sentence_index": 2,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20167,
+            "text": "prerequisite",
+            "document_index": 55,
+            "sentence_index": 2,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20168,
+            "text": "documents",
+            "document_index": 56,
+            "sentence_index": 2,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 3139
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20170,
+            "text": "the",
+            "document_index": 58,
+            "sentence_index": 2,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20171,
+            "text": "case",
+            "document_index": 59,
+            "sentence_index": 2,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3140
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20173,
+            "text": "moved",
+            "document_index": 61,
+            "sentence_index": 2,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 3141
+        }
+      },
+      {
+        "tag": "Actor",
+        "tokens": [
+          {
+            "id": 20175,
+            "text": "administration",
+            "document_index": 63,
+            "sentence_index": 2,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3142
+        }
+      },
+      {
+        "tag": "XOR Gateway",
+        "tokens": [
+          {
+            "id": 20179,
+            "text": "If",
+            "document_index": 67,
+            "sentence_in2025-02-06T17:10:10.073384302Z dex": 3,
+            "pos_tag": "IN"
+          }
+        ],
+        "entity": {
+          "id": 3143
+        }
+      },
+      {
+        "tag": "Condition Specification",
+        "tokens": [
+          {
+            "id": 20180,
+            "text": "all",
+            "document_index": 68,
+            "sentence_index": 3,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20181,
+            "text": "pre-requisite",
+            "document_index": 69,
+            "sentence_index": 3,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20182,
+            "text": "documents",
+            "document_index": 70,
+            "sentence_index": 3,
+            "pos_tag": "NNS"
+          },
+          {
+            "id": 20183,
+            "text": "are",
+            "document_index": 71,
+            "sentence_index": 3,
+            "pos_tag": "VBP"
+          },
+          {
+            "id": 20184,
+            "text": "not",
+            "document_index": 72,
+            "sentence_index": 3,
+            "pos_tag": "RB"
+          },
+          {
+            "id": 20185,
+            "text": "provided",
+            "document_index": 73,
+            "sentence_index": 3,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 3144
+        }
+      },
+      {
+        "tag": "Activity Data",
+        "tokens": [
+          {
+            "id": 20186,
+            "text": "a",
+            "document_index": 74,
+            "sentence_index": 3,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20187,
+            "text": "message",
+            "document_index": 75,
+            "sentence_index": 3,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3145
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20189,
+            "text": "generated",
+            "document_index": 77,
+            "sentence_index": 3,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 3146
+        }
+      },
+      {
+        "tag": "Further Specification",
+        "tokens": [
+          {
+            "id": 20193,
+            "text": "requesting",
+            "document_index": 81,
+            "sentence_index": 3,
+            "pos_tag": "VBG"
+          },
+          {
+            "id": 20194,
+            "text": "outstanding",
+            "document_index": 82,
+            "sentence_index": 3,
+            "pos_tag": "JJ"
+          },
+          {
+            "id": 20195,
+            "text": "documents",
+            "document_index": 83,
+            "sentence_index": 3,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 3147
+        }
+      },
+      {
+        "tag": "XOR Gateway",
+        "tokens": [
+          {
+            "id": 20197,
+            "text": "If",
+            "document_index": 85,
+            "sentence_index": 4,
+            "pos_tag": "IN"
+          }
+        ],
+        "entity": {
+          "id": 3148
+        }
+      },
+      {
+        "tag": "Condition Specification",
+        "tokens": [
+          {
+            "id": 20198,
+            "text": "no",
+            "document_index": 86,
+            "sentence_index": 4,
+            "pos_tag": "DT"
+          },
+          {
+            "id": 20199,
+            "text": "answer",
+            "document_index": 87,
+            "sentence_index": 4,
+            "pos_tag": "NN"
+          },
+          {
+            "id": 20200,
+            "text": "is",
+            "document_index": 88,
+            "sentence_index": 4,
+            "pos_tag": "VBZ"
+          },
+          {
+            "id": 20201,
+            "text": "received",
+            "document_index": 89,
+            "sentence_index": 4,
+            "pos_tag": "VBN"
+          },
+          {
+            "id": 20202,
+            "text": "after",
+            "document_index": 90,
+            "sentence_index": 4,
+            "pos_tag": "IN"
+          },
+          {
+            "id": 20203,
+            "text": "2",
+            "document_index": 91,
+            "sentence_index": 4,
+            "pos_tag": "CD"
+          },
+          {
+            "id": 20204,
+            "text": "weeks",
+            "document_index": 92,
+            "sentence_index": 4,
+            "pos_tag": "NNS"
+          }
+        ],
+        "entity": {
+          "id": 3149
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20210,
+            "text": "updated",
+            "document_index": 98,
+            "sentence_index": 4,
+            "pos_tag": "VBN"
+          }
+        ],
+        "entity": {
+          "id": 3150
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20213,
+            "text": "archive",
+            "document_index": 101,
+            "sentence_index": 4,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3151
+        }
+      },
+      {
+        "tag": "Activity",
+        "tokens": [
+          {
+            "id": 20215,
+            "text": "cancellation",
+            "document_index": 103,
+            "sentence_index": 4,
+            "pos_tag": "NN"
+          }
+        ],
+        "entity": {
+          "id": 3152
+        }
+      }
+    ],
+    "relations": [
+      {
+        "tag": "uses",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20116,
+              "text": "sends",
+              "document_index": 4,
+              "sentence_index": 0,
+              "pos_tag": "VBZ"
+            }
+          ],
+          "entity": {
+            "id": 3126
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity Data",
+          "tokens": [
+            {
+              "id": 20117,
+              "text": "a",
+              "document_index": 5,
+              "sentence_index": 0,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20118,
+              "text": "Mortgage",
+              "document_index": 6,
+              "sentence_index": 0,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20119,
+              "text": "offer",
+              "document_index": 7,
+              "sentence_index": 0,
+              "pos_tag": "NN"
+            }
+          ],
+          "entity": {
+            "id": 3127
+          }
+        }
+      },
+      {
+        "tag": "actor performer",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20116,
+              "text": "sends",
+              "document_index": 4,
+              "sentence_index": 0,
+              "pos_tag": "VBZ"
+            }
+          ],
+          "entity": {
+            "id": 3126
+          }
+        },
+        "mention_tail": {
+          "tag": "Actor",
+          "tokens": [
+            {
+              "id": 20112,
+              "text": "The",
+              "document_index": 0,
+              "sentence_index": 0,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20113,
+              "text": "Customer",
+              "document_index": 1,
+              "sentence_index": 0,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20114,
+              "text": "Service",
+              "document_index": 2,
+              "sentence_index": 0,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20115,
+              "text": "Representative",
+              "document_index": 3,
+              "sentence_index": 0,
+              "pos_tag": "NNP"
+            }
+          ],
+          "entity": {
+            "id": 3125
+          }
+        }
+      },
+      {
+        "tag": "actor recipient",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20116,
+              "text": "sends",
+              "document_index": 4,
+              "sentence_index": 0,
+              "pos_tag": "VBZ"
+            }
+          ],
+          "entity": {
+            "id": 3126
+          }
+        },
+        "mention_tail": {
+          "tag": "Actor",
+          "tokens": [
+            {
+              "id": 20121,
+              "text": "the",
+              "document_index": 9,
+              "sentence_index": 0,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20122,
+              "text": "customer",
+              "document_index": 10,
+              "sentence_index": 0,
+              "pos_tag": "NN"
+            }
+          ],
+          "entity": {
+            "id": 3128
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20116,
+              "text": "sends",
+              "document_index": 4,
+              "sentence_index": 0,
+              "pos_tag": "VBZ"
+            }
+          ],
+          "entity": {
+            "id": 3126
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20124,
+              "text": "waits",
+              "document_index": 12,
+              "sentence_index": 0,
+              "pos_tag": "VBZ"
+            },
+            {
+              "id": 20125,
+              "text": "for",
+              "document_index": 13,
+              "sentence_index": 0,
+              "pos_tag": "IN"
+            }
+          ],
+          "entity": {
+            "id": 3129
+          }
+        }
+      },
+      {
+        "tag": "uses",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20124,
+              "text": "waits",
+              "document_index": 12,
+              "sentence_index": 0,
+              "pos_tag": "VBZ"
+            },
+            {
+              "id": 20125,
+              "text": "for",
+              "document_index": 13,
+              "sentence_index": 0,
+              "pos_tag": "IN"
+            }
+          ],
+          "entity": {
+            "id": 3129
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity Data",
+          "tokens": [
+            {
+              "id": 20126,
+              "text": "a",
+              "document_index": 14,
+              "sentence_index": 0,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20127,
+              "text": "reply",
+              "document_index": 15,
+              "sentence_index": 0,
+              "pos_tag": "NN"
+            }
+          ],
+          "entity": {
+            "id": 3130
+          }
+        }
+      },
+      {
+        "tag": "actor performer",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20124,
+              "text": "waits",
+              "document_index": 12,
+              "sentence_index": 0,
+              "pos_tag": "VBZ"
+            },
+            {
+              "id": 20125,
+              "text": "for",
+              "document_index": 13,
+              "sentence_index": 0,
+              "pos_tag": "IN"
+            }
+          ],
+          "entity": {
+            "id": 3129
+          }
+        },
+        "mention_tail": {
+          "tag": "Actor",
+          "tokens": [
+            {
+              "id": 20112,
+              "text": "The",
+              "document_index": 0,
+              "sentence_index": 0,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20113,
+              "text": "Customer",
+              "document_index": 1,
+              "sentence_index": 0,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20114,
+              "text": "Service",
+              "document_index": 2,
+              "sentence_index": 0,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20115,
+              "text": "Representative",
+              "document_index": 3,
+              "sentence_index": 0,
+              "pos_tag": "NNP"
+            }
+          ],
+          "entity": {
+            "id": 3125
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20124,
+              "text": "waits",
+              "document_index": 12,
+              "sentence_index": 0,
+              "pos_tag": "VBZ"
+            },
+            {
+              "id": 20125,
+              "text": "for",
+              "document_index": 13,
+              "sentence_index": 0,
+              "pos_tag": "IN"
+            }
+          ],
+          "entity": {
+            "id": 3129
+          }
+        },
+        "mention_tail": {
+          "tag": "XOR Gateway",
+          "tokens": [
+            {
+              "id": 20129,
+              "text": "If",
+              "document_index": 17,
+              "sentence_index": 1,
+              "pos_tag": "IN"
+            }
+          ],
+          "entity": {
+            "id": 3131
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "XOR Gateway",
+          "tokens": [
+            {
+              "id": 20129,
+              "text": "If",
+              "document_index": 17,
+              "sentence_index": 1,
+              "pos_tag": "IN"
+            }
+          ],
+          "entity": {
+            "id": 3131
+          }
+        },
+        "mention_tail": {
+          "tag": "Condition Specification",
+          "tokens": [
+            {
+              "id": 20130,
+              "text": "the",
+              "document_index": 18,
+              "sentence_index": 1,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20131,
+              "text": "customer",
+              "document_index": 19,
+              "sentence_index": 1,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20132,
+              "text": "calls",
+              "document_index": 20,
+              "sentence_index": 1,
+              "pos_tag": "VBZ"
+            },
+            {
+              "id": 20133,
+              "text": "or",
+              "document_index": 21,
+              "sentence_index": 1,
+              "pos_tag": "CC"
+            },
+            {
+              "id": 20134,
+              "text": "writes",
+              "document_index": 22,
+              "sentence_index": 1,
+              "pos_tag": "VBZ"
+            },
+            {
+              "id": 20135,
+              "text": "back",
+              "document_index": 23,
+              "sentence_index": 1,
+              "pos_tag": "RB"
+            },
+            {
+              "id": 20136,
+              "text": "declining",
+              "document_index": 24,
+              "sentence_index": 1,
+              "pos_tag": "VBG"
+            },
+            {
+              "id": 20137,
+              "text": "the",
+              "document_index": 25,
+              "sentence_index": 1,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20138,
+              "text": "mortgage",
+              "document_index": 26,
+              "sentence_index": 1,
+              "pos_tag": "NN"
+            }
+          ],
+          "entity": {
+            "id": 3132
+          }
+        }
+      },
+      {
+        "tag": "same gateway",
+        "mention_head": {
+          "tag": "XOR Gateway",
+          "tokens": [
+            {
+              "id": 20129,
+              "text": "If",
+              "document_index": 17,
+              "sentence_index": 1,
+              "pos_tag": "IN"
+            }
+          ],
+          "entity": {
+            "id": 3131
+          }
+        },
+        "mention_tail": {
+          "tag": "XOR Gateway",
+          "tokens": [
+            {
+              "id": 20155,
+              "text": "If",
+              "document_index": 43,
+              "sentence_index": 2,
+              "pos_tag": "IN"
+            }
+          ],
+          "entity": {
+            "id": 3138
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Condition Specification",
+          "tokens": [
+            {
+              "id": 20130,
+              "text": "the",
+              "document_index": 18,
+              "sentence_index": 1,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20131,
+              "text": "customer",
+              "document_index": 19,
+              "sentence_index": 1,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20132,
+              "text": "calls",
+              "document_index": 20,
+              "sentence_index": 1,
+              "pos_tag": "VBZ"
+            },
+            {
+              "id": 20133,
+              "text": "or",
+              "document_index": 21,
+              "sentence_index": 1,
+              "pos_tag": "CC"
+            },
+            {
+              "id": 20134,
+              "text": "writes",
+              "document_index": 22,
+              "sentence_index": 1,
+              "pos_tag": "VBZ"
+            },
+            {
+              "id": 20135,
+              "text": "back",
+              "document_index": 23,
+              "sentence_index": 1,
+              "pos_tag": "RB"
+            },
+            {
+              "id": 20136,
+              "text": "declining",
+              "document_index": 24,
+              "sentence_index": 1,
+              "pos_tag": "VBG"
+            },
+            {
+              "id": 20137,
+              "text": "the",
+              "document_index": 25,
+              "sentence_index": 1,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20138,
+              "text": "mortgage",
+              "document_index": 26,
+              "sentence_index": 1,
+              "pos_tag": "NN"
+            }
+          ],
+          "entity": {
+            "id": 3132
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20144,
+              "text": "updated",
+              "document_index": 32,
+              "sentence_index": 1,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3134
+          }
+        }
+      },
+      {
+        "tag": "uses",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20144,
+              "text": "updated",
+              "document_index": 32,
+              "sentence_index": 1,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3134
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity Data",
+          "tokens": [
+            {
+              "id": 20140,
+              "text": "the",
+              "document_index": 28,
+              "sentence_index": 1,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20141,
+              "text": "case",
+              "document_index": 29,
+              "sentence_index": 1,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20142,
+              "text": "details",
+              "document_index": 30,
+              "sentence_index": 1,
+              "pos_tag": "NNS"
+            }
+          ],
+          "entity": {
+            "id": 3133
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20144,
+              "text": "updated",
+              "document_index": 32,
+              "sentence_index": 1,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3134
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20150,
+              "text": "archived",
+              "document_index": 38,
+              "sentence_index": 1,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3136
+          }
+        }
+      },
+      {
+        "tag": "uses",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20150,
+              "text": "archived",
+              "document_index": 38,
+              "sentence_index": 1,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3136
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity Data",
+          "tokens": [
+            {
+              "id": 20146,
+              "text": "the",
+              "document_index": 34,
+              "sentence_index": 1,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20147,
+              "text": "work",
+              "document_index": 35,
+              "sentence_index": 1,
+              "pos_tag": "NN"
+            }
+          ],
+          "entity": {
+            "id": 3135
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20150,
+              "text": "archived",
+              "document_index": 38,
+              "sentence_index": 1,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3136
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20153,
+              "text": "cancellation",
+              "document_index": 41,
+              "sentence_index": 1,
+              "pos_tag": "NN"
+            }
+          ],
+          "entity": {
+            "id": 3137
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "XOR Gateway",
+          "tokens": [
+            {
+              "id": 20155,
+              "text": "If",
+              "document_index": 43,
+              "sentence_index": 2,
+              "pos_tag": "IN"
+            }
+          ],
+          "entity": {
+            "id": 3138
+          }
+        },
+        "mention_tail": {
+          "tag": "Condition Specification",
+          "tokens": [
+            {
+              "id": 20156,
+              "text": "the",
+              "document_index": 44,
+              "sentence_index": 2,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20157,
+              "text": "customer",
+              "document_index": 45,
+              "sentence_index": 2,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20158,
+              "text": "sends",
+              "document_index": 46,
+              "sentence_index": 2,
+              "pos_tag": "VBZ"
+            },
+            {
+              "id": 20159,
+              "text": "back",
+              "document_index": 47,
+              "sentence_index": 2,
+              "pos_tag": "RP"
+            },
+            {
+              "id": 20160,
+              "text": "the",
+              "document_index": 48,
+              "sentence_index": 2,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20161,
+              "text": "completed",
+              "document_index": 49,
+              "sentence_index": 2,
+              "pos_tag": "VBN"
+            },
+            {
+              "id": 20162,
+              "text": "offer",
+              "document_index": 50,
+              "sentence_index": 2,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20163,
+              "text": "documents",
+              "document_index": 51,
+              "sentence_index": 2,
+              "pos_tag": "NNS"
+            },
+            {
+              "id": 20164,
+              "text": "and",
+              "document_index": 52,
+              "sentence_index": 2,
+              "pos_tag": "CC"
+            },
+            {
+              "id": 20165,
+              "text": "attaches",
+              "document_index": 53,
+              "sentence_index": 2,
+              "pos_tag": "VBZ"
+            },
+            {
+              "id": 20166,
+              "text": "all",
+              "document_index": 54,
+              "sentence_index": 2,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20167,
+              "text": "prerequisite",
+              "document_index": 55,
+              "sentence_index": 2,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20168,
+              "text": "documents",
+              "document_index": 56,
+              "sentence_index": 2,
+              "pos_tag": "NNS"
+            }
+          ],
+          "entity": {
+            "id": 3139
+          }
+        }
+      },
+      {
+        "tag": "same gateway",
+        "mention_head": {
+          "tag": "XOR Gateway",
+          "tokens": [
+            {
+              "id": 20155,
+              "text": "If",
+              "document_index": 43,
+              "sentence_index": 2,
+              "pos_tag": "IN"
+            }
+          ],
+          "entity": {
+            "id": 3138
+          }
+        },
+        "mention_tail": {
+          "tag": "XOR Gateway",
+          "tokens": [
+            {
+              "id": 20197,
+              "text": "If",
+              "document_index": 85,
+              "sentence_index": 4,
+              "pos_tag": "IN"
+            }
+          ],
+          "entity": {
+            "id": 3148
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Condition Specification",
+          "tokens": [
+            {
+              "id": 20156,
+              "text": "the",
+              "document_index": 44,
+              "sentence_index": 2,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20157,
+              "text": "customer",
+              "document_index": 45,
+              "sentence_index": 2,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20158,
+              "text": "sends",
+              "document_index": 46,
+              "sentence_index": 2,
+              "pos_tag": "VBZ"
+            },
+            {
+              "id": 20159,
+              "text": "back",
+              "document_index": 47,
+              "sentence_index": 2,
+              "pos_tag": "RP"
+            },
+            {
+              "id": 20160,
+              "text": "the",
+              "document_index": 48,
+              "sentence_index": 2,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20161,
+              "text": "completed",
+              "document_index": 49,
+              "sentence_index": 2,
+              "pos_tag": "VBN"
+            },
+            {
+              "id": 20162,
+              "text": "offer",
+              "document_index": 50,
+              "sentence_index": 2,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20163,
+              "text": "documents",
+              "document_index": 51,
+              "sentence_index": 2,
+              "pos_tag": "NNS"
+            },
+            {
+              "id": 20164,
+              "text": "and",
+              "document_index": 52,
+              "sentence_index": 2,
+              "pos_tag": "CC"
+            },
+            {
+              "id": 20165,
+              "text": "attaches",
+              "document_index": 53,
+              "sentence_index": 2,
+              "pos_tag": "VBZ"
+            },
+            {
+              "id": 20166,
+              "text": "all",
+              "document_index": 54,
+              "sentence_index": 2,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20167,
+              "text": "prerequisite",
+              "document_index": 55,
+              "sentence_index": 2,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20168,
+              "text": "documents",
+              "document_index": 56,
+              "sentence_index": 2,
+              "pos_tag": "NNS"
+            }
+          ],
+          "entity": {
+            "id": 3139
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20173,
+              "text": "moved",
+              "document_index": 61,
+              "sentence_index": 2,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3141
+          }
+        }
+      },
+      {
+        "tag": "uses",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20173,
+              "text": "moved",
+              "document_index": 61,
+              "sentence_index": 2,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3141
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity Data",
+          "tokens": [
+            {
+              "id": 20170,
+              "text": "the",
+              "document_index": 58,
+              "sentence_index": 2,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20171,
+              "text": "case",
+              "document_index": 59,
+              "sentence_index": 2,
+              "pos_tag": "NN"
+            }
+          ],
+          "entity": {
+            "id": 3140
+          }
+        }
+      },
+      {
+        "tag": "actor recipient",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20173,
+              "text": "moved",
+              "document_index": 61,
+              "sentence_index": 2,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3141
+          }
+        },
+        "mention_tail": {
+          "tag": "Actor",
+          "tokens": [
+            {
+              "id": 20175,
+              "text": "administration",
+              "document_index": 63,
+              "sentence_index": 2,
+              "pos_tag": "NN"
+            }
+          ],
+          "entity": {
+            "id": 3142
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20173,
+              "text": "moved",
+              "document_index": 61,
+              "sentence_index": 2,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3141
+          }
+        },
+        "mention_tail": {
+          "tag": "XOR Gateway",
+          "tokens": [
+            {
+              "id": 20179,
+              "text": "If",
+              "document_index": 67,
+              "sentence_index": 3,
+              "pos_tag": "IN"
+            }
+          ],
+          "entity": {
+            "id": 3143
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "XOR Gateway",
+          "tokens": [
+            {
+              "id": 20179,
+              "text": "If",
+              "document_index": 67,
+              "sentence_index": 3,
+              "pos_tag": "IN"
+            }
+          ],
+          "entity": {
+            "id": 3143
+          }
+        },
+        "mention_tail": {
+          "tag": "Condition Specification",
+          "tokens": [
+            {
+              "id": 20180,
+              "text": "all",
+              "document_index": 68,
+              "sentence_index": 3,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20181,
+              "text": "pre-requisite",
+              "document_index": 69,
+              "sentence_index": 3,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20182,
+              "text": "documents",
+              "document_index": 70,
+              "sentence_index": 3,
+              "pos_tag": "NNS"
+            },
+            {
+              "id": 20183,
+              "text": "are",
+              "document_index": 71,
+              "sentence_index": 3,
+              "pos_tag": "VBP"
+            },
+            {
+              "id": 20184,
+              "text": "not",
+              "document_index": 72,
+              "sentence_index": 3,
+              "pos_tag": "RB"
+            },
+            {
+              "id": 20185,
+              "text": "provided",
+              "document_index": 73,
+              "sentence_index": 3,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3144
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Condition Specification",
+          "tokens": [
+            {
+              "id": 20180,
+              "text": "all",
+              "document_index": 68,
+              "sentence_index": 3,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20181,
+              "text": "pre-requisite",
+              "document_index": 69,
+              "sentence_index": 3,
+              "pos_tag2025-02-06T17:10:10.073384302Z ": "NN"
+            },
+            {
+              "id": 20182,
+              "text": "documents",
+              "document_index": 70,
+              "sentence_index": 3,
+              "pos_tag": "NNS"
+            },
+            {
+              "id": 20183,
+              "text": "are",
+              "document_index": 71,
+              "sentence_index": 3,
+              "pos_tag": "VBP"
+            },
+            {
+              "id": 20184,
+              "text": "not",
+              "document_index": 72,
+              "sentence_index": 3,
+              "pos_tag": "RB"
+            },
+            {
+              "id": 20185,
+              "text": "provided",
+              "document_index": 73,
+              "sentence_index": 3,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3144
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20189,
+              "text": "generated",
+              "document_index": 77,
+              "sentence_index": 3,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3146
+          }
+        }
+      },
+      {
+        "tag": "uses",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20189,
+              "text": "generated",
+              "document_index": 77,
+              "sentence_index": 3,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3146
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity Data",
+          "tokens": [
+            {
+              "id": 20186,
+              "text": "a",
+              "document_index": 74,
+              "sentence_index": 3,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20187,
+              "text": "message",
+              "document_index": 75,
+              "sentence_index": 3,
+              "pos_tag": "NN"
+            }
+          ],
+          "entity": {
+            "id": 3145
+          }
+        }
+      },
+      {
+        "tag": "actor recipient",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20189,
+              "text": "generated",
+              "document_index": 77,
+              "sentence_index": 3,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3146
+          }
+        },
+        "mention_tail": {
+          "tag": "Actor",
+          "tokens": [
+            {
+              "id": 20191,
+              "text": "the",
+              "document_index": 79,
+              "sentence_index": 3,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20192,
+              "text": "customer",
+              "document_index": 80,
+              "sentence_index": 3,
+              "pos_tag": "NN"
+            }
+          ],
+          "entity": {
+            "id": 3128
+          }
+        }
+      },
+      {
+        "tag": "further specification",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20189,
+              "text": "generated",
+              "document_index": 77,
+              "sentence_index": 3,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3146
+          }
+        },
+        "mention_tail": {
+          "tag": "Further Specification",
+          "tokens": [
+            {
+              "id": 20193,
+              "text": "requesting",
+              "document_index": 81,
+              "sentence_index": 3,
+              "pos_tag": "VBG"
+            },
+            {
+              "id": 20194,
+              "text": "outstanding",
+              "document_index": 82,
+              "sentence_index": 3,
+              "pos_tag": "JJ"
+            },
+            {
+              "id": 20195,
+              "text": "documents",
+              "document_index": 83,
+              "sentence_index": 3,
+              "pos_tag": "NNS"
+            }
+          ],
+          "entity": {
+            "id": 3147
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "XOR Gateway",
+          "tokens": [
+            {
+              "id": 20197,
+              "text": "If",
+              "document_index": 85,
+              "sentence_index": 4,
+              "pos_tag": "IN"
+            }
+          ],
+          "entity": {
+            "id": 3148
+          }
+        },
+        "mention_tail": {
+          "tag": "Condition Specification",
+          "tokens": [
+            {
+              "id": 20198,
+              "text": "no",
+              "document_index": 86,
+              "sentence_index": 4,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20199,
+              "text": "answer",
+              "document_index": 87,
+              "sentence_index": 4,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20200,
+              "text": "is",
+              "document_index": 88,
+              "sentence_index": 4,
+              "pos_tag": "VBZ"
+            },
+            {
+              "id": 20201,
+              "text": "received",
+              "document_index": 89,
+              "sentence_index": 4,
+              "pos_tag": "VBN"
+            },
+            {
+              "id": 20202,
+              "text": "after",
+              "document_index": 90,
+              "sentence_index": 4,
+              "pos_tag": "IN"
+            },
+            {
+              "id": 20203,
+              "text": "2",
+              "document_index": 91,
+              "sentence_index": 4,
+              "pos_tag": "CD"
+            },
+            {
+              "id": 20204,
+              "text": "weeks",
+              "document_index": 92,
+              "sentence_index": 4,
+              "pos_tag": "NNS"
+            }
+          ],
+          "entity": {
+            "id": 3149
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Condition Specification",
+          "tokens": [
+            {
+              "id": 20198,
+              "text": "no",
+              "document_index": 86,
+              "sentence_index": 4,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20199,
+              "text": "answer",
+              "document_index": 87,
+              "sentence_index": 4,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20200,
+              "text": "is",
+              "document_index": 88,
+              "sentence_index": 4,
+              "pos_tag": "VBZ"
+            },
+            {
+              "id": 20201,
+              "text": "received",
+              "document_index": 89,
+              "sentence_index": 4,
+              "pos_tag": "VBN"
+            },
+            {
+              "id": 20202,
+              "text": "after",
+              "document_index": 90,
+              "sentence_index": 4,
+              "pos_tag": "IN"
+            },
+            {
+              "id": 20203,
+              "text": "2",
+              "document_index": 91,
+              "sentence_index": 4,
+              "pos_tag": "CD"
+            },
+            {
+              "id": 20204,
+              "text": "weeks",
+              "document_index": 92,
+              "sentence_index": 4,
+              "pos_tag": "NNS"
+            }
+          ],
+          "entity": {
+            "id": 3149
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20210,
+              "text": "updated",
+              "document_index": 98,
+              "sentence_index": 4,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3150
+          }
+        }
+      },
+      {
+        "tag": "uses",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20210,
+              "text": "updated",
+              "document_index": 98,
+              "sentence_index": 4,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3150
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity Data",
+          "tokens": [
+            {
+              "id": 20206,
+              "text": "the",
+              "document_index": 94,
+              "sentence_index": 4,
+              "pos_tag": "DT"
+            },
+            {
+              "id": 20207,
+              "text": "case",
+              "document_index": 95,
+              "sentence_index": 4,
+              "pos_tag": "NN"
+            },
+            {
+              "id": 20208,
+              "text": "details",
+              "document_index": 96,
+              "sentence_index": 4,
+              "pos_tag": "NNS"
+            }
+          ],
+          "entity": {
+            "id": 3133
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20210,
+              "text": "updated",
+              "document_index": 98,
+              "sentence_index": 4,
+              "pos_tag": "VBN"
+            }
+          ],
+          "entity": {
+            "id": 3150
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20213,
+              "text": "archive",
+              "document_index": 101,
+              "sentence_index": 4,
+              "pos_tag": "NN"
+            }
+          ],
+          "entity": {
+            "id": 3151
+          }
+        }
+      },
+      {
+        "tag": "flow",
+        "mention_head": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20213,
+              "text": "archive",
+              "document_index": 101,
+              "sentence_index": 4,
+              "pos_tag": "NN"
+            }
+          ],
+          "entity": {
+            "id": 3151
+          }
+        },
+        "mention_tail": {
+          "tag": "Activity",
+          "tokens": [
+            {
+              "id": 20215,
+              "text": "cancellation",
+              "document_index": 103,
+              "sentence_index": 4,
+              "pos_tag": "NN"
+            }
+          ],
+          "entity": {
+            "id": 3152
+          }
+        }
+      }
+    ]
+  }
+]
