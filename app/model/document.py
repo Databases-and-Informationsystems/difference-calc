@@ -104,10 +104,13 @@ class DocumentEdit(BaseModel):
 
     model_config = ConfigDict(from_attributes=True)
 
-    def get_mentions_of_token(self, token: Token) -> typing.List[Mention]:
-        return list(
-            filter(lambda mention: mention.contains_token(token), self.mentions or [])
-        )
+    def get_mention_of_token(self, token: Token) -> typing.List[Mention]:
+        mentions = list(filter(lambda mention: mention.contains_token(token), self.mentions or []))
+        
+        #For wrong data (token in multiple mentions)
+        if mentions:
+            return mentions[0]
+        return None
 
     def get_all_relations_of_mention(self, mention: Mention) -> typing.List[Relation]:
         return list(
@@ -119,4 +122,8 @@ class DocumentEdit(BaseModel):
         )
 
     def get_entity_of_mention(self, mention: Mention) -> typing.Optional[Entity]:
-        return next((m.entity for m in self.mentions if m.equals(mention)), None)
+        for entity in self.entities:
+            for mention_canidat in entity.mentions:
+                if mention_canidat.equals(mention):
+                    return entity
+        return None
