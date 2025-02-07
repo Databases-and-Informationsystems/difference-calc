@@ -19,7 +19,7 @@ class Token(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
     def equals(self, token: "Token") -> bool:
-        return self.id == token.id and (
+        return self.id == token.id or (
             self.text == token.text
             and self.document_index == token.document_index
             and self.sentence_index == token.sentence_index
@@ -66,6 +66,30 @@ class Mention(BaseModel):
             # We do not check entity equality here. This is a separate step
         )
 
+    def get_equals_score(self, mention: "Mention") -> float:
+        if mention is None:
+            return 1
+        if self.tag != mention.tag:
+            return 1
+
+        if all(
+            any(st.equals(mt) for mt in mention.tokens) for st in self.tokens
+        ) and all(any(mt.equals(st) for st in self.tokens) for mt in mention.tokens):
+            return 0
+
+        if all(
+            any(st.equals(mt) for mt in mention.tokens)
+            for st in self.tokens
+            if st.pos_tag != "DT"
+        ) and all(
+            any(mt.equals(st) for st in self.tokens)
+            for mt in mention.tokens
+            if mt.pos_tag != "DT"
+        ):
+            return 0.5
+
+        return 1
+
     def contains_token(self, token: Token) -> bool:
         return any(t.equals(token) for t in self.tokens)
 
@@ -104,10 +128,15 @@ class DocumentEdit(BaseModel):
 
     model_config = ConfigDict(from_attributes=True)
 
-    def get_mentions_of_token(self, token: Token) -> typing.List[Mention]:
-        return list(
+    def get_mention_of_token(self, token: Token) -> typing.Optional[Mention]:
+        mentions = list(
             filter(lambda mention: mention.contains_token(token), self.mentions or [])
         )
+
+        # For wrong data (token in multiple mentions)
+        if mentions:
+            return mentions[0]
+        return None
 
     def get_all_relations_of_mention(self, mention: Mention) -> typing.List[Relation]:
         return list(
@@ -119,4 +148,8 @@ class DocumentEdit(BaseModel):
         )
 
     def get_entity_of_mention(self, mention: Mention) -> typing.Optional[Entity]:
-        return next((m.entity for m in self.mentions if m.equals(mention)), None)
+        for entity in self.entities:
+            for mention_canidat in entity.mentions:
+                if mention_canidat.equals(mention):
+                    return entity
+        return None

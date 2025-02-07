@@ -5,16 +5,28 @@ from app.util.utils import validate_document_edit_lists
 
 
 class HeatmapCreator:
-
     def create_heatmap(
         self, document_edits: typing.List[DocumentEdit]
     ) -> typing.List[Token]:
-        validate_document_edit_lists(document_edits)
+        """
+        Creates a heatmap by assigning a score to each token.
+        A higher score indicates greater discrepancies in annotations across documents.
 
-        tokens: typing.List[Token] = document_edits[0].document.tokens
+        TODO: The score is currently based on magic numbers and conditions. These could be further resolved to calculate a more 'scientific' value
+        """
+        validate_document_edit_lists(document_edits)
+        tokens = document_edits[0].document.tokens
 
         for token in tokens:
             token.score = _calculate_token_score(token, document_edits)
+
+        maxScore = max(token.score for token in tokens if token.score)
+
+        # score should be between 0 and 1 (0 same annotations, 1 max different annotations)
+        for token in tokens:
+            if token.score:
+                token.score = token.score / maxScore
+
         return tokens
 
 
@@ -22,131 +34,95 @@ def _calculate_token_score(
     token: Token, document_edits: typing.List[DocumentEdit]
 ) -> typing.Optional[float]:
     """
-    Creates a score for each token
-
-    - If the score is 0, the tokens are annotated exactly the same in all documents
-    - The greater the score, the more different is the token annotated in the documents
-    :param token:
-    :param document_edits:
-    :return:
+    Calculates a score for a token based on annotation consistency across documents.
+    A score of 0 means full agreement, while higher scores indicate greater differences.
     """
-    token_mentions_per_document = list(
-        map(lambda de: de.get_mentions_of_token(token), document_edits)
-    )
+    token_mentions = [de.get_mention_of_token(token) for de in document_edits]
 
-    # Not a single document has a mention for this token -> No real score can be created
-    if all(len(inner) == 0 for inner in token_mentions_per_document):
+    # If no document has a mention for this token, no score can be calculated
+    if all(mention is None for mention in token_mentions):
         return None
 
-    score: float = 0.0
-    score += _calculate_group_difference_mention_score(token_mentions_per_document)
-
-    # calculate similarity of relations associated with the mention(s) of the token
-    n = len(token_mentions_per_document)
-    for i in range(n):
-        for j in range(i + 1, n):
-            # Pairs of all mentions that are the same in both documents
-            mention_pairs = _get_matching_mention_pairs(
-                token_mentions_per_document[i], token_mentions_per_document[j]
-            )
-
-            score += _calculate_difference_entities_score(mention_pairs=mention_pairs)
-
-            score += _calculate_difference_relation_score(
-                mention_pairs=mention_pairs,
-                document_edit1=document_edits[i],
-                document_edit2=document_edits[j],
-            )
+    score = 0.0
+    score += _calculate_difference_mention_score(token_mentions)
+    score += _calculate_difference_entities_score(token_mentions, document_edits)
+    score += _calculate_difference_relations_score(token_mentions, document_edits)
 
     return score
 
 
-def similarity_mention_score(
-    list1: typing.List[Mention],
-    list2: typing.List[Mention],
-) -> int:
+def _calculate_difference_mention_score(mentions: typing.List[Mention]) -> float:
     """
-
-    :param list1: list of mentions
-    :param list2: list of mentions
-    :return: count of elements in the list, that do not exist in the other list
+    Computes a score based on whether tokens are annotated the same way across different documents.
+    Mention score is
+    - 0 if the mentions of are the same
+    - 0.5 if the mentions only differ in determiner Tokens like 'the'
+    - 1 if the mentions are different
     """
-    (longer, shorter) = (list1, list2) if len(list1) > len(list2) else (list2, list1)
+    score_list = [
+        (
+            0
+            if (m1 is None and m2 is None) or (m1 and m2 and m1.equals(m2))
+            else m1.get_equals_score(m2) if m1 else 1
+        )
+        for i, m1 in enumerate(mentions)
+        for j, m2 in enumerate(mentions)
+        if i < j
+    ]
+    return sum(score_list) / len(score_list) if score_list else 0
 
-    return sum(1 for x in longer if not any(x.equals(y) for y in shorter))
 
-
-def _calculate_group_difference_mention_score(
-    lists: typing.List[typing.List[Mention]],
+def _calculate_difference_relations_score(
+    mentions: typing.List[Mention], document_edits: typing.List[DocumentEdit]
 ) -> float:
     """
-
-    :param lists: list of lists of the mentions associated to a specific token in a document
-    :return: similarity score of the Mention lists
+    Compares relations of mentions between documents and calculates a discrepancy score.
     """
-    n = len(lists)
-    total_score = 0
+    score_list = []
 
-    # compare each pair of edited documents
-    for i in range(n):
-        for j in range(i + 1, n):
-            total_score += similarity_mention_score(lists[i], lists[j])
+    for i, mention1 in enumerate(mentions):
+        for j, mention2 in enumerate(mentions):
+            if i >= j:
+                continue
 
-    return total_score
+            if mention1 and mention2 and mention1.equals(mention2):
+                relations1 = document_edits[i].get_all_relations_of_mention(mention1)
+                relations2 = document_edits[j].get_all_relations_of_mention(mention2)
 
+                common_relations = sum(
+                    1 for r1 in relations1 for r2 in relations2 if r1.equals(r2)
+                )
+                max_relations = max(len(relations1), len(relations2))
 
-def _calculate_difference_relation_score(
-    mention_pairs: typing.List[typing.Tuple[Mention, Mention]],
-    document_edit1: DocumentEdit,
-    document_edit2: DocumentEdit,
-) -> float:
-    score: float = 0.0
-    for mention_i, mention_j in mention_pairs:
-        relations_i: typing.List[Relation] = (
-            document_edit1.get_all_relations_of_mention(mention_i)
-        )
-        relations_j: typing.List[Relation] = (
-            document_edit2.get_all_relations_of_mention(mention_j)
-        )
+                score_list.append(
+                    common_relations / max_relations * 2 if max_relations > 0 else 0
+                )
 
-        max_relation_count = max(len(relations_i), len(relations_j))
-        common_count = len(
-            [
-                obj_i
-                for obj_i in relations_i
-                if any(obj_i.equals(obj_j) for obj_j in relations_j)
-            ]
-        )
-        score += (
-            ((common_count - max_relation_count) / max_relation_count)
-            if max_relation_count > 0
-            else 0
-        )
-
-    return score
+    return sum(score_list) / len(score_list) if score_list else 0
 
 
 def _calculate_difference_entities_score(
-    mention_pairs: typing.List[typing.Tuple[Mention, Mention]]
+    mentions: typing.List[Mention], document_edits: typing.List[DocumentEdit]
 ) -> float:
-    score: float = 0.0
-    for mention_i, mention_j in mention_pairs:
-        if mention_i.entity is None and mention_j.entity is None:
-            continue
+    """
+    Compares entity annotations of mentions and assigns a discrepancy score based on differences.
+    """
+    score_list = []
 
-        if (
-            mention_j.entity is None and mention_i.entity is not None
-        ) or not mention_j.entity.equals(mention_i.entity):
-            score += 0.5
-    return score
+    for i, mention1 in enumerate(mentions):
+        for j, mention2 in enumerate(mentions):
+            if i >= j:
+                continue
 
+            if mention1 and mention2 and mention1.equals(mention2):
+                entity1 = document_edits[i].get_entity_of_mention(mention1)
+                entity2 = document_edits[j].get_entity_of_mention(mention2)
 
-def _get_matching_mention_pairs(
-    list1: typing.List[Mention], list2: typing.List[Mention]
-) -> typing.List[typing.Tuple[Mention, Mention]]:
-    matching_pairs = []
-    for x in list1:
-        for y in list2:
-            if x.equals(y):
-                matching_pairs.append((x, y))
-    return matching_pairs
+                if entity1 and entity2 and entity1.equals(entity2):
+                    # entities are the same, no score should be added here
+                    continue
+
+                if entity1 and not entity2 or not entity1 and entity2:
+                    score_list.append(0.5)
+
+    return sum(score_list) / len(score_list) if score_list else 0
