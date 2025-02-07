@@ -4,6 +4,8 @@ from flask import jsonify, Flask
 from flask_restx import ValidationError
 from werkzeug.exceptions import HTTPException
 
+from app.util.logger import logger
+
 
 def register_error_handlers(app: Flask) -> None:
 
@@ -20,11 +22,15 @@ def register_error_handlers(app: Flask) -> None:
             "error": {
                 "type": type(error).__name__,
                 "message": str(error),
+                "traceback": traceback.format_exc().splitlines(),
             },
         }
 
+        # Logs always contains trace
+        logger.error(str(response))
+
         # Include traceback only in debug mode
-        if app.config.get("DEBUG", False):
-            response["error"]["traceback"] = traceback.format_exc().splitlines()
+        if not app.config.get("DEBUG", False) and "traceback" in response["error"]:
+            del response["error"]["traceback"]
 
         return jsonify(response), status_code
