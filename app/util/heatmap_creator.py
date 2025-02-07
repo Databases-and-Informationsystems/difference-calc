@@ -67,7 +67,7 @@ def _calculate_difference_relations_score(mentions: typing.List[Mention], docume
                 common_relations = sum(1 for r1 in relations1 for r2 in relations2 if r1.equals(r2))
                 max_relations = max(len(relations1), len(relations2))
                 
-                score_list.append(-common_relations / max_relations if max_relations > 0 else 0)
+                score_list.append(-common_relations / max_relations * 2 if max_relations > 0 else 0)
     
     return sum(score_list) / len(score_list) if score_list else 0
 
